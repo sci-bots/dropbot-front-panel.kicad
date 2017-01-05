@@ -29,7 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wheelerlab
-LIBS:dropbot-front-pannel-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -66,6 +65,7 @@ F 0 "P1" H 1550 1950 50  0000 C CNN
 F 1 "CONN_02X10" V 1550 1400 50  0000 C CNN
 F 2 "WheelerLab:HSEC8-110-XX-X-DV" H 1550 200 50  0001 C CNN
 F 3 "" H 1550 200 50  0000 C CNN
+F 4 "HSEC8-110-01-L-DV-A" H 1550 1400 60  0001 C CNN "Mfg_Part_No"
 	1    1550 1400
 	1    0    0    -1  
 $EndComp
@@ -78,9 +78,7 @@ Text GLabel 1300 1550 0    60   Input ~ 0
 Text GLabel 1800 1850 2    60   Input ~ 0
 +5V
 Wire Wire Line
-	1300 1550 1300 1650
-Wire Wire Line
-	1300 1650 1300 1750
+	1300 1550 1300 1750
 Text GLabel 1800 1550 2    60   Input ~ 0
 GND
 Text GLabel 1300 1450 0    60   Input ~ 0
@@ -189,6 +187,7 @@ F 0 "P2" H 4000 3700 50  0000 C CNN
 F 1 "CONN_02X25" V 4000 2400 50  0000 C CNN
 F 2 "WheelerLab:HSEC8-125-XX-X-DV" H 4000 1650 50  0001 C CNN
 F 3 "" H 4000 1650 50  0000 C CNN
+F 4 "HSEC8-125-01-L-DV-A" H 4000 2400 60  0001 C CNN "Mfg_Part_No"
 	1    4000 2400
 	1    0    0    -1  
 $EndComp
@@ -212,6 +211,7 @@ F 0 "P3" H 4000 6450 50  0000 C CNN
 F 1 "CONN_02X20" V 4000 5400 50  0000 C CNN
 F 2 "WheelerLab:TFML-120-02-S-D" H 4000 4450 50  0001 C CNN
 F 3 "" H 4000 4450 50  0000 C CNN
+F 4 "TFML-120-01-S-D" H 4000 5400 60  0001 C CNN "Mfg_Part_No"
 	1    4000 5400
 	1    0    0    1   
 $EndComp
@@ -391,6 +391,7 @@ F 0 "P4" H 5900 3700 50  0000 C CNN
 F 1 "CONN_02X25" V 5900 2400 50  0000 C CNN
 F 2 "WheelerLab:HSEC8-125-XX-X-DV" H 5900 1650 50  0001 C CNN
 F 3 "" H 5900 1650 50  0000 C CNN
+F 4 "HSEC8-125-01-L-DV-A" H 5900 2400 60  0001 C CNN "Mfg_Part_No"
 	1    5900 2400
 	1    0    0    -1  
 $EndComp
@@ -502,6 +503,7 @@ F 0 "P6" H 7800 3700 50  0000 C CNN
 F 1 "CONN_02X25" V 7800 2400 50  0000 C CNN
 F 2 "WheelerLab:HSEC8-125-XX-X-DV" H 7800 1650 50  0001 C CNN
 F 3 "" H 7800 1650 50  0000 C CNN
+F 4 "HSEC8-125-01-L-DV-A" H 7800 2400 60  0001 C CNN "Mfg_Part_No"
 	1    7800 2400
 	1    0    0    -1  
 $EndComp
@@ -523,6 +525,7 @@ F 0 "P5" H 5900 6450 50  0000 C CNN
 F 1 "CONN_02X20" V 5900 5400 50  0000 C CNN
 F 2 "WheelerLab:TFML-120-02-S-D" H 5900 4450 50  0001 C CNN
 F 3 "" H 5900 4450 50  0000 C CNN
+F 4 "TFML-120-01-S-D" H 5900 5400 60  0001 C CNN "Mfg_Part_No"
 	1    5900 5400
 	1    0    0    1   
 $EndComp
@@ -534,6 +537,7 @@ F 0 "P7" H 7800 6450 50  0000 C CNN
 F 1 "CONN_02X20" V 7800 5400 50  0000 C CNN
 F 2 "WheelerLab:TFML-120-02-S-D" H 7800 4450 50  0001 C CNN
 F 3 "" H 7800 4450 50  0000 C CNN
+F 4 "TFML-120-01-S-D" H 7800 5400 60  0001 C CNN "Mfg_Part_No"
 	1    7800 5400
 	1    0    0    1   
 $EndComp
@@ -730,9 +734,7 @@ $EndComp
 Text GLabel 1000 7350 0    60   Input ~ 0
 GND
 Wire Wire Line
-	1800 1350 1800 1450
-Wire Wire Line
-	1800 1450 1800 1550
+	1800 1350 1800 1550
 Text GLabel 1800 1250 2    60   Input ~ 0
 HV_OE
 Text GLabel 1600 7350 2    60   Input ~ 0
@@ -769,9 +771,7 @@ Text GLabel 1350 4950 0    60   Input ~ 0
 Text GLabel 1850 5250 2    60   Input ~ 0
 +5V
 Wire Wire Line
-	1350 4950 1350 5050
-Wire Wire Line
-	1350 5050 1350 5150
+	1350 4950 1350 5150
 Text GLabel 1850 4950 2    60   Input ~ 0
 GND
 Text GLabel 1350 4850 0    60   Input ~ 0
@@ -785,9 +785,7 @@ Wire Wire Line
 Connection ~ 1850 4850
 Connection ~ 1350 5050
 Wire Wire Line
-	1850 4750 1850 4850
-Wire Wire Line
-	1850 4850 1850 4950
+	1850 4750 1850 4950
 Text GLabel 1850 4650 2    60   Input ~ 0
 HV_OE
 $Comp
