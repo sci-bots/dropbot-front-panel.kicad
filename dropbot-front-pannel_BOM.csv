@@ -1,8 +1,7 @@
 Reference,Value,Footprint,Count,Datasheet,Mfg_Part_No
 P1,CONN_02X10,WheelerLab:HSEC8-110-XX-X-DV,1,,HSEC8-110-01-L-DV-A
 "P2, P4, P6",CONN_02X25,WheelerLab:HSEC8-125-XX-X-DV,3,,HSEC8-125-01-L-DV-A
-P3,CONN_02X20,WheelerLab:TFML-120-02-S-D,1,,TFML-120-02-S-D
-"P5, P7",CONN_02X20,WheelerLab:TFML-120-02-S-D,2,,TFML-120-01-S-D
+"P3, P5, P7",CONN_02X20,WheelerLab:TFML-120-02-S-D,3,,TFML-120-02-S-D
 "JP1, JP2",JUMPER,Pin_Headers:Pin_Header_Straight_1x02,2,,
 P8,CONN_02X10,Pin_Headers:Pin_Header_Straight_2x10,1,,
 P9,CONN_01X03,Pin_Headers:Pin_Header_Straight_1x03,1,,
