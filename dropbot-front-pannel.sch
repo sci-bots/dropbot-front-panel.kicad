@@ -601,63 +601,63 @@ HVGND
 $Comp
 L JUMPER JP1
 U 1 1 5857598B
-P 1350 5250
-F 0 "JP1" H 1350 5400 50  0000 C CNN
-F 1 "JUMPER" H 1350 5170 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 1350 5250 50  0001 C CNN
-F 3 "" H 1350 5250 50  0000 C CNN
-	1    1350 5250
+P 1450 3800
+F 0 "JP1" H 1450 3950 50  0000 C CNN
+F 1 "JUMPER" H 1450 3720 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 1450 3800 50  0001 C CNN
+F 3 "" H 1450 3800 50  0000 C CNN
+	1    1450 3800
 	1    0    0    -1  
 $EndComp
-Text GLabel 1050 5250 0    60   Input ~ 0
+Text GLabel 1150 3800 0    60   Input ~ 0
 GND
-Text GLabel 1650 5250 2    60   Input ~ 0
+Text GLabel 1750 3800 2    60   Input ~ 0
 HVGND
 $Comp
 L JUMPER JP2
 U 1 1 585759FC
-P 1350 5750
-F 0 "JP2" H 1350 5900 50  0000 C CNN
-F 1 "JUMPER" H 1350 5670 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 1350 5750 50  0001 C CNN
-F 3 "" H 1350 5750 50  0000 C CNN
-	1    1350 5750
+P 1450 4300
+F 0 "JP2" H 1450 4450 50  0000 C CNN
+F 1 "JUMPER" H 1450 4220 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 1450 4300 50  0001 C CNN
+F 3 "" H 1450 4300 50  0000 C CNN
+	1    1450 4300
 	1    0    0    -1  
 $EndComp
-Text GLabel 1050 5750 0    60   Input ~ 0
+Text GLabel 1150 4300 0    60   Input ~ 0
 GND
 Text GLabel 1800 1250 2    60   Input ~ 0
 HV_OE
-Text GLabel 1650 5750 2    60   Input ~ 0
+Text GLabel 1750 4300 2    60   Input ~ 0
 HV_OE
 $Comp
 L CONN_01X03 P9
 U 1 1 5857AD4F
-P 1250 6600
-F 0 "P9" H 1250 6800 50  0000 C CNN
-F 1 "CONN_01X03" V 1350 6600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 1250 6600 50  0001 C CNN
-F 3 "" H 1250 6600 50  0000 C CNN
-	1    1250 6600
+P 1350 5150
+F 0 "P9" H 1350 5350 50  0000 C CNN
+F 1 "CONN_01X03" V 1450 5150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 1350 5150 50  0001 C CNN
+F 3 "" H 1350 5150 50  0000 C CNN
+	1    1350 5150
 	1    0    0    -1  
 $EndComp
-Text GLabel 1050 6500 0    60   Input ~ 0
+Text GLabel 1150 5050 0    60   Input ~ 0
 RST1
-Text GLabel 1050 6600 0    60   Input ~ 0
+Text GLabel 1150 5150 0    60   Input ~ 0
 RST2
-Text GLabel 1050 6700 0    60   Input ~ 0
+Text GLabel 1150 5250 0    60   Input ~ 0
 RST3
-Text Notes 3400 8500 0    60   ~ 0
-DMF DEVICE CONNECTOR PORTS\nThese connectors accept high-density discrete cables (Samtec 0.050" pitch Tiger Eye series). The cables connect\nthese outputs to another PCB that interfaces with a DMF device using spring-loaded pogo-pins. Each pin carries \na bipolar square wave signal of up to 240 Vrms (frequency = 100 Hz to 10 kHz)
-Text Notes 750  5100 0    60   ~ 0
+Text Notes 3200 7400 0    60   ~ 0
+DMF DEVICE CONNECTOR PORTS\nThese connectors accept (Samtec 0.050" pitch TFM Tiger Eye\nseries connectors) from another PCB that interfaces with a DMF\ndevice using spring-loaded pogo-pins. Each pin carries a\nbipolar square wave signal of up to 240 Vrms\n(frequency = 100 Hz to 10 kHz)
+Text Notes 850  3650 0    60   ~ 0
 JUMPERS
-Text Notes 800  5550 0    60   ~ 0
+Text Notes 900  4100 0    60   ~ 0
 J1 connects HVGND to GND (note that this\nshould normally be connected)
-Text Notes 800  6000 0    60   ~ 0
+Text Notes 900  4550 0    60   ~ 0
 J2 must be connected to enable HV output
 Text Notes 700  3150 0    60   ~ 0
 +12 V power is provided by a DC power brick.\n+3.3V power is obtained using a step-down\n(buck) regulator.\n\nThe control board generates a bipolar square\nwave up to 150 Vrms (frequency = 100 Hz to\n10 kHz) with a boost converter that uses the\n+12 V source as input. It communicates\nwith the computer over USB/serial and with\nthe HV switching boards over i2c.\n\nIt also measures the return current from the\ndevice (CUR_SENSE).
-Text Notes 1450 6650 0    60   ~ 0
+Text Notes 1550 5200 0    60   ~ 0
 Reset lines for the switching\nboards can be used for\nfirmware flashing.
 $Comp
 L D24V22F3 U2
@@ -701,8 +701,9 @@ U 1 1 58AEE5D3
 P 9400 1050
 F 0 "P11" H 9600 850 50  0000 C CNN
 F 1 "USB_A" H 9350 1250 50  0000 C CNN
-F 2 "Connect:USB_A_Vertical" V 9350 950 50  0001 C CNN
+F 2 "WheelerLab:UE27AE54100" V 9350 950 50  0001 C CNN
 F 3 "" V 9350 950 50  0000 C CNN
+F 4 "UE27AE54100" H 9400 1050 60  0001 C CNN "Mfg_Part_No"
 	1    9400 1050
 	1    0    0    -1  
 $EndComp
@@ -712,8 +713,9 @@ U 1 1 58AEE77B
 P 9400 1650
 F 0 "P12" H 9600 1450 50  0000 C CNN
 F 1 "USB_B" H 9350 1850 50  0000 C CNN
-F 2 "Connect:USB_B_MUSB_Straight" V 9350 1550 50  0001 C CNN
+F 2 "WheelerLab:1734517-1" V 9350 1550 50  0001 C CNN
 F 3 "" V 9350 1550 50  0000 C CNN
+F 4 "1734517-1" H 9400 1650 60  0001 C CNN "Mfg_Part_No"
 	1    9400 1650
 	1    0    0    -1  
 $EndComp
@@ -734,7 +736,7 @@ Wire Bus Line
 Wire Bus Line
 	8700 600  3150 600 
 Wire Bus Line
-	3150 3800 3150 6950
+	3150 3800 3150 7500
 Wire Bus Line
 	8700 6650 8700 3800
 Wire Bus Line
@@ -905,9 +907,27 @@ F 4 "TFM-125-02-L-DH" H 5450 4050 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
-	3150 6950 6250 6950
+	3150 7500 6250 7500
 Wire Bus Line
-	6250 6950 6250 6650
+	6250 7500 6250 6650
 Wire Bus Line
 	6250 6650 8700 6650
+Wire Wire Line
+	3750 6150 3750 6250
+Wire Wire Line
+	3750 6250 4450 6250
+Wire Wire Line
+	4450 6250 4450 6150
+Wire Wire Line
+	5450 6650 5450 6750
+Wire Wire Line
+	5450 6750 6150 6750
+Wire Wire Line
+	6150 6750 6150 6650
+Wire Wire Line
+	7200 6150 7200 6250
+Wire Wire Line
+	7900 6150 7900 6250
+Wire Wire Line
+	7900 6250 7200 6250
 $EndSCHEMATC
