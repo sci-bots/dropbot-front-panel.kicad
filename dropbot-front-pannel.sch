@@ -436,45 +436,45 @@ F 4 "SFM-125-02-L-D-A" H 7800 2400 60  0001 C CNN "Mfg_Part_No"
 	1    7800 2400
 	1    0    0    -1  
 $EndComp
-Text GLabel 5450 4250 0    60   Input ~ 0
-HVOUT75
-Text GLabel 5450 4150 0    60   Input ~ 0
-HVOUT77
-Text GLabel 5450 4050 0    60   Input ~ 0
-HVOUT79
-Text GLabel 5450 4350 0    60   Input ~ 0
-HVOUT73
-Text GLabel 5450 5150 0    60   Input ~ 0
-HVOUT57
-Text GLabel 5450 5050 0    60   Input ~ 0
-HVOUT59
-Text GLabel 5450 4850 0    60   Input ~ 0
-HVOUT63
-Text GLabel 5450 4950 0    60   Input ~ 0
-HVOUT61
-Text GLabel 5450 4550 0    60   Input ~ 0
-HVOUT69
-Text GLabel 5450 4450 0    60   Input ~ 0
-HVOUT71
-Text GLabel 5450 4650 0    60   Input ~ 0
-HVOUT67
 Text GLabel 5450 4750 0    60   Input ~ 0
-HVOUT65
-Text GLabel 5450 5550 0    60   Input ~ 0
-HVOUT49
-Text GLabel 5450 5450 0    60   Input ~ 0
-HVOUT51
-Text GLabel 5450 5250 0    60   Input ~ 0
-HVOUT55
-Text GLabel 5450 5350 0    60   Input ~ 0
-HVOUT53
-Text GLabel 5450 5750 0    60   Input ~ 0
-HVOUT45
+HVOUT75
+Text GLabel 5450 4650 0    60   Input ~ 0
+HVOUT77
+Text GLabel 5450 4550 0    60   Input ~ 0
+HVOUT79
+Text GLabel 5450 4850 0    60   Input ~ 0
+HVOUT73
 Text GLabel 5450 5650 0    60   Input ~ 0
-HVOUT47
-Text GLabel 5450 5850 0    60   Input ~ 0
-HVOUT43
+HVOUT57
+Text GLabel 5450 5550 0    60   Input ~ 0
+HVOUT59
+Text GLabel 5450 5350 0    60   Input ~ 0
+HVOUT63
+Text GLabel 5450 5450 0    60   Input ~ 0
+HVOUT61
+Text GLabel 5450 5050 0    60   Input ~ 0
+HVOUT69
+Text GLabel 5450 4950 0    60   Input ~ 0
+HVOUT71
+Text GLabel 5450 5150 0    60   Input ~ 0
+HVOUT67
+Text GLabel 5450 5250 0    60   Input ~ 0
+HVOUT65
+Text GLabel 5450 6050 0    60   Input ~ 0
+HVOUT49
 Text GLabel 5450 5950 0    60   Input ~ 0
+HVOUT51
+Text GLabel 5450 5750 0    60   Input ~ 0
+HVOUT55
+Text GLabel 5450 5850 0    60   Input ~ 0
+HVOUT53
+Text GLabel 5450 6250 0    60   Input ~ 0
+HVOUT45
+Text GLabel 5450 6150 0    60   Input ~ 0
+HVOUT47
+Text GLabel 5450 6350 0    60   Input ~ 0
+HVOUT43
+Text GLabel 5450 6450 0    60   Input ~ 0
 HVOUT41
 Text GLabel 7900 4150 2    60   Input ~ 0
 HVOUT116
@@ -740,45 +740,45 @@ F 4 "TFM-125-02-L-DH" H 7200 4050 60  0001 C CNN "Mfg_Part_No"
 	1    7200 4050
 	1    0    0    -1  
 $EndComp
-Text GLabel 6150 4150 2    60   Input ~ 0
-HVOUT76
-Text GLabel 6150 4050 2    60   Input ~ 0
-HVOUT78
-Text GLabel 6150 5950 2    60   Input ~ 0
-HVOUT40
-Text GLabel 6150 4250 2    60   Input ~ 0
-HVOUT74
-Text GLabel 6150 5050 2    60   Input ~ 0
-HVOUT58
-Text GLabel 6150 4950 2    60   Input ~ 0
-HVOUT60
-Text GLabel 6150 4750 2    60   Input ~ 0
-HVOUT64
-Text GLabel 6150 4850 2    60   Input ~ 0
-HVOUT62
-Text GLabel 6150 4450 2    60   Input ~ 0
-HVOUT70
-Text GLabel 6150 4350 2    60   Input ~ 0
-HVOUT72
-Text GLabel 6150 4550 2    60   Input ~ 0
-HVOUT68
 Text GLabel 6150 4650 2    60   Input ~ 0
-HVOUT66
-Text GLabel 6150 5450 2    60   Input ~ 0
-HVOUT50
-Text GLabel 6150 5350 2    60   Input ~ 0
-HVOUT52
-Text GLabel 6150 5150 2    60   Input ~ 0
-HVOUT56
-Text GLabel 6150 5250 2    60   Input ~ 0
-HVOUT54
-Text GLabel 6150 5650 2    60   Input ~ 0
-HVOUT46
+HVOUT76
+Text GLabel 6150 4550 2    60   Input ~ 0
+HVOUT78
+Text GLabel 6150 6450 2    60   Input ~ 0
+HVOUT40
+Text GLabel 6150 4750 2    60   Input ~ 0
+HVOUT74
 Text GLabel 6150 5550 2    60   Input ~ 0
-HVOUT48
-Text GLabel 6150 5750 2    60   Input ~ 0
-HVOUT44
+HVOUT58
+Text GLabel 6150 5450 2    60   Input ~ 0
+HVOUT60
+Text GLabel 6150 5250 2    60   Input ~ 0
+HVOUT64
+Text GLabel 6150 5350 2    60   Input ~ 0
+HVOUT62
+Text GLabel 6150 4950 2    60   Input ~ 0
+HVOUT70
+Text GLabel 6150 4850 2    60   Input ~ 0
+HVOUT72
+Text GLabel 6150 5050 2    60   Input ~ 0
+HVOUT68
+Text GLabel 6150 5150 2    60   Input ~ 0
+HVOUT66
+Text GLabel 6150 5950 2    60   Input ~ 0
+HVOUT50
 Text GLabel 6150 5850 2    60   Input ~ 0
+HVOUT52
+Text GLabel 6150 5650 2    60   Input ~ 0
+HVOUT56
+Text GLabel 6150 5750 2    60   Input ~ 0
+HVOUT54
+Text GLabel 6150 6150 2    60   Input ~ 0
+HVOUT46
+Text GLabel 6150 6050 2    60   Input ~ 0
+HVOUT48
+Text GLabel 6150 6250 2    60   Input ~ 0
+HVOUT44
+Text GLabel 6150 6350 2    60   Input ~ 0
 HVOUT42
 $Comp
 L TFM-125-02-X-DH P5
@@ -817,13 +817,13 @@ F 4 "744231091" H 9600 2700 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
-	550  2800 3050 2800
+	550  2750 3050 2750
 Wire Bus Line
-	3050 2800 3050 600 
+	3050 2750 3050 600 
 Wire Bus Line
 	3050 600  550  600 
 Wire Bus Line
-	550  600  550  2800
+	550  600  550  2750
 Wire Bus Line
 	3150 600  3150 3700
 Wire Bus Line
@@ -847,27 +847,35 @@ Wire Bus Line
 Wire Bus Line
 	550  4950 550  5950
 Wire Bus Line
-	8850 600  8850 3550
+	8800 600  8800 3550
 Wire Bus Line
-	8850 3550 10450 3550
+	8800 3550 10450 3550
 Wire Bus Line
 	10450 3550 10450 600 
 Wire Bus Line
-	10450 600  8850 600 
+	10450 600  8800 600 
 Wire Bus Line
 	550  2850 3050 2850
 Wire Bus Line
-	3050 2850 3050 4900
+	3050 2850 3050 4850
 Wire Bus Line
-	550  4900 550  2850
+	550  4850 550  2850
 Wire Wire Line
 	950  3450 950  3250
 Wire Wire Line
-	1350 3250 1350 3650
+	1350 3250 1350 3450
+Wire Wire Line
+	1350 3450 1350 3550
+Wire Wire Line
+	1350 3550 1350 3650
 Connection ~ 1350 3450
 Connection ~ 1350 3550
 Wire Wire Line
-	1950 3450 1950 3750
+	1950 3450 1950 3550
+Wire Wire Line
+	1950 3550 1950 3650
+Wire Wire Line
+	1950 3650 1950 3750
 Connection ~ 1950 3650
 Connection ~ 1950 3550
 Wire Bus Line
@@ -876,12 +884,6 @@ Wire Bus Line
 	6250 7500 6250 6650
 Wire Bus Line
 	6250 6650 8700 6650
-Wire Wire Line
-	3750 6150 3750 6250
-Wire Wire Line
-	3750 6250 4450 6250
-Wire Wire Line
-	4450 6250 4450 6150
 Wire Wire Line
 	5450 6650 5450 6750
 Wire Wire Line
@@ -905,12 +907,20 @@ Wire Wire Line
 Wire Wire Line
 	9300 1850 9200 1850
 Wire Wire Line
-	9200 1650 9200 2550
+	9200 1650 9200 1850
+Wire Wire Line
+	9200 1850 9200 2250
+Wire Wire Line
+	9200 2250 9200 2550
 Wire Wire Line
 	9200 2250 9300 2250
 Connection ~ 9200 1850
 Wire Wire Line
-	10000 1650 10000 2550
+	10000 1650 10000 1850
+Wire Wire Line
+	10000 1850 10000 2250
+Wire Wire Line
+	10000 2250 10000 2550
 Wire Wire Line
 	10000 2250 9900 2250
 Wire Wire Line
@@ -921,7 +931,9 @@ Connection ~ 10000 2250
 Wire Wire Line
 	9750 1600 9950 1600
 Wire Wire Line
-	9950 1600 9950 3400
+	9950 1600 9950 2050
+Wire Wire Line
+	9950 2050 9950 3400
 Wire Wire Line
 	9950 2050 9900 2050
 Wire Wire Line
@@ -951,11 +963,23 @@ $EndComp
 Wire Wire Line
 	950  3250 1350 3250
 Wire Wire Line
-	1950 3450 2200 3450
+	1950 3450 2050 3450
+Wire Wire Line
+	2050 3450 2200 3450
 Wire Wire Line
 	2200 3450 2200 3500
 Wire Wire Line
-	800  3950 2700 3950
+	800  3950 950  3950
+Wire Wire Line
+	950  3950 1350 3950
+Wire Wire Line
+	1350 3950 2050 3950
+Wire Wire Line
+	2050 3950 2200 3950
+Wire Wire Line
+	2200 3950 2450 3950
+Wire Wire Line
+	2450 3950 2700 3950
 Wire Wire Line
 	2200 3950 2200 3600
 $Comp
@@ -996,7 +1020,7 @@ F 3 "" H 2700 3750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
-	3050 4900 550  4900
+	3050 4850 550  4850
 Wire Wire Line
 	2400 3500 2700 3500
 Wire Wire Line
@@ -1015,7 +1039,9 @@ GND
 Wire Wire Line
 	2450 3650 2450 3600
 Wire Wire Line
-	2400 3600 2750 3600
+	2400 3600 2450 3600
+Wire Wire Line
+	2450 3600 2750 3600
 Connection ~ 2450 3600
 Wire Wire Line
 	9950 1200 10150 1200
@@ -1032,7 +1058,9 @@ F 4 "742792040" H 9000 2450 60  0001 C CNN "Mfg_Part_No"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9000 1600 9000 2300
+	9000 1600 9000 2050
+Wire Wire Line
+	9000 2050 9000 2300
 Wire Wire Line
 	9000 1600 9450 1600
 Wire Wire Line
@@ -1050,7 +1078,9 @@ F 4 "742792040" H 9000 2950 60  0001 C CNN "Mfg_Part_No"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9000 2600 9000 2800
+	9000 2600 9000 2700
+Wire Wire Line
+	9000 2700 9000 2800
 $Comp
 L C_Small C4
 U 1 1 58BE5178
@@ -1116,7 +1146,11 @@ $EndComp
 Text GLabel 1050 4700 2    60   Input ~ 0
 CHASIS_GND
 Wire Wire Line
-	1050 4400 1050 4700
+	1050 4400 1050 4500
+Wire Wire Line
+	1050 4500 1050 4600
+Wire Wire Line
+	1050 4600 1050 4700
 Connection ~ 1050 4500
 Connection ~ 1050 4600
 Text GLabel 8050 1300 2    60   Input ~ 0
@@ -1178,4 +1212,16 @@ Wire Wire Line
 Connection ~ 9950 2050
 Text Notes 650  4300 0    60   ~ 0
 MOUNTING HOLES
+Wire Wire Line
+	4450 6250 4450 6150
+Wire Wire Line
+	3750 6150 3750 6250
+Wire Wire Line
+	3750 6250 4450 6250
+Text GLabel 3750 6250 0    60   Input ~ 0
+GND
+Text GLabel 5450 6750 0    60   Input ~ 0
+GND
+Text GLabel 7200 6250 0    60   Input ~ 0
+GND
 $EndSCHEMATC
