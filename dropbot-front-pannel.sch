@@ -56,9 +56,9 @@ Text GLabel 1300 1150 0    60   Input ~ 0
 CUR_SENSE
 Text GLabel 1300 1050 0    60   Input ~ 0
 +3.3V
-Text GLabel 1800 1350 2    60   Input ~ 0
-HVAC
 Text GLabel 1300 1350 0    60   Input ~ 0
+HVAC
+Text GLabel 1800 1350 2    60   Input ~ 0
 +12V
 Text GLabel 3750 1900 0    60   Input ~ 0
 HVOUT35
@@ -586,7 +586,7 @@ F 3 "" H 1250 7300 50  0000 C CNN
 $EndComp
 Text GLabel 950  7300 0    60   Input ~ 0
 GND
-Text GLabel 1800 1250 2    60   Input ~ 0
+Text GLabel 1800 1150 2    60   Input ~ 0
 HV_OE
 Text GLabel 1550 7300 2    60   Input ~ 0
 HV_OE
@@ -712,9 +712,9 @@ F 4 "SFM-105-02-L-D-A" H 1550 1150 60  0001 C CNN "Mfg_Part_No"
 	1    1550 1150
 	1    0    0    -1  
 $EndComp
-Text GLabel 1300 1250 0    60   Input ~ 0
+Text GLabel 1800 1250 2    60   Input ~ 0
 +12V
-Text GLabel 1800 1150 2    60   Input ~ 0
+Text GLabel 1300 1250 0    60   Input ~ 0
 GND
 $Comp
 L TFM-120-02-X-DH P7
@@ -863,19 +863,11 @@ Wire Bus Line
 Wire Wire Line
 	950  3450 950  3250
 Wire Wire Line
-	1350 3250 1350 3450
-Wire Wire Line
-	1350 3450 1350 3550
-Wire Wire Line
-	1350 3550 1350 3650
+	1350 3250 1350 3650
 Connection ~ 1350 3450
 Connection ~ 1350 3550
 Wire Wire Line
-	1950 3450 1950 3550
-Wire Wire Line
-	1950 3550 1950 3650
-Wire Wire Line
-	1950 3650 1950 3750
+	1950 3450 1950 3750
 Connection ~ 1950 3650
 Connection ~ 1950 3550
 Wire Bus Line
@@ -907,20 +899,12 @@ Wire Wire Line
 Wire Wire Line
 	9300 1850 9200 1850
 Wire Wire Line
-	9200 1650 9200 1850
-Wire Wire Line
-	9200 1850 9200 2250
-Wire Wire Line
-	9200 2250 9200 2550
+	9200 1650 9200 2550
 Wire Wire Line
 	9200 2250 9300 2250
 Connection ~ 9200 1850
 Wire Wire Line
-	10000 1650 10000 1850
-Wire Wire Line
-	10000 1850 10000 2250
-Wire Wire Line
-	10000 2250 10000 2550
+	10000 1650 10000 2550
 Wire Wire Line
 	10000 2250 9900 2250
 Wire Wire Line
@@ -931,9 +915,7 @@ Connection ~ 10000 2250
 Wire Wire Line
 	9750 1600 9950 1600
 Wire Wire Line
-	9950 1600 9950 2050
-Wire Wire Line
-	9950 2050 9950 3400
+	9950 1600 9950 3400
 Wire Wire Line
 	9950 2050 9900 2050
 Wire Wire Line
@@ -963,23 +945,11 @@ $EndComp
 Wire Wire Line
 	950  3250 1350 3250
 Wire Wire Line
-	1950 3450 2050 3450
-Wire Wire Line
-	2050 3450 2200 3450
+	1950 3450 2200 3450
 Wire Wire Line
 	2200 3450 2200 3500
 Wire Wire Line
-	800  3950 950  3950
-Wire Wire Line
-	950  3950 1350 3950
-Wire Wire Line
-	1350 3950 2050 3950
-Wire Wire Line
-	2050 3950 2200 3950
-Wire Wire Line
-	2200 3950 2450 3950
-Wire Wire Line
-	2450 3950 2700 3950
+	800  3950 2700 3950
 Wire Wire Line
 	2200 3950 2200 3600
 $Comp
@@ -1039,9 +1009,7 @@ GND
 Wire Wire Line
 	2450 3650 2450 3600
 Wire Wire Line
-	2400 3600 2450 3600
-Wire Wire Line
-	2450 3600 2750 3600
+	2400 3600 2750 3600
 Connection ~ 2450 3600
 Wire Wire Line
 	9950 1200 10150 1200
@@ -1058,9 +1026,7 @@ F 4 "742792040" H 9000 2450 60  0001 C CNN "Mfg_Part_No"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9000 1600 9000 2050
-Wire Wire Line
-	9000 2050 9000 2300
+	9000 1600 9000 2300
 Wire Wire Line
 	9000 1600 9450 1600
 Wire Wire Line
@@ -1078,9 +1044,7 @@ F 4 "742792040" H 9000 2950 60  0001 C CNN "Mfg_Part_No"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9000 2600 9000 2700
-Wire Wire Line
-	9000 2700 9000 2800
+	9000 2600 9000 2800
 $Comp
 L C_Small C4
 U 1 1 58BE5178
@@ -1146,11 +1110,7 @@ $EndComp
 Text GLabel 1050 4700 2    60   Input ~ 0
 CHASIS_GND
 Wire Wire Line
-	1050 4400 1050 4500
-Wire Wire Line
-	1050 4500 1050 4600
-Wire Wire Line
-	1050 4600 1050 4700
+	1050 4400 1050 4700
 Connection ~ 1050 4500
 Connection ~ 1050 4600
 Text GLabel 8000 1300 2    60   Input ~ 0
@@ -1228,7 +1188,7 @@ Text GLabel 6200 4050 2    60   Input ~ 0
 CH-X1
 Text GLabel 5500 4050 0    60   Input ~ 0
 CH-X2
-Text GLabel 5450 4150 0    60   Input ~ 0
+Text GLabel 5500 4150 0    60   Input ~ 0
 CUR_SENSE
 Text GLabel 5500 4250 0    60   Input ~ 0
 GND
