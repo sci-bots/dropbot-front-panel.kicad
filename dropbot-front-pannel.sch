@@ -36,8 +36,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "DropBot front pannel"
-Date "2017-03-08"
-Rev "0.2"
+Date "2017-03-21"
+Rev "3.0"
 Comp "Sci-Bots Inc."
 Comment1 ""
 Comment2 ""
@@ -566,6 +566,7 @@ F 0 "JP1" H 1250 6950 50  0000 C CNN
 F 1 "JUMPER" H 1250 6720 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" H 1250 6800 50  0001 C CNN
 F 3 "" H 1250 6800 50  0000 C CNN
+F 4 "RC0805JR-070RL" H 1250 6800 60  0001 C CNN "Mfg_Part_No"
 	1    1250 6800
 	1    0    0    -1  
 $EndComp
@@ -646,6 +647,7 @@ F 0 "P10" H 1150 3650 50  0000 C CNN
 F 1 "CONN_01X02" V 1250 3500 50  0001 C CNN
 F 2 "Connect:bornier2" H 1150 3500 50  0001 C CNN
 F 3 "" H 1150 3500 50  0000 C CNN
+F 4 "ED2609-ND" H 1150 3500 60  0001 C CNN "Mfg_Part_No"
 	1    1150 3500
 	1    0    0    -1  
 $EndComp
@@ -653,34 +655,6 @@ Text GLabel 1350 3250 2    60   Input ~ 0
 +12V_SUPPLY
 Text Notes 700  5100 0    60   ~ 0
 3.3V POWER REGULATOR
-$Comp
-L USB_A P11
-U 1 1 58AEE5D3
-P 9650 3100
-F 0 "P11" H 9850 2900 50  0000 C CNN
-F 1 "USB_A" H 9600 3300 50  0000 C CNN
-F 2 "WheelerLab:UE27AE54100" V 9600 3000 50  0001 C CNN
-F 3 "" V 9600 3000 50  0000 C CNN
-F 4 "UE27AE54100" H 9650 3100 60  0001 C CNN "Mfg_Part_No"
-	1    9650 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L USB_B P12
-U 1 1 58AEE77B
-P 9650 1300
-F 0 "P12" H 9850 1100 50  0000 C CNN
-F 1 "USB_B" H 9600 1500 50  0000 C CNN
-F 2 "WheelerLab:1734517-1" V 9600 1200 50  0001 C CNN
-F 3 "" V 9600 1200 50  0000 C CNN
-F 4 "1734517-1" H 9650 1300 60  0001 C CNN "Mfg_Part_No"
-	1    9650 1300
-	1    0    0    -1  
-$EndComp
-Text GLabel 9950 3400 2    60   Input ~ 0
-GND
-Text Notes 8900 1000 0    60   ~ 0
-USB PASSTHROUGH\nIncludes ESD protection and\nEMI suppression (See Wurth\nElectronics App Note ANP002C).
 Text Notes 600  3150 0    60   ~ 0
 POWER IN\n+12V input with reverse polarity protection and\nEMI filter.
 $Comp
@@ -691,6 +665,7 @@ F 0 "Q1" H 1450 3950 50  0000 L CNN
 F 1 "IRF9388TRPBF" H 1450 3400 50  0000 L CNN
 F 2 "Power_Integrations:SO-8" H 1650 4100 50  0001 C CIN
 F 3 "" V 1650 3650 50  0000 L CNN
+F 4 "IRF9388TRPBF" H 1650 3650 60  0001 C CNN "Mfg_Part_No"
 	1    1650 3650
 	1    0    0    -1  
 $EndComp
@@ -698,8 +673,6 @@ Text GLabel 2700 3500 2    60   Input ~ 0
 +12V
 Text GLabel 2000 5400 2    60   Input ~ 0
 GND
-Text GLabel 10150 1200 3    60   Input ~ 0
-CHASIS_GND
 $Comp
 L CONN_02X05 P1
 U 1 1 58B8600D
@@ -792,30 +765,6 @@ F 4 "TFM-125-02-L-DH" H 5500 4050 60  0001 C CNN "Mfg_Part_No"
 	1    5500 4050
 	1    0    0    -1  
 $EndComp
-$Comp
-L WE-TVS_824015 D1
-U 1 1 58BAFF99
-P 9600 2050
-F 0 "D1" V 9250 2000 45  0000 L BNN
-F 1 "WE-TVS_824015" V 10065 1850 45  0000 L BNN
-F 2 "WheelerLab:wurth-WE-TVS_SOT23-6L" H 9630 2200 20  0001 C CNN
-F 3 "" H 9600 2050 60  0000 C CNN
-F 4 "824015" H 9600 2050 60  0001 C CNN "Mfg_Part_No"
-	1    9600 2050
-	0    -1   1    0   
-$EndComp
-$Comp
-L CM_CHOKE L1
-U 1 1 58BBE1AE
-P 9600 2700
-F 0 "L1" H 9450 2750 50  0000 L CNN
-F 1 "90 Ohm@100MHz" H 8850 2650 50  0000 L CNN
-F 2 "WheelerLab:wurth-WE-CNSW_0805" H 9650 2700 50  0001 C CNN
-F 3 "" H 9650 2700 50  0000 C CNN
-F 4 "744231091" H 9600 2700 60  0001 C CNN "Mfg_Part_No"
-	1    9600 2700
-	-1   0    0    -1  
-$EndComp
 Wire Bus Line
 	550  2750 3050 2750
 Wire Bus Line
@@ -846,14 +795,6 @@ Wire Bus Line
 	3050 7700 3050 5900
 Wire Bus Line
 	550  5900 550  7700
-Wire Bus Line
-	8750 600  8750 3700
-Wire Bus Line
-	8750 3700 10400 3700
-Wire Bus Line
-	10400 3700 10400 600 
-Wire Bus Line
-	10400 600  8750 600 
 Wire Bus Line
 	550  2850 3050 2850
 Wire Bus Line
@@ -888,48 +829,6 @@ Wire Wire Line
 	8100 6150 8100 6250
 Wire Wire Line
 	8100 6250 7400 6250
-Wire Wire Line
-	9550 1650 9550 1600
-Wire Wire Line
-	9200 1650 9550 1650
-Wire Wire Line
-	9650 1600 9650 1650
-Wire Wire Line
-	9650 1650 10000 1650
-Wire Wire Line
-	9300 1850 9200 1850
-Wire Wire Line
-	9200 1650 9200 2550
-Wire Wire Line
-	9200 2250 9300 2250
-Connection ~ 9200 1850
-Wire Wire Line
-	10000 1650 10000 2550
-Wire Wire Line
-	10000 2250 9900 2250
-Wire Wire Line
-	9900 1850 10000 1850
-Connection ~ 10000 1850
-Connection ~ 9200 2250
-Connection ~ 10000 2250
-Wire Wire Line
-	9750 1600 9950 1600
-Wire Wire Line
-	9950 1600 9950 3400
-Wire Wire Line
-	9950 2050 9900 2050
-Wire Wire Line
-	9200 2550 9550 2550
-Wire Wire Line
-	10000 2550 9650 2550
-Wire Wire Line
-	9550 2800 9550 3400
-Wire Wire Line
-	9650 3400 9650 2800
-Wire Wire Line
-	9550 2550 9550 2600
-Wire Wire Line
-	9650 2550 9650 2600
 $Comp
 L CM_CHOKE L2
 U 1 1 58BBF946
@@ -960,6 +859,7 @@ F 0 "C1" H 2060 3670 50  0000 L CNN
 F 1 "0.1uF" V 2100 3350 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 2050 3600 50  0001 C CNN
 F 3 "" H 2050 3600 50  0000 C CNN
+F 4 "CL21B104KBCNNNC" H 2050 3600 60  0001 C CNN "Mfg_Part_No"
 	1    2050 3600
 	1    0    0    -1  
 $EndComp
@@ -975,6 +875,7 @@ F 0 "C2" H 2460 3820 50  0000 L CNN
 F 1 "0.1uF" V 2350 3600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 2450 3750 50  0001 C CNN
 F 3 "" H 2450 3750 50  0000 C CNN
+F 4 "CL21B104KBCNNNC" H 2450 3750 60  0001 C CNN "Mfg_Part_No"
 	1    2450 3750
 	1    0    0    -1  
 $EndComp
@@ -986,6 +887,7 @@ F 0 "C3" H 2710 3820 50  0000 L CNN
 F 1 "0.1uF" H 2800 3750 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 2700 3750 50  0001 C CNN
 F 3 "" H 2700 3750 50  0000 C CNN
+F 4 "CL21B104KBCNNNC" H 2700 3750 60  0001 C CNN "Mfg_Part_No"
 	1    2700 3750
 	1    0    0    -1  
 $EndComp
@@ -1011,58 +913,6 @@ Wire Wire Line
 Wire Wire Line
 	2400 3600 2750 3600
 Connection ~ 2450 3600
-Wire Wire Line
-	9950 1200 10150 1200
-$Comp
-L FERRITE FB1
-U 1 1 58BE3979
-P 9000 2450
-F 0 "FB1" H 8875 2625 50  0000 L CNN
-F 1 "600 Ohm@100MHz" H 8450 2350 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" H 9000 2350 60  0001 C CNN
-F 3 "" H 9000 2350 60  0000 C CNN
-F 4 "742792040" H 9000 2450 60  0001 C CNN "Mfg_Part_No"
-	1    9000 2450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9000 1600 9000 2300
-Wire Wire Line
-	9000 1600 9450 1600
-Wire Wire Line
-	9000 3400 9450 3400
-$Comp
-L FERRITE FB2
-U 1 1 58BE422E
-P 9000 2950
-F 0 "FB2" H 8875 3125 50  0000 L CNN
-F 1 "600 Ohm@100MHz" H 8750 2850 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" H 9000 2850 60  0001 C CNN
-F 3 "" H 9000 2850 60  0000 C CNN
-F 4 "742792040" H 9000 2950 60  0001 C CNN "Mfg_Part_No"
-	1    9000 2950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9000 2600 9000 2800
-$Comp
-L C_Small C4
-U 1 1 58BE5178
-P 9100 2700
-F 0 "C4" V 9150 2750 50  0000 L CNN
-F 1 "0.1uF" V 9050 2750 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 9100 2700 50  0001 C CNN
-F 3 "" H 9100 2700 50  0000 C CNN
-	1    9100 2700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9000 3100 9000 3400
-Connection ~ 9000 2700
-Text GLabel 9350 2700 3    60   Input ~ 0
-GND
-Wire Wire Line
-	9200 2700 9350 2700
 $Comp
 L CONN_01X01 P8
 U 1 1 58BE68AD
@@ -1153,9 +1003,6 @@ Text GLabel 6150 1500 2    60   Input ~ 0
 RST2
 Text GLabel 6150 1600 2    60   Input ~ 0
 HVGND
-Connection ~ 9000 2050
-Wire Wire Line
-	9300 2050 9000 2050
 Connection ~ 950  3950
 Connection ~ 2200 3950
 Wire Wire Line
@@ -1163,13 +1010,6 @@ Wire Wire Line
 Wire Wire Line
 	2450 3850 2450 3950
 Connection ~ 2450 3950
-Wire Wire Line
-	10150 1200 10150 3000
-Wire Wire Line
-	10150 3000 9950 3000
-Wire Wire Line
-	9950 3400 9750 3400
-Connection ~ 9950 2050
 Text Notes 650  4300 0    60   ~ 0
 MOUNTING HOLES
 Wire Wire Line
@@ -1204,8 +1044,4 @@ Text GLabel 6200 4350 2    60   Input ~ 0
 +3.3V
 Text GLabel 6200 4450 2    60   Input ~ 0
 +12V
-Text GLabel 9650 3400 3    60   Input ~ 0
-D+
-Text GLabel 9550 3400 3    60   Input ~ 0
-D-
 $EndSCHEMATC
