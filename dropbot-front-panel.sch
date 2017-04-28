@@ -1,0 +1,1046 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:wheelerlab
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "DropBot front panel"
+Date "2017-04-28"
+Rev "3.0"
+Comp "Sci-Bots Inc."
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 700  750  0    60   ~ 0
+CONTROL BOARD EDGE CONNECTOR
+Text GLabel 1800 950  2    60   Input ~ 0
+GND
+Text GLabel 1300 950  0    60   Input ~ 0
+SDA
+Text GLabel 1800 1050 2    60   Input ~ 0
+SCL
+Text GLabel 1300 1150 0    60   Input ~ 0
+CUR_SENSE
+Text GLabel 1300 1050 0    60   Input ~ 0
++3.3V
+Text GLabel 1300 1350 0    60   Input ~ 0
+HVAC
+Text GLabel 1800 1350 2    60   Input ~ 0
++12V
+Text GLabel 3750 1900 0    60   Input ~ 0
+HVOUT35
+Text GLabel 4250 1800 2    60   Input ~ 0
+HVOUT36
+Text GLabel 4250 1700 2    60   Input ~ 0
+HVOUT38
+Text GLabel 3750 1800 0    60   Input ~ 0
+HVOUT37
+Text GLabel 4250 3600 2    60   Input ~ 0
+HVOUT0
+Text GLabel 3750 1700 0    60   Input ~ 0
+HVOUT39
+Text GLabel 4250 1900 2    60   Input ~ 0
+HVOUT34
+Text GLabel 3750 2000 0    60   Input ~ 0
+HVOUT33
+Text GLabel 3750 2800 0    60   Input ~ 0
+HVOUT17
+Text GLabel 4250 2700 2    60   Input ~ 0
+HVOUT18
+Text GLabel 4250 2600 2    60   Input ~ 0
+HVOUT20
+Text GLabel 3750 2700 0    60   Input ~ 0
+HVOUT19
+Text GLabel 3750 2500 0    60   Input ~ 0
+HVOUT23
+Text GLabel 4250 2400 2    60   Input ~ 0
+HVOUT24
+Text GLabel 4250 2500 2    60   Input ~ 0
+HVOUT22
+Text GLabel 3750 2600 0    60   Input ~ 0
+HVOUT21
+Text GLabel 3750 2200 0    60   Input ~ 0
+HVOUT29
+Text GLabel 4250 2100 2    60   Input ~ 0
+HVOUT30
+Text GLabel 4250 2000 2    60   Input ~ 0
+HVOUT32
+Text GLabel 3750 2100 0    60   Input ~ 0
+HVOUT31
+Text GLabel 3750 2300 0    60   Input ~ 0
+HVOUT27
+Text GLabel 4250 2200 2    60   Input ~ 0
+HVOUT28
+Text GLabel 4250 2300 2    60   Input ~ 0
+HVOUT26
+Text GLabel 3750 2400 0    60   Input ~ 0
+HVOUT25
+Text GLabel 3750 3200 0    60   Input ~ 0
+HVOUT9
+Text GLabel 4250 3100 2    60   Input ~ 0
+HVOUT10
+Text GLabel 4250 3000 2    60   Input ~ 0
+HVOUT12
+Text GLabel 3750 3100 0    60   Input ~ 0
+HVOUT11
+Text GLabel 3750 2900 0    60   Input ~ 0
+HVOUT15
+Text GLabel 4250 2800 2    60   Input ~ 0
+HVOUT16
+Text GLabel 4250 2900 2    60   Input ~ 0
+HVOUT14
+Text GLabel 3750 3000 0    60   Input ~ 0
+HVOUT13
+Text GLabel 3750 3400 0    60   Input ~ 0
+HVOUT5
+Text GLabel 4250 3300 2    60   Input ~ 0
+HVOUT6
+Text GLabel 4250 3200 2    60   Input ~ 0
+HVOUT8
+Text GLabel 3750 3300 0    60   Input ~ 0
+HVOUT7
+Text GLabel 3750 3500 0    60   Input ~ 0
+HVOUT3
+Text GLabel 4250 3400 2    60   Input ~ 0
+HVOUT4
+Text GLabel 4250 3500 2    60   Input ~ 0
+HVOUT2
+Text GLabel 3750 1600 0    60   Input ~ 0
+HVAC
+Text GLabel 3750 3600 0    60   Input ~ 0
+HVOUT1
+Text GLabel 4250 1300 2    60   Input ~ 0
++3.3V
+Text GLabel 3750 1200 0    60   Input ~ 0
+SDA
+Text GLabel 4250 1400 2    60   Input ~ 0
+SCL
+$Comp
+L CONN_02X25 P6
+U 1 1 5847A5CC
+P 4000 2400
+F 0 "P6" H 4000 3700 50  0000 C CNN
+F 1 "SFM-125-02-L-D-A" V 4000 2400 50  0000 C CNN
+F 2 "WheelerLab:SFM-125-02-XXX-D-A" H 4000 1650 50  0001 C CNN
+F 3 "" H 4000 1650 50  0000 C CNN
+F 4 "SFM-125-02-L-D-A" H 4000 2400 60  0001 C CNN "Mfg_Part_No"
+	1    4000 2400
+	1    0    0    -1  
+$EndComp
+Text GLabel 3750 1300 0    60   Input ~ 0
+GND
+Text GLabel 3750 1400 0    60   Input ~ 0
+GND
+Text Notes 3200 1000 0    60   ~ 0
+HV SWITCHING BOARD EDGE CONNECTORS\nEach switching boards consists of an array of 40 solid-state relays controlled over i2c.\nEach output is either connected to this HVAC signal or shorted to HVGND.\nHVAC is a bipolar square wave signal of up to 150 Vrms (frequency = 100 Hz to 10 kHz)
+Text GLabel 4250 1200 2    60   Input ~ 0
++3.3V
+Text GLabel 4250 1500 2    60   Input ~ 0
+RST1
+Text GLabel 3750 1500 0    60   Input ~ 0
+GND
+Text GLabel 4350 4150 2    60   Input ~ 0
+HVOUT36
+Text GLabel 4350 4050 2    60   Input ~ 0
+HVOUT38
+Text GLabel 4350 5950 2    60   Input ~ 0
+HVOUT0
+Text GLabel 4350 4250 2    60   Input ~ 0
+HVOUT34
+Text GLabel 4350 5050 2    60   Input ~ 0
+HVOUT18
+Text GLabel 4350 4950 2    60   Input ~ 0
+HVOUT20
+Text GLabel 4350 4750 2    60   Input ~ 0
+HVOUT24
+Text GLabel 4350 4850 2    60   Input ~ 0
+HVOUT22
+Text GLabel 4350 4450 2    60   Input ~ 0
+HVOUT30
+Text GLabel 4350 4350 2    60   Input ~ 0
+HVOUT32
+Text GLabel 4350 4550 2    60   Input ~ 0
+HVOUT28
+Text GLabel 4350 4650 2    60   Input ~ 0
+HVOUT26
+Text GLabel 4350 5450 2    60   Input ~ 0
+HVOUT10
+Text GLabel 4350 5350 2    60   Input ~ 0
+HVOUT12
+Text GLabel 4350 5150 2    60   Input ~ 0
+HVOUT16
+Text GLabel 4350 5250 2    60   Input ~ 0
+HVOUT14
+Text GLabel 4350 5650 2    60   Input ~ 0
+HVOUT6
+Text GLabel 4350 5550 2    60   Input ~ 0
+HVOUT8
+Text GLabel 4350 5750 2    60   Input ~ 0
+HVOUT4
+Text GLabel 4350 5850 2    60   Input ~ 0
+HVOUT2
+Text GLabel 3650 4250 0    60   Input ~ 0
+HVOUT35
+Text GLabel 3650 4150 0    60   Input ~ 0
+HVOUT37
+Text GLabel 3650 4050 0    60   Input ~ 0
+HVOUT39
+Text GLabel 3650 4350 0    60   Input ~ 0
+HVOUT33
+Text GLabel 3650 5150 0    60   Input ~ 0
+HVOUT17
+Text GLabel 3650 5050 0    60   Input ~ 0
+HVOUT19
+Text GLabel 3650 4850 0    60   Input ~ 0
+HVOUT23
+Text GLabel 3650 4950 0    60   Input ~ 0
+HVOUT21
+Text GLabel 3650 4550 0    60   Input ~ 0
+HVOUT29
+Text GLabel 3650 4450 0    60   Input ~ 0
+HVOUT31
+Text GLabel 3650 4650 0    60   Input ~ 0
+HVOUT27
+Text GLabel 3650 4750 0    60   Input ~ 0
+HVOUT25
+Text GLabel 3650 5550 0    60   Input ~ 0
+HVOUT9
+Text GLabel 3650 5450 0    60   Input ~ 0
+HVOUT11
+Text GLabel 3650 5250 0    60   Input ~ 0
+HVOUT15
+Text GLabel 3650 5350 0    60   Input ~ 0
+HVOUT13
+Text GLabel 3650 5750 0    60   Input ~ 0
+HVOUT5
+Text GLabel 3650 5650 0    60   Input ~ 0
+HVOUT7
+Text GLabel 3650 5850 0    60   Input ~ 0
+HVOUT3
+Text GLabel 3650 5950 0    60   Input ~ 0
+HVOUT1
+Text GLabel 5650 1900 0    60   Input ~ 0
+HVOUT75
+Text GLabel 6150 1800 2    60   Input ~ 0
+HVOUT76
+Text GLabel 6150 1700 2    60   Input ~ 0
+HVOUT78
+Text GLabel 5650 1800 0    60   Input ~ 0
+HVOUT77
+Text GLabel 6150 3600 2    60   Input ~ 0
+HVOUT40
+Text GLabel 5650 1700 0    60   Input ~ 0
+HVOUT79
+Text GLabel 6150 1900 2    60   Input ~ 0
+HVOUT74
+Text GLabel 5650 2000 0    60   Input ~ 0
+HVOUT73
+Text GLabel 5650 2800 0    60   Input ~ 0
+HVOUT57
+Text GLabel 6150 2700 2    60   Input ~ 0
+HVOUT58
+Text GLabel 6150 2600 2    60   Input ~ 0
+HVOUT60
+Text GLabel 5650 2700 0    60   Input ~ 0
+HVOUT59
+Text GLabel 5650 2500 0    60   Input ~ 0
+HVOUT63
+Text GLabel 6150 2400 2    60   Input ~ 0
+HVOUT64
+Text GLabel 6150 2500 2    60   Input ~ 0
+HVOUT62
+Text GLabel 5650 2600 0    60   Input ~ 0
+HVOUT61
+Text GLabel 5650 2200 0    60   Input ~ 0
+HVOUT69
+Text GLabel 6150 2100 2    60   Input ~ 0
+HVOUT70
+Text GLabel 6150 2000 2    60   Input ~ 0
+HVOUT72
+Text GLabel 5650 2100 0    60   Input ~ 0
+HVOUT71
+Text GLabel 5650 2300 0    60   Input ~ 0
+HVOUT67
+Text GLabel 6150 2200 2    60   Input ~ 0
+HVOUT68
+Text GLabel 6150 2300 2    60   Input ~ 0
+HVOUT66
+Text GLabel 5650 2400 0    60   Input ~ 0
+HVOUT65
+Text GLabel 5650 3200 0    60   Input ~ 0
+HVOUT49
+Text GLabel 6150 3100 2    60   Input ~ 0
+HVOUT50
+Text GLabel 6150 3000 2    60   Input ~ 0
+HVOUT52
+Text GLabel 5650 3100 0    60   Input ~ 0
+HVOUT51
+Text GLabel 5650 2900 0    60   Input ~ 0
+HVOUT55
+Text GLabel 6150 2800 2    60   Input ~ 0
+HVOUT56
+Text GLabel 6150 2900 2    60   Input ~ 0
+HVOUT54
+Text GLabel 5650 3000 0    60   Input ~ 0
+HVOUT53
+Text GLabel 5650 3400 0    60   Input ~ 0
+HVOUT45
+Text GLabel 6150 3300 2    60   Input ~ 0
+HVOUT46
+Text GLabel 6150 3200 2    60   Input ~ 0
+HVOUT48
+Text GLabel 5650 3300 0    60   Input ~ 0
+HVOUT47
+Text GLabel 5650 3500 0    60   Input ~ 0
+HVOUT43
+Text GLabel 6150 3400 2    60   Input ~ 0
+HVOUT44
+Text GLabel 6150 3500 2    60   Input ~ 0
+HVOUT42
+Text GLabel 5650 3600 0    60   Input ~ 0
+HVOUT41
+$Comp
+L CONN_02X25 P4
+U 1 1 5847BEA4
+P 5900 2400
+F 0 "P4" H 5900 3700 50  0000 C CNN
+F 1 "SFM-125-02-L-D-A" V 5900 2400 50  0000 C CNN
+F 2 "WheelerLab:SFM-125-02-XXX-D-A" H 5900 1650 50  0001 C CNN
+F 3 "" H 5900 1650 50  0000 C CNN
+F 4 "SFM-125-02-L-D-A" H 5900 2400 60  0001 C CNN "Mfg_Part_No"
+	1    5900 2400
+	1    0    0    -1  
+$EndComp
+Text GLabel 7500 1900 0    60   Input ~ 0
+HVOUT115
+Text GLabel 8000 1800 2    60   Input ~ 0
+HVOUT116
+Text GLabel 8000 1700 2    60   Input ~ 0
+HVOUT118
+Text GLabel 7500 1800 0    60   Input ~ 0
+HVOUT117
+Text GLabel 8000 3600 2    60   Input ~ 0
+HVOUT80
+Text GLabel 7500 1700 0    60   Input ~ 0
+HVOUT119
+Text GLabel 8000 1900 2    60   Input ~ 0
+HVOUT114
+Text GLabel 7500 2000 0    60   Input ~ 0
+HVOUT113
+Text GLabel 7500 2800 0    60   Input ~ 0
+HVOUT97
+Text GLabel 8000 2700 2    60   Input ~ 0
+HVOUT98
+Text GLabel 8000 2600 2    60   Input ~ 0
+HVOUT100
+Text GLabel 7500 2700 0    60   Input ~ 0
+HVOUT99
+Text GLabel 7500 2500 0    60   Input ~ 0
+HVOUT103
+Text GLabel 8000 2400 2    60   Input ~ 0
+HVOUT104
+Text GLabel 8000 2500 2    60   Input ~ 0
+HVOUT102
+Text GLabel 7500 2600 0    60   Input ~ 0
+HVOUT101
+Text GLabel 7500 2200 0    60   Input ~ 0
+HVOUT109
+Text GLabel 8000 2100 2    60   Input ~ 0
+HVOUT110
+Text GLabel 8000 2000 2    60   Input ~ 0
+HVOUT112
+Text GLabel 7500 2100 0    60   Input ~ 0
+HVOUT111
+Text GLabel 7500 2300 0    60   Input ~ 0
+HVOUT107
+Text GLabel 8000 2200 2    60   Input ~ 0
+HVOUT108
+Text GLabel 8000 2300 2    60   Input ~ 0
+HVOUT106
+Text GLabel 7500 2400 0    60   Input ~ 0
+HVOUT105
+Text GLabel 7500 3200 0    60   Input ~ 0
+HVOUT89
+Text GLabel 8000 3100 2    60   Input ~ 0
+HVOUT90
+Text GLabel 8000 3000 2    60   Input ~ 0
+HVOUT92
+Text GLabel 7500 3100 0    60   Input ~ 0
+HVOUT91
+Text GLabel 7500 2900 0    60   Input ~ 0
+HVOUT95
+Text GLabel 8000 2800 2    60   Input ~ 0
+HVOUT96
+Text GLabel 8000 2900 2    60   Input ~ 0
+HVOUT94
+Text GLabel 7500 3000 0    60   Input ~ 0
+HVOUT93
+Text GLabel 7500 3400 0    60   Input ~ 0
+HVOUT85
+Text GLabel 8000 3300 2    60   Input ~ 0
+HVOUT86
+Text GLabel 8000 3200 2    60   Input ~ 0
+HVOUT88
+Text GLabel 7500 3300 0    60   Input ~ 0
+HVOUT87
+Text GLabel 7500 3500 0    60   Input ~ 0
+HVOUT83
+Text GLabel 8000 3400 2    60   Input ~ 0
+HVOUT84
+Text GLabel 8000 3500 2    60   Input ~ 0
+HVOUT82
+Text GLabel 7500 3600 0    60   Input ~ 0
+HVOUT81
+$Comp
+L CONN_02X25 P2
+U 1 1 5847C137
+P 7750 2400
+F 0 "P2" H 7750 3700 50  0000 C CNN
+F 1 "SFM-125-02-L-D-A" V 7750 2400 50  0000 C CNN
+F 2 "WheelerLab:SFM-125-02-XXX-D-A" H 7750 1650 50  0001 C CNN
+F 3 "" H 7750 1650 50  0000 C CNN
+F 4 "SFM-125-02-L-D-A" H 7750 2400 60  0001 C CNN "Mfg_Part_No"
+	1    7750 2400
+	1    0    0    -1  
+$EndComp
+Text GLabel 5500 4750 0    60   Input ~ 0
+HVOUT75
+Text GLabel 5500 4650 0    60   Input ~ 0
+HVOUT77
+Text GLabel 5500 4550 0    60   Input ~ 0
+HVOUT79
+Text GLabel 5500 4850 0    60   Input ~ 0
+HVOUT73
+Text GLabel 5500 5650 0    60   Input ~ 0
+HVOUT57
+Text GLabel 5500 5550 0    60   Input ~ 0
+HVOUT59
+Text GLabel 5500 5350 0    60   Input ~ 0
+HVOUT63
+Text GLabel 5500 5450 0    60   Input ~ 0
+HVOUT61
+Text GLabel 5500 5050 0    60   Input ~ 0
+HVOUT69
+Text GLabel 5500 4950 0    60   Input ~ 0
+HVOUT71
+Text GLabel 5500 5150 0    60   Input ~ 0
+HVOUT67
+Text GLabel 5500 5250 0    60   Input ~ 0
+HVOUT65
+Text GLabel 5500 6050 0    60   Input ~ 0
+HVOUT49
+Text GLabel 5500 5950 0    60   Input ~ 0
+HVOUT51
+Text GLabel 5500 5750 0    60   Input ~ 0
+HVOUT55
+Text GLabel 5500 5850 0    60   Input ~ 0
+HVOUT53
+Text GLabel 5500 6250 0    60   Input ~ 0
+HVOUT45
+Text GLabel 5500 6150 0    60   Input ~ 0
+HVOUT47
+Text GLabel 5500 6350 0    60   Input ~ 0
+HVOUT43
+Text GLabel 5500 6450 0    60   Input ~ 0
+HVOUT41
+Text GLabel 8100 4150 2    60   Input ~ 0
+HVOUT116
+Text GLabel 8100 4050 2    60   Input ~ 0
+HVOUT118
+Text GLabel 8100 5950 2    60   Input ~ 0
+HVOUT80
+Text GLabel 8100 4250 2    60   Input ~ 0
+HVOUT114
+Text GLabel 8100 5050 2    60   Input ~ 0
+HVOUT98
+Text GLabel 8100 4950 2    60   Input ~ 0
+HVOUT100
+Text GLabel 8100 4750 2    60   Input ~ 0
+HVOUT104
+Text GLabel 8100 4850 2    60   Input ~ 0
+HVOUT102
+Text GLabel 8100 4450 2    60   Input ~ 0
+HVOUT110
+Text GLabel 8100 4350 2    60   Input ~ 0
+HVOUT112
+Text GLabel 8100 4550 2    60   Input ~ 0
+HVOUT108
+Text GLabel 8100 4650 2    60   Input ~ 0
+HVOUT106
+Text GLabel 8100 5450 2    60   Input ~ 0
+HVOUT90
+Text GLabel 8100 5350 2    60   Input ~ 0
+HVOUT92
+Text GLabel 8100 5150 2    60   Input ~ 0
+HVOUT96
+Text GLabel 8100 5250 2    60   Input ~ 0
+HVOUT94
+Text GLabel 8100 5650 2    60   Input ~ 0
+HVOUT86
+Text GLabel 8100 5550 2    60   Input ~ 0
+HVOUT88
+Text GLabel 8100 5750 2    60   Input ~ 0
+HVOUT84
+Text GLabel 8100 5850 2    60   Input ~ 0
+HVOUT82
+Text GLabel 7400 4250 0    60   Input ~ 0
+HVOUT115
+Text GLabel 7400 4150 0    60   Input ~ 0
+HVOUT117
+Text GLabel 7400 4050 0    60   Input ~ 0
+HVOUT119
+Text GLabel 7400 4350 0    60   Input ~ 0
+HVOUT113
+Text GLabel 7400 5150 0    60   Input ~ 0
+HVOUT97
+Text GLabel 7400 5050 0    60   Input ~ 0
+HVOUT99
+Text GLabel 7400 4850 0    60   Input ~ 0
+HVOUT103
+Text GLabel 7400 4950 0    60   Input ~ 0
+HVOUT101
+Text GLabel 7400 4550 0    60   Input ~ 0
+HVOUT109
+Text GLabel 7400 4450 0    60   Input ~ 0
+HVOUT111
+Text GLabel 7400 4650 0    60   Input ~ 0
+HVOUT107
+Text GLabel 7400 4750 0    60   Input ~ 0
+HVOUT105
+Text GLabel 7400 5550 0    60   Input ~ 0
+HVOUT89
+Text GLabel 7400 5450 0    60   Input ~ 0
+HVOUT91
+Text GLabel 7400 5250 0    60   Input ~ 0
+HVOUT95
+Text GLabel 7400 5350 0    60   Input ~ 0
+HVOUT93
+Text GLabel 7400 5750 0    60   Input ~ 0
+HVOUT85
+Text GLabel 7400 5650 0    60   Input ~ 0
+HVOUT87
+Text GLabel 7400 5850 0    60   Input ~ 0
+HVOUT83
+Text GLabel 7400 5950 0    60   Input ~ 0
+HVOUT81
+Text GLabel 4250 1600 2    60   Input ~ 0
+HVGND
+$Comp
+L JUMPER JP1
+U 1 1 5857598B
+P 1250 6800
+F 0 "JP1" H 1250 6950 50  0000 C CNN
+F 1 "JUMPER" H 1250 6720 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 1250 6800 50  0001 C CNN
+F 3 "" H 1250 6800 50  0000 C CNN
+F 4 "RC0805JR-070RL" H 1250 6800 60  0001 C CNN "Mfg_Part_No"
+	1    1250 6800
+	1    0    0    -1  
+$EndComp
+Text GLabel 950  6800 0    60   Input ~ 0
+GND
+Text GLabel 1550 6800 2    60   Input ~ 0
+HVGND
+$Comp
+L JUMPER JP2
+U 1 1 585759FC
+P 1250 7300
+F 0 "JP2" H 1250 7450 50  0000 C CNN
+F 1 "JUMPER" H 1250 7220 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 1250 7300 50  0001 C CNN
+F 3 "" H 1250 7300 50  0000 C CNN
+	1    1250 7300
+	1    0    0    -1  
+$EndComp
+Text GLabel 950  7300 0    60   Input ~ 0
+GND
+Text GLabel 1800 1150 2    60   Input ~ 0
+HV_OE
+Text GLabel 1550 7300 2    60   Input ~ 0
+HV_OE
+$Comp
+L CONN_01X03 P9
+U 1 1 5857AD4F
+P 1150 6250
+F 0 "P9" H 1150 6450 50  0000 C CNN
+F 1 "CONN_01X03" V 1250 6250 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 1150 6250 50  0001 C CNN
+F 3 "" H 1150 6250 50  0000 C CNN
+	1    1150 6250
+	1    0    0    -1  
+$EndComp
+Text GLabel 950  6150 0    60   Input ~ 0
+RST1
+Text GLabel 950  6250 0    60   Input ~ 0
+RST2
+Text GLabel 950  6350 0    60   Input ~ 0
+RST3
+Text Notes 3200 7600 0    60   ~ 0
+DMF DEVICE CONNECTOR PORTS\nThese connectors accept (Samtec 0.050" pitch TFM Tiger Eye\nseries connectors) from another PCB that interfaces with a DMF\ndevice using spring-loaded pogo-pins. Each pin carries a\nbipolar square wave signal of up to 150 Vrms\n(frequency = 100 Hz to 10 kHz)
+Text Notes 650  6650 0    60   ~ 0
+JUMPERS
+Text Notes 700  7100 0    60   ~ 0
+J1 connects HVGND to GND (note that this\nshould normally be connected)
+Text Notes 700  7550 0    60   ~ 0
+J2 must be connected to enable HV output
+Text Notes 700  2700 0    60   ~ 0
++12 V power is provided by a DC power brick.\n+3.3V power is obtained using a step-down\n(buck) regulator.\n\nThe control board generates a bipolar square\nwave up to 150 Vrms (frequency = 100 Hz to\n10 kHz) with a boost converter that uses the\n+12 V source as input. It communicates\nwith the computer over USB/serial and with\nthe HV switching boards over i2c.\n\nIt also measures the return current from the\ndevice (CUR_SENSE).
+Text Notes 1350 6300 0    60   ~ 0
+Reset lines for the switching\nboards can be used for\nfirmware flashing.
+$Comp
+L D24V22F3 U2
+U 1 1 58AE01C0
+P 1500 5450
+F 0 "U2" H 1500 5690 60  0000 C CNN
+F 1 "D24V22F3" H 1500 5205 60  0000 C CNN
+F 2 "WheelerLab:D24V22F" H 1500 5450 60  0001 C CNN
+F 3 "" H 1500 5450 60  0000 C CNN
+	1    1500 5450
+	1    0    0    -1  
+$EndComp
+Text GLabel 1000 5500 0    60   Input ~ 0
++12V
+Text GLabel 1000 5600 0    60   Input ~ 0
+GND
+NoConn ~ 1000 5300
+NoConn ~ 1000 5400
+Text GLabel 2000 5500 2    60   Input ~ 0
++3.3V
+$Comp
+L CONN_01X02 P10
+U 1 1 58AE0FFD
+P 1150 3500
+F 0 "P10" H 1150 3650 50  0000 C CNN
+F 1 "CONN_01X02" V 1250 3500 50  0001 C CNN
+F 2 "Connect:bornier2" H 1150 3500 50  0001 C CNN
+F 3 "" H 1150 3500 50  0000 C CNN
+F 4 "ED2609-ND" H 1150 3500 60  0001 C CNN "Mfg_Part_No"
+	1    1150 3500
+	1    0    0    -1  
+$EndComp
+Text GLabel 1350 3250 2    60   Input ~ 0
++12V_SUPPLY
+Text Notes 700  5100 0    60   ~ 0
+3.3V POWER REGULATOR
+Text Notes 600  3150 0    60   ~ 0
+POWER IN\n+12V input with reverse polarity protection and\nEMI filter.
+$Comp
+L IRF9388TRPBF Q1
+U 1 1 58AF05F3
+P 1650 3650
+F 0 "Q1" H 1450 3950 50  0000 L CNN
+F 1 "IRF9388TRPBF" H 1450 3400 50  0000 L CNN
+F 2 "Power_Integrations:SO-8" H 1650 4100 50  0001 C CIN
+F 3 "" V 1650 3650 50  0000 L CNN
+F 4 "IRF9388TRPBF" H 1650 3650 60  0001 C CNN "Mfg_Part_No"
+	1    1650 3650
+	1    0    0    -1  
+$EndComp
+Text GLabel 2700 3500 2    60   Input ~ 0
++12V
+Text GLabel 2000 5400 2    60   Input ~ 0
+GND
+$Comp
+L CONN_02X05 P1
+U 1 1 58B8600D
+P 1550 1150
+F 0 "P1" H 1550 1450 50  0000 C CNN
+F 1 "SFM-105-02-L-D-A" H 1550 850 50  0000 C CNN
+F 2 "WheelerLab:SFM-105-02-XXX-D-A" H 1550 -50 50  0001 C CNN
+F 3 "" H 1550 -50 50  0000 C CNN
+F 4 "SFM-105-02-L-D-A" H 1550 1150 60  0001 C CNN "Mfg_Part_No"
+	1    1550 1150
+	1    0    0    -1  
+$EndComp
+Text GLabel 1800 1250 2    60   Input ~ 0
++12V
+Text GLabel 1300 1250 0    60   Input ~ 0
+GND
+$Comp
+L TFM-120-02-X-DH P7
+U 1 1 58B86F28
+P 3650 4050
+F 0 "P7" H 3850 4180 45  0000 L BNN
+F 1 "TFM-120-02-L-DH" V 4050 2750 45  0000 L BNN
+F 2 "WheelerLab:TFM-120-02-X-DH" H 3680 4200 20  0001 C CNN
+F 3 "" H 3650 4050 60  0000 C CNN
+F 4 "TFM-120-02-L-DH" H 3650 4050 60  0001 C CNN "Mfg_Part_No"
+	1    3650 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L TFM-120-02-X-DH P3
+U 1 1 58B876C3
+P 7400 4050
+F 0 "P3" H 7600 4180 45  0000 L BNN
+F 1 "TFM-120-02-L-DH" V 7800 2850 45  0000 L BNN
+F 2 "WheelerLab:TFM-120-02-X-DH" H 7430 4200 20  0001 C CNN
+F 3 "" H 7400 4050 60  0000 C CNN
+F 4 "TFM-120-02-L-DH" H 7400 4050 60  0001 C CNN "Mfg_Part_No"
+	1    7400 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 6200 4650 2    60   Input ~ 0
+HVOUT76
+Text GLabel 6200 4550 2    60   Input ~ 0
+HVOUT78
+Text GLabel 6200 6450 2    60   Input ~ 0
+HVOUT40
+Text GLabel 6200 4750 2    60   Input ~ 0
+HVOUT74
+Text GLabel 6200 5550 2    60   Input ~ 0
+HVOUT58
+Text GLabel 6200 5450 2    60   Input ~ 0
+HVOUT60
+Text GLabel 6200 5250 2    60   Input ~ 0
+HVOUT64
+Text GLabel 6200 5350 2    60   Input ~ 0
+HVOUT62
+Text GLabel 6200 4950 2    60   Input ~ 0
+HVOUT70
+Text GLabel 6200 4850 2    60   Input ~ 0
+HVOUT72
+Text GLabel 6200 5050 2    60   Input ~ 0
+HVOUT68
+Text GLabel 6200 5150 2    60   Input ~ 0
+HVOUT66
+Text GLabel 6200 5950 2    60   Input ~ 0
+HVOUT50
+Text GLabel 6200 5850 2    60   Input ~ 0
+HVOUT52
+Text GLabel 6200 5650 2    60   Input ~ 0
+HVOUT56
+Text GLabel 6200 5750 2    60   Input ~ 0
+HVOUT54
+Text GLabel 6200 6150 2    60   Input ~ 0
+HVOUT46
+Text GLabel 6200 6050 2    60   Input ~ 0
+HVOUT48
+Text GLabel 6200 6250 2    60   Input ~ 0
+HVOUT44
+Text GLabel 6200 6350 2    60   Input ~ 0
+HVOUT42
+$Comp
+L TFM-125-02-X-DH P5
+U 1 1 58B8BE21
+P 5500 4050
+F 0 "P5" H 5700 4180 45  0000 L BNN
+F 1 "TFM-125-02-L-DH" V 5900 2500 45  0000 L BNN
+F 2 "WheelerLab:TFM-125-02-X-DH" H 5530 4200 20  0001 C CNN
+F 3 "" H 5500 4050 60  0000 C CNN
+F 4 "TFM-125-02-L-DH" H 5500 4050 60  0001 C CNN "Mfg_Part_No"
+	1    5500 4050
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	550  2750 3050 2750
+Wire Bus Line
+	3050 2750 3050 600 
+Wire Bus Line
+	3050 600  550  600 
+Wire Bus Line
+	550  600  550  2750
+Wire Bus Line
+	3150 600  3150 3700
+Wire Bus Line
+	3150 3700 8650 3700
+Wire Bus Line
+	8650 3700 8650 600 
+Wire Bus Line
+	8650 600  3150 600 
+Wire Bus Line
+	3150 3800 3150 7700
+Wire Bus Line
+	8650 6650 8650 3800
+Wire Bus Line
+	8650 3800 3150 3800
+Wire Bus Line
+	3050 5900 550  5900
+Wire Bus Line
+	550  7700 3050 7700
+Wire Bus Line
+	3050 7700 3050 5900
+Wire Bus Line
+	550  5900 550  7700
+Wire Bus Line
+	550  2850 3050 2850
+Wire Bus Line
+	3050 2850 3050 5800
+Wire Bus Line
+	550  5800 550  2850
+Wire Wire Line
+	950  3450 950  3250
+Wire Wire Line
+	1350 3250 1350 3650
+Connection ~ 1350 3450
+Connection ~ 1350 3550
+Wire Wire Line
+	1950 3450 1950 3750
+Connection ~ 1950 3650
+Connection ~ 1950 3550
+Wire Bus Line
+	3150 7700 6250 7700
+Wire Bus Line
+	6250 7700 6250 6650
+Wire Bus Line
+	6250 6650 8650 6650
+Wire Wire Line
+	5500 6650 5500 6750
+Wire Wire Line
+	5500 6750 6200 6750
+Wire Wire Line
+	6200 6750 6200 6650
+Wire Wire Line
+	7400 6150 7400 6250
+Wire Wire Line
+	8100 6150 8100 6250
+Wire Wire Line
+	8100 6250 7400 6250
+$Comp
+L CM_CHOKE L2
+U 1 1 58BBF946
+P 2300 3550
+F 0 "L2" V 2400 3500 50  0000 L CNN
+F 1 "1.8mH" V 2500 3450 50  0000 L CNN
+F 2 "WheelerLab:RN242-X-02-XXX" H 2350 3550 50  0001 C CNN
+F 3 "" H 2350 3550 50  0000 C CNN
+F 4 "RN242-6-02-1M8" H 2300 3550 60  0001 C CNN "Mfg_Part_No"
+	1    2300 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	950  3250 1350 3250
+Wire Wire Line
+	1950 3450 2200 3450
+Wire Wire Line
+	2200 3450 2200 3500
+Wire Wire Line
+	800  3950 2700 3950
+Wire Wire Line
+	2200 3950 2200 3600
+$Comp
+L C_Small C1
+U 1 1 58BC095B
+P 2050 3600
+F 0 "C1" H 2060 3670 50  0000 L CNN
+F 1 "0.1uF" V 2100 3350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2050 3600 50  0001 C CNN
+F 3 "" H 2050 3600 50  0000 C CNN
+F 4 "CL21B104KBCNNNC" H 2050 3600 60  0001 C CNN "Mfg_Part_No"
+	1    2050 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 2050 3450
+Wire Wire Line
+	2050 3700 2050 3950
+Connection ~ 2050 3950
+$Comp
+L C_Small C2
+U 1 1 58BC0DA1
+P 2450 3750
+F 0 "C2" H 2460 3820 50  0000 L CNN
+F 1 "0.1uF" V 2350 3600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2450 3750 50  0001 C CNN
+F 3 "" H 2450 3750 50  0000 C CNN
+F 4 "CL21B104KBCNNNC" H 2450 3750 60  0001 C CNN "Mfg_Part_No"
+	1    2450 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C3
+U 1 1 58BC0DD7
+P 2700 3750
+F 0 "C3" H 2710 3820 50  0000 L CNN
+F 1 "0.1uF" H 2800 3750 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2700 3750 50  0001 C CNN
+F 3 "" H 2700 3750 50  0000 C CNN
+F 4 "CL21B104KBCNNNC" H 2700 3750 60  0001 C CNN "Mfg_Part_No"
+	1    2700 3750
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	3050 5800 550  5800
+Wire Wire Line
+	2400 3500 2700 3500
+Wire Wire Line
+	2700 3500 2700 3650
+Text GLabel 800  3950 1    60   Input ~ 0
+CHASIS_GND
+Wire Wire Line
+	2050 3500 2050 3450
+Wire Wire Line
+	1350 3800 1350 3950
+Connection ~ 1350 3950
+Wire Wire Line
+	950  3950 950  3550
+Text GLabel 2750 3600 2    60   Input ~ 0
+GND
+Wire Wire Line
+	2450 3650 2450 3600
+Wire Wire Line
+	2400 3600 2750 3600
+Connection ~ 2450 3600
+$Comp
+L CONN_01X01 P8
+U 1 1 58BE68AD
+P 850 4400
+F 0 "P8" H 1000 4400 50  0000 C CNN
+F 1 "CONN_01X01" V 950 4400 50  0001 C CNN
+F 2 "Connect:1pin" H 850 4400 50  0001 C CNN
+F 3 "" H 850 4400 50  0000 C CNN
+	1    850  4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P13
+U 1 1 58BE6B3B
+P 850 4500
+F 0 "P13" H 1000 4500 50  0000 C CNN
+F 1 "CONN_01X01" V 950 4500 50  0001 C CNN
+F 2 "Connect:1pin" H 850 4500 50  0001 C CNN
+F 3 "" H 850 4500 50  0000 C CNN
+	1    850  4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P14
+U 1 1 58BE6CC3
+P 850 4600
+F 0 "P14" H 1000 4600 50  0000 C CNN
+F 1 "CONN_01X01" V 950 4600 50  0001 C CNN
+F 2 "Connect:1pin" H 850 4600 50  0001 C CNN
+F 3 "" H 850 4600 50  0000 C CNN
+	1    850  4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P15
+U 1 1 58BE6CC9
+P 850 4700
+F 0 "P15" H 1000 4700 50  0000 C CNN
+F 1 "CONN_01X01" V 950 4700 50  0001 C CNN
+F 2 "Connect:1pin" H 850 4700 50  0001 C CNN
+F 3 "" H 850 4700 50  0000 C CNN
+	1    850  4700
+	-1   0    0    1   
+$EndComp
+Text GLabel 1050 4700 2    60   Input ~ 0
+CHASIS_GND
+Wire Wire Line
+	1050 4400 1050 4700
+Connection ~ 1050 4500
+Connection ~ 1050 4600
+Text GLabel 8000 1300 2    60   Input ~ 0
++3.3V
+Text GLabel 8000 1400 2    60   Input ~ 0
+SCL
+Text GLabel 8000 1200 2    60   Input ~ 0
++3.3V
+Text GLabel 8000 1500 2    60   Input ~ 0
+RST3
+Text GLabel 8000 1600 2    60   Input ~ 0
+HVGND
+Text GLabel 5650 1600 0    60   Input ~ 0
+HVAC
+Text GLabel 5650 1200 0    60   Input ~ 0
+SDA
+Text GLabel 5650 1300 0    60   Input ~ 0
+GND
+Text GLabel 5650 1400 0    60   Input ~ 0
+GND
+Text GLabel 5650 1500 0    60   Input ~ 0
+GND
+Text GLabel 7500 1600 0    60   Input ~ 0
+HVAC
+Text GLabel 7500 1200 0    60   Input ~ 0
+SDA
+Text GLabel 7500 1300 0    60   Input ~ 0
+GND
+Text GLabel 7500 1400 0    60   Input ~ 0
+GND
+Text GLabel 7500 1500 0    60   Input ~ 0
+GND
+Text GLabel 6150 1300 2    60   Input ~ 0
++3.3V
+Text GLabel 6150 1400 2    60   Input ~ 0
+SCL
+Text GLabel 6150 1200 2    60   Input ~ 0
++3.3V
+Text GLabel 6150 1500 2    60   Input ~ 0
+RST2
+Text GLabel 6150 1600 2    60   Input ~ 0
+HVGND
+Connection ~ 950  3950
+Connection ~ 2200 3950
+Wire Wire Line
+	2700 3950 2700 3850
+Wire Wire Line
+	2450 3850 2450 3950
+Connection ~ 2450 3950
+Text Notes 650  4300 0    60   ~ 0
+MOUNTING HOLES
+Wire Wire Line
+	4350 6250 4350 6150
+Wire Wire Line
+	3650 6150 3650 6250
+Wire Wire Line
+	3650 6250 4350 6250
+Text GLabel 3650 6250 0    60   Input ~ 0
+GND
+Text GLabel 5500 6750 0    60   Input ~ 0
+GND
+Text GLabel 7400 6250 0    60   Input ~ 0
+GND
+Text GLabel 6200 4050 2    60   Input ~ 0
+CH-X1
+Text GLabel 5500 4050 0    60   Input ~ 0
+CH-X2
+Text GLabel 5500 4150 0    60   Input ~ 0
+CUR_SENSE
+Text GLabel 5500 4250 0    60   Input ~ 0
+GND
+Text GLabel 5500 4350 0    60   Input ~ 0
+SDA
+Text GLabel 5500 4450 0    60   Input ~ 0
+GND
+Text GLabel 6200 4150 2    60   Input ~ 0
+HV_OE
+Text GLabel 6200 4250 2    60   Input ~ 0
+SCL
+Text GLabel 6200 4350 2    60   Input ~ 0
++3.3V
+Text GLabel 6200 4450 2    60   Input ~ 0
++12V
+$EndSCHEMATC
