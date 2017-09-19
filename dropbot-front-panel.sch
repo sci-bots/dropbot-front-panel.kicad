@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:dropbot-front-panel-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,8 +36,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "DropBot front panel"
-Date "2017-04-28"
-Rev "3.0"
+Date "2017-09-18"
+Rev "3.1"
 Comp "Sci-Bots Inc."
 Comment1 ""
 Comment2 ""
@@ -558,7 +559,7 @@ HVOUT81
 Text GLabel 4250 1600 2    60   Input ~ 0
 HVGND
 $Comp
-L JUMPER JP1
+L Jumper JP1
 U 1 1 5857598B
 P 1250 6800
 F 0 "JP1" H 1250 6950 50  0000 C CNN
@@ -574,7 +575,7 @@ GND
 Text GLabel 1550 6800 2    60   Input ~ 0
 HVGND
 $Comp
-L JUMPER JP2
+L Jumper JP2
 U 1 1 585759FC
 P 1250 7300
 F 0 "JP2" H 1250 7450 50  0000 C CNN
@@ -641,16 +642,16 @@ Text GLabel 2000 5500 2    60   Input ~ 0
 $Comp
 L CONN_01X02 P10
 U 1 1 58AE0FFD
-P 1150 3500
-F 0 "P10" H 1150 3650 50  0000 C CNN
-F 1 "CONN_01X02" V 1250 3500 50  0001 C CNN
-F 2 "Connect:bornier2" H 1150 3500 50  0001 C CNN
-F 3 "" H 1150 3500 50  0000 C CNN
-F 4 "ED2609-ND" H 1150 3500 60  0001 C CNN "Mfg_Part_No"
-	1    1150 3500
+P 1050 3500
+F 0 "P10" H 1050 3650 50  0000 C CNN
+F 1 "CONN_01X02" V 1150 3500 50  0001 C CNN
+F 2 "Connect:bornier2" H 1050 3500 50  0001 C CNN
+F 3 "" H 1050 3500 50  0000 C CNN
+F 4 "ED2609-ND" H 1050 3500 60  0001 C CNN "Mfg_Part_No"
+	1    1050 3500
 	1    0    0    -1  
 $EndComp
-Text GLabel 1350 3250 2    60   Input ~ 0
+Text GLabel 1200 3250 2    60   Input ~ 0
 +12V_SUPPLY
 Text Notes 700  5100 0    60   ~ 0
 3.3V POWER REGULATOR
@@ -659,16 +660,16 @@ POWER IN\n+12V input with reverse polarity protection and\nEMI filter.
 $Comp
 L IRF9388TRPBF Q1
 U 1 1 58AF05F3
-P 1650 3650
-F 0 "Q1" H 1450 3950 50  0000 L CNN
-F 1 "IRF9388TRPBF" H 1450 3400 50  0000 L CNN
-F 2 "Power_Integrations:SO-8" H 1650 4100 50  0001 C CIN
-F 3 "" V 1650 3650 50  0000 L CNN
-F 4 "IRF9388TRPBF" H 1650 3650 60  0001 C CNN "Mfg_Part_No"
-	1    1650 3650
-	1    0    0    -1  
+P 1500 3650
+F 0 "Q1" H 1300 3950 50  0000 L CNN
+F 1 "IRF9388TRPBF" H 1300 3400 50  0000 L CNN
+F 2 "Power_Integrations:SO-8" H 1500 4100 50  0001 C CIN
+F 3 "" V 1500 3650 50  0000 L CNN
+F 4 "IRF9388TRPBF" H 1500 3650 60  0001 C CNN "Mfg_Part_No"
+	1    1500 3650
+	-1   0    0    -1  
 $EndComp
-Text GLabel 2700 3500 2    60   Input ~ 0
+Text GLabel 2650 3500 2    60   Input ~ 0
 +12V
 Text GLabel 2000 5400 2    60   Input ~ 0
 GND
@@ -764,154 +765,58 @@ F 4 "TFM-125-02-L-DH" H 5500 4050 60  0001 C CNN "Mfg_Part_No"
 	1    5500 4050
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	550  2750 3050 2750
-Wire Bus Line
-	3050 2750 3050 600 
-Wire Bus Line
-	3050 600  550  600 
-Wire Bus Line
-	550  600  550  2750
-Wire Bus Line
-	3150 600  3150 3700
-Wire Bus Line
-	3150 3700 8650 3700
-Wire Bus Line
-	8650 3700 8650 600 
-Wire Bus Line
-	8650 600  3150 600 
-Wire Bus Line
-	3150 3800 3150 7700
-Wire Bus Line
-	8650 6650 8650 3800
-Wire Bus Line
-	8650 3800 3150 3800
-Wire Bus Line
-	3050 5900 550  5900
-Wire Bus Line
-	550  7700 3050 7700
-Wire Bus Line
-	3050 7700 3050 5900
-Wire Bus Line
-	550  5900 550  7700
-Wire Bus Line
-	550  2850 3050 2850
-Wire Bus Line
-	3050 2850 3050 5800
-Wire Bus Line
-	550  5800 550  2850
-Wire Wire Line
-	950  3450 950  3250
-Wire Wire Line
-	1350 3250 1350 3650
-Connection ~ 1350 3450
-Connection ~ 1350 3550
-Wire Wire Line
-	1950 3450 1950 3750
-Connection ~ 1950 3650
-Connection ~ 1950 3550
-Wire Bus Line
-	3150 7700 6250 7700
-Wire Bus Line
-	6250 7700 6250 6650
-Wire Bus Line
-	6250 6650 8650 6650
-Wire Wire Line
-	5500 6650 5500 6750
-Wire Wire Line
-	5500 6750 6200 6750
-Wire Wire Line
-	6200 6750 6200 6650
-Wire Wire Line
-	7400 6150 7400 6250
-Wire Wire Line
-	8100 6150 8100 6250
-Wire Wire Line
-	8100 6250 7400 6250
 $Comp
 L CM_CHOKE L2
 U 1 1 58BBF946
-P 2300 3550
-F 0 "L2" V 2400 3500 50  0000 L CNN
-F 1 "1.8mH" V 2500 3450 50  0000 L CNN
-F 2 "WheelerLab:RN242-X-02-XXX" H 2350 3550 50  0001 C CNN
-F 3 "" H 2350 3550 50  0000 C CNN
-F 4 "RN242-6-02-1M8" H 2300 3550 60  0001 C CNN "Mfg_Part_No"
-	1    2300 3550
+P 2350 3550
+F 0 "L2" V 2450 3500 50  0000 L CNN
+F 1 "1.8mH" V 2550 3450 50  0000 L CNN
+F 2 "WheelerLab:RN242-X-02-XXX" H 2400 3550 50  0001 C CNN
+F 3 "" H 2400 3550 50  0000 C CNN
+F 4 "RN242-6-02-1M8" H 2350 3550 60  0001 C CNN "Mfg_Part_No"
+	1    2350 3550
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	950  3250 1350 3250
-Wire Wire Line
-	1950 3450 2200 3450
-Wire Wire Line
-	2200 3450 2200 3500
-Wire Wire Line
-	800  3950 2700 3950
-Wire Wire Line
-	2200 3950 2200 3600
 $Comp
 L C_Small C1
 U 1 1 58BC095B
-P 2050 3600
-F 0 "C1" H 2060 3670 50  0000 L CNN
-F 1 "0.1uF" V 2100 3350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 2050 3600 50  0001 C CNN
-F 3 "" H 2050 3600 50  0000 C CNN
-F 4 "CL21B104KBCNNNC" H 2050 3600 60  0001 C CNN "Mfg_Part_No"
-	1    2050 3600
+P 2100 3600
+F 0 "C1" H 2110 3670 50  0000 L CNN
+F 1 "0.1uF" V 2150 3350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2100 3600 50  0001 C CNN
+F 3 "" H 2100 3600 50  0000 C CNN
+F 4 "CL21B104KBCNNNC" H 2100 3600 60  0001 C CNN "Mfg_Part_No"
+	1    2100 3600
 	1    0    0    -1  
 $EndComp
-Connection ~ 2050 3450
-Wire Wire Line
-	2050 3700 2050 3950
-Connection ~ 2050 3950
 $Comp
 L C_Small C2
 U 1 1 58BC0DA1
-P 2450 3750
-F 0 "C2" H 2460 3820 50  0000 L CNN
-F 1 "0.1uF" V 2350 3600 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 2450 3750 50  0001 C CNN
-F 3 "" H 2450 3750 50  0000 C CNN
-F 4 "CL21B104KBCNNNC" H 2450 3750 60  0001 C CNN "Mfg_Part_No"
-	1    2450 3750
+P 2450 3800
+F 0 "C2" H 2460 3870 50  0000 L CNN
+F 1 "0.1uF" V 2350 3650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2450 3800 50  0001 C CNN
+F 3 "" H 2450 3800 50  0000 C CNN
+F 4 "CL21B104KBCNNNC" H 2450 3800 60  0001 C CNN "Mfg_Part_No"
+	1    2450 3800
 	1    0    0    -1  
 $EndComp
 $Comp
 L C_Small C3
 U 1 1 58BC0DD7
-P 2700 3750
-F 0 "C3" H 2710 3820 50  0000 L CNN
-F 1 "0.1uF" H 2800 3750 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 2700 3750 50  0001 C CNN
-F 3 "" H 2700 3750 50  0000 C CNN
-F 4 "CL21B104KBCNNNC" H 2700 3750 60  0001 C CNN "Mfg_Part_No"
-	1    2700 3750
+P 2650 3800
+F 0 "C3" H 2660 3870 50  0000 L CNN
+F 1 "0.1uF" H 2750 3800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2650 3800 50  0001 C CNN
+F 3 "" H 2650 3800 50  0000 C CNN
+F 4 "CL21B104KBCNNNC" H 2650 3800 60  0001 C CNN "Mfg_Part_No"
+	1    2650 3800
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	3050 5800 550  5800
-Wire Wire Line
-	2400 3500 2700 3500
-Wire Wire Line
-	2700 3500 2700 3650
-Text GLabel 800  3950 1    60   Input ~ 0
+Text GLabel 700  4000 1    60   Input ~ 0
 CHASIS_GND
-Wire Wire Line
-	2050 3500 2050 3450
-Wire Wire Line
-	1350 3800 1350 3950
-Connection ~ 1350 3950
-Wire Wire Line
-	950  3950 950  3550
-Text GLabel 2750 3600 2    60   Input ~ 0
+Text GLabel 2700 3600 2    60   Input ~ 0
 GND
-Wire Wire Line
-	2450 3650 2450 3600
-Wire Wire Line
-	2400 3600 2750 3600
-Connection ~ 2450 3600
 $Comp
 L CONN_01X01 P8
 U 1 1 58BE68AD
@@ -958,10 +863,6 @@ F 3 "" H 850 4700 50  0000 C CNN
 $EndComp
 Text GLabel 1050 4700 2    60   Input ~ 0
 CHASIS_GND
-Wire Wire Line
-	1050 4400 1050 4700
-Connection ~ 1050 4500
-Connection ~ 1050 4600
 Text GLabel 8000 1300 2    60   Input ~ 0
 +3.3V
 Text GLabel 8000 1400 2    60   Input ~ 0
@@ -1002,21 +903,8 @@ Text GLabel 6150 1500 2    60   Input ~ 0
 RST2
 Text GLabel 6150 1600 2    60   Input ~ 0
 HVGND
-Connection ~ 950  3950
-Connection ~ 2200 3950
-Wire Wire Line
-	2700 3950 2700 3850
-Wire Wire Line
-	2450 3850 2450 3950
-Connection ~ 2450 3950
 Text Notes 650  4300 0    60   ~ 0
 MOUNTING HOLES
-Wire Wire Line
-	4350 6250 4350 6150
-Wire Wire Line
-	3650 6150 3650 6250
-Wire Wire Line
-	3650 6250 4350 6250
 Text GLabel 3650 6250 0    60   Input ~ 0
 GND
 Text GLabel 5500 6750 0    60   Input ~ 0
@@ -1043,4 +931,253 @@ Text GLabel 6200 4350 2    60   Input ~ 0
 +3.3V
 Text GLabel 6200 4450 2    60   Input ~ 0
 +12V
+$Comp
+L R_Small R1
+U 1 1 59B962E7
+P 1900 3900
+F 0 "R1" H 1850 3750 50  0000 L CNN
+F 1 "10k" V 2000 3850 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 1900 3900 50  0001 C CNN
+F 3 "" H 1900 3900 50  0001 C CNN
+F 4 "RC0805FR-0710KL" H 1900 3900 60  0001 C CNN "Mfg_Part_No"
+	1    1900 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Zener_Small D1
+U 1 1 59B97699
+P 1900 3550
+F 0 "D1" V 1750 3550 50  0000 C CNN
+F 1 "10V" H 1900 3650 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323" V 1900 3550 50  0001 C CNN
+F 3 "" V 1900 3550 50  0001 C CNN
+F 4 "MMSZ5240BS-7-F" H 1900 3550 60  0001 C CNN "Mfg_Part_No"
+	1    1900 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L CAT24C__ U1
+U 1 1 59BAE18B
+P 9500 1150
+F 0 "U1" H 9505 1395 60  0000 C CNN
+F 1 "CAT24C__" H 9500 900 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 9490 1145 60  0001 C CNN
+F 3 "" H 9490 1145 60  0000 C CNN
+F 4 "CAT24C16YI-GT3" H 9500 1150 60  0001 C CNN "Mfg_Part_No"
+	1    9500 1150
+	1    0    0    -1  
+$EndComp
+Text GLabel 10200 750  0    60   Input ~ 0
++3.3V
+Text GLabel 9200 1300 0    60   Input ~ 0
+GND
+$Comp
+L R_Small R7
+U 1 1 59BAF290
+P 9900 1100
+F 0 "R7" V 9900 1050 50  0000 L CNN
+F 1 "10k" V 9900 1250 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 9900 1100 50  0001 C CNN
+F 3 "" H 9900 1100 50  0001 C CNN
+F 4 "RC0805FR-0710KL" H 9900 1100 60  0001 C CNN "Mfg_Part_No"
+	1    9900 1100
+	0    1    1    0   
+$EndComp
+Text GLabel 9800 1200 2    60   Input ~ 0
+SCL
+Text GLabel 9800 1300 2    60   Input ~ 0
+SDA
+Text Notes 8800 750  0    60   ~ 0
+EEPROM
+$Comp
+L Jumper_NO_Small JP3
+U 1 1 59C10FC7
+P 9100 1000
+F 0 "JP3" H 8900 1000 50  0000 C CNN
+F 1 "A0" H 8850 1000 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" H 9100 1000 50  0001 C CNN
+F 3 "" H 9100 1000 50  0001 C CNN
+	1    9100 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP4
+U 1 1 59C11542
+P 9100 1100
+F 0 "JP4" H 8900 1100 50  0000 C CNN
+F 1 "A1" H 8850 1100 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" H 9100 1100 50  0001 C CNN
+F 3 "" H 9100 1100 50  0001 C CNN
+	1    9100 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP5
+U 1 1 59C115B5
+P 9100 1200
+F 0 "JP5" H 8900 1200 50  0000 C CNN
+F 1 "A2" H 8850 1200 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" H 9100 1200 50  0001 C CNN
+F 3 "" H 9100 1200 50  0001 C CNN
+	1    9100 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C4
+U 1 1 59C1415F
+P 10200 950
+F 0 "C4" H 10210 1020 50  0000 L CNN
+F 1 "0.1uF" V 10250 700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 10200 950 50  0001 C CNN
+F 3 "" H 10200 950 50  0000 C CNN
+F 4 "CL21B104KBCNNNC" H 10200 950 60  0001 C CNN "Mfg_Part_No"
+	1    10200 950 
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	550  2750 3050 2750
+Wire Bus Line
+	3050 2750 3050 600 
+Wire Bus Line
+	3050 600  550  600 
+Wire Bus Line
+	550  600  550  2750
+Wire Bus Line
+	3150 600  3150 3700
+Wire Bus Line
+	3150 3700 8650 3700
+Wire Bus Line
+	8650 3700 8650 600 
+Wire Bus Line
+	8650 600  3150 600 
+Wire Bus Line
+	3150 3800 3150 7700
+Wire Bus Line
+	8650 6650 8650 3800
+Wire Bus Line
+	8650 3800 3150 3800
+Wire Bus Line
+	3050 5900 550  5900
+Wire Bus Line
+	550  7700 3050 7700
+Wire Bus Line
+	3050 7700 3050 5900
+Wire Bus Line
+	550  5900 550  7700
+Wire Bus Line
+	550  2850 3050 2850
+Wire Bus Line
+	3050 2850 3050 5800
+Wire Bus Line
+	550  5800 550  2850
+Wire Wire Line
+	850  3450 850  3250
+Connection ~ 1800 3650
+Connection ~ 1800 3550
+Wire Bus Line
+	3150 7700 6250 7700
+Wire Bus Line
+	6250 7700 6250 6650
+Wire Bus Line
+	6250 6650 8650 6650
+Wire Wire Line
+	5500 6650 5500 6750
+Wire Wire Line
+	5500 6750 6200 6750
+Wire Wire Line
+	6200 6750 6200 6650
+Wire Wire Line
+	7400 6150 7400 6250
+Wire Wire Line
+	8100 6150 8100 6250
+Wire Wire Line
+	8100 6250 7400 6250
+Wire Wire Line
+	1800 3450 2250 3450
+Wire Wire Line
+	2250 3450 2250 3500
+Connection ~ 2100 3450
+Wire Bus Line
+	3050 5800 550  5800
+Wire Wire Line
+	2100 3500 2100 3450
+Wire Wire Line
+	1050 4400 1050 4700
+Connection ~ 1050 4500
+Connection ~ 1050 4600
+Wire Wire Line
+	4350 6250 4350 6150
+Wire Wire Line
+	3650 6150 3650 6250
+Wire Wire Line
+	3650 6250 4350 6250
+Wire Wire Line
+	1800 3450 1800 3650
+Wire Wire Line
+	1200 3250 1200 3750
+Connection ~ 1200 3550
+Connection ~ 1200 3650
+Connection ~ 1200 3450
+Wire Wire Line
+	850  3250 1200 3250
+Wire Wire Line
+	700  4000 2650 4000
+Wire Wire Line
+	850  3550 850  4000
+Connection ~ 850  4000
+Connection ~ 2450 4000
+Wire Wire Line
+	2100 4000 2100 3700
+Connection ~ 1900 3450
+Connection ~ 1900 4000
+Connection ~ 2100 4000
+Wire Wire Line
+	2250 4000 2250 3600
+Connection ~ 2250 4000
+Wire Wire Line
+	1800 3800 1900 3800
+Wire Wire Line
+	1900 3800 1900 3650
+Wire Wire Line
+	2450 3500 2650 3500
+Wire Wire Line
+	2450 3600 2700 3600
+Wire Wire Line
+	2650 3500 2650 3700
+Wire Wire Line
+	2650 4000 2650 3900
+Wire Wire Line
+	2450 3700 2450 3600
+Wire Wire Line
+	2450 3900 2450 4000
+Wire Wire Line
+	9800 1000 10000 1000
+Wire Wire Line
+	10000 850  10000 1100
+Wire Wire Line
+	9000 850  10200 850 
+Connection ~ 10000 1000
+Wire Bus Line
+	8750 600  10450 600 
+Wire Bus Line
+	10450 600  10450 1550
+Wire Bus Line
+	10450 1550 8750 1550
+Wire Bus Line
+	8750 1550 8750 600 
+Wire Wire Line
+	9000 850  9000 1200
+Connection ~ 9000 1000
+Connection ~ 9000 1100
+Wire Wire Line
+	10200 850  10200 750 
+Connection ~ 10000 850 
+Wire Wire Line
+	10200 1050 10200 1500
+Wire Wire Line
+	10200 1500 9200 1500
+Wire Wire Line
+	9200 1500 9200 1300
+Wire Wire Line
+	9200 1000 9000 1000
 $EndSCHEMATC
