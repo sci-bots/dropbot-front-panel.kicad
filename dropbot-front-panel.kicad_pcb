@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.6)
+(kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
     (links 217)
@@ -22,8 +22,8 @@
 
   (layers
     (0 F.Cu signal)
-    (1 PWR power)
-    (2 GND power)
+    (1 PWR power hide)
+    (2 GND power hide)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -405,7 +405,7 @@
     (add_net "Net-(C1-Pad1)")
   )
 
-  (module WheelerLab:RN242-X-02-XXX (layer F.Cu) (tedit 58C0BFF7) (tstamp 58BE2485)
+  (module Sci-Bots:RN242-X-02-XXX (layer F.Cu) (tedit 58C0BFF7) (tstamp 58BE2485)
     (at 55.8 72.4)
     (path /58BBF946)
     (fp_text reference L2 (at -4.5 -16.2) (layer F.SilkS)
@@ -432,11 +432,11 @@
     (at 151.8 57 180)
     (descr "Through hole pin header")
     (tags "pin header")
-    (path /5857AD4F)
+    (path /5AA2CB24)
     (fp_text reference P9 (at 0 -2.7 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CONN_01X03 (at 2.2 2.7 270) (layer F.Fab) hide
+    (fp_text value Conn_01x03 (at 2.2 2.7 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.75 -1.75) (end -1.75 6.85) (layer F.CrtYd) (width 0.05))
@@ -463,7 +463,7 @@
     )
   )
 
-  (module WheelerLab:TFM-120-02-X-DH (layer F.Cu) (tedit 58FF5F15) (tstamp 58B6FD18)
+  (module Sci-Bots:TFM-120-02-X-DH (layer F.Cu) (tedit 58FF5F15) (tstamp 58B6FD18)
     (at 63.2716 31.7638)
     (descr "0.050\" DOUBLE HORIZONTAL TERMINAL STRIP.")
     (tags "0.050\" DOUBLE HORIZONTAL TERMINAL STRIP.")
@@ -603,7 +603,7 @@
       (net 2 GND))
   )
 
-  (module WheelerLab:TFM-120-02-X-DH (layer F.Cu) (tedit 58FF5F5D) (tstamp 58B6FD82)
+  (module Sci-Bots:TFM-120-02-X-DH (layer F.Cu) (tedit 58FF5F5D) (tstamp 58B6FD82)
     (at 136.7284 31.7638)
     (descr "0.050\" DOUBLE HORIZONTAL TERMINAL STRIP.")
     (tags "0.050\" DOUBLE HORIZONTAL TERMINAL STRIP.")
@@ -747,11 +747,11 @@
     (at 58 48 270)
     (descr "Bornier d'alimentation 2 pins")
     (tags DEV)
-    (path /58AE0FFD)
+    (path /5AA2AFDB)
     (fp_text reference P10 (at -3.3 0 540) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CONN_01X02 (at 2.2 6.4 270) (layer F.Fab) hide
+    (fp_text value Conn_01x02 (at 2.2 6.4 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.41 2.55) (end 7.49 2.55) (layer F.Fab) (width 0.1))
@@ -886,7 +886,7 @@
     )
   )
 
-  (module WheelerLab:TFM-125-02-X-DH (layer F.Cu) (tedit 58FF5F2B) (tstamp 58B89C23)
+  (module Sci-Bots:TFM-125-02-X-DH (layer F.Cu) (tedit 58FF5F2B) (tstamp 58B89C23)
     (at 100 31.7638)
     (descr "0.050\" DOUBLE HORIZONTAL TERMINAL STRIP.")
     (tags "0.050\" DOUBLE HORIZONTAL TERMINAL STRIP.")
@@ -1138,7 +1138,7 @@
     )
   )
 
-  (module WheelerLab:D24V22F (layer F.Cu) (tedit 58C0BF88) (tstamp 58BE595F)
+  (module Sci-Bots:D24V22F (layer F.Cu) (tedit 58C0BF88) (tstamp 58BE595F)
     (at 70 46.5 270)
     (path /58AE01C0)
     (fp_text reference U2 (at 15.1 0.7 450) (layer F.SilkS)
@@ -1182,11 +1182,11 @@
     (at 50 44)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
-    (path /58BE68AD)
+    (path /5AA2BB49)
     (fp_text reference P8 (at 0 -3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CONN_01X01 (at 1.1 3.3) (layer F.Fab) hide
+    (fp_text value Conn_01x01 (at 1.1 3.3) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 2 0.8) (layer F.Fab) (width 0.1))
@@ -1200,11 +1200,11 @@
     (at 150 44)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
-    (path /58BE6B3B)
+    (path /5AA2BDB3)
     (fp_text reference P13 (at 0 -3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CONN_01X01 (at -0.7 3) (layer F.Fab) hide
+    (fp_text value Conn_01x01 (at -0.7 3) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 2 0.8) (layer F.Fab) (width 0.1))
@@ -1218,11 +1218,11 @@
     (at 150 84)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
-    (path /58BE6CC3)
+    (path /5AA2BEC2)
     (fp_text reference P14 (at 0 -3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CONN_01X01 (at -0.6 3.1) (layer F.Fab) hide
+    (fp_text value Conn_01x01 (at -0.6 3.1) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 2 0.8) (layer F.Fab) (width 0.1))
@@ -1236,11 +1236,11 @@
     (at 68 86)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
-    (path /58BE6CC9)
+    (path /5AA2BF2D)
     (fp_text reference P15 (at 0 -3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CONN_01X01 (at 0 3) (layer F.Fab) hide
+    (fp_text value Conn_01x01 (at 0 3) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 2 0.8) (layer F.Fab) (width 0.1))
@@ -1250,11 +1250,11 @@
       (net 133 CHASIS_GND))
   )
 
-  (module WheelerLab:SFM-125-02-XXX-D-A (layer F.Cu) (tedit 58FF5EC4) (tstamp 58D1AB96)
+  (module Sci-Bots:SFM-125-02-XXX-D-A (layer F.Cu) (tedit 58FF5EC4) (tstamp 58D1AB96)
     (at 122.7384 62.449)
     (descr "0.05\"X0.05\" SOCKET STRIP DOUBLE ROW ASSEMBLY.")
     (tags "0.05\"X0.05\" SOCKET STRIP DOUBLE ROW ASSEMBLY.")
-    (path /5847C137)
+    (path /5AA2E35C)
     (attr smd)
     (fp_text reference P2 (at 0 3.937) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.1016)))
@@ -1408,11 +1408,11 @@
     (pad "" thru_hole circle (at 16.8275 0) (size 1.75 1.75) (drill 1.27) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module WheelerLab:SFM-125-02-XXX-D-A (layer F.Cu) (tedit 58FF5E9E) (tstamp 58D1ABF3)
+  (module Sci-Bots:SFM-125-02-XXX-D-A (layer F.Cu) (tedit 58FF5E9E) (tstamp 58D1ABF3)
     (at 122.7384 76.049)
     (descr "0.05\"X0.05\" SOCKET STRIP DOUBLE ROW ASSEMBLY.")
     (tags "0.05\"X0.05\" SOCKET STRIP DOUBLE ROW ASSEMBLY.")
-    (path /5847BEA4)
+    (path /5AA2E2A4)
     (attr smd)
     (fp_text reference P4 (at 0 3.937) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.1016)))
@@ -1566,11 +1566,11 @@
     (pad "" thru_hole circle (at 16.8275 0) (size 1.75 1.75) (drill 1.27) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module WheelerLab:SFM-125-02-XXX-D-A (layer F.Cu) (tedit 58FF5E57) (tstamp 58D1AC50)
+  (module Sci-Bots:SFM-125-02-XXX-D-A (layer F.Cu) (tedit 58FF5E57) (tstamp 58D1AC50)
     (at 122.7384 89.649)
     (descr "0.05\"X0.05\" SOCKET STRIP DOUBLE ROW ASSEMBLY.")
     (tags "0.05\"X0.05\" SOCKET STRIP DOUBLE ROW ASSEMBLY.")
-    (path /5847A5CC)
+    (path /5AA2DAFD)
     (attr smd)
     (fp_text reference P6 (at 0 3.937) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.1016)))
@@ -2001,11 +2001,11 @@
     )
   )
 
-  (module WheelerLab:SFM-105-02-XXX-D-A (layer F.Cu) (tedit 58CFF371) (tstamp 59C0107E)
+  (module Sci-Bots:SFM-105-02-XXX-D-A (layer F.Cu) (tedit 58CFF371) (tstamp 59C0107E)
     (at 132.7384 48.8495)
     (descr "0.05\"X0.05\" SOCKET STRIP DOUBLE ROW ASSEMBLY.")
     (tags "0.05\"X0.05\" SOCKET STRIP DOUBLE ROW ASSEMBLY.")
-    (path /58B8600D)
+    (path /5AA2D537)
     (attr smd)
     (fp_text reference P1 (at -1.651 3.937) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.1016)))

@@ -1,4 +1,4 @@
-update=9/19/2017 10:24:20 AM
+update=2018-03-09 10:53:41 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -69,4 +69,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=library/wheelerlab
+LibName31=library/sci-bots
