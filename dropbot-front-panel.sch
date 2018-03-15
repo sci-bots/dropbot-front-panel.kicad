@@ -37,8 +37,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "DropBot front panel"
-Date "2017-09-18"
-Rev "3.1"
+Date "2018-03-09"
+Rev "3.2"
 Comp "Sci-Bots Inc."
 Comment1 ""
 Comment2 ""
@@ -161,85 +161,85 @@ Text GLabel 4250 1500 2    60   Input ~ 0
 RST1
 Text GLabel 3750 1500 0    60   Input ~ 0
 GND
-Text GLabel 4350 4150 2    60   Input ~ 0
+Text GLabel 4250 4150 2    60   Input ~ 0
 HVOUT36
-Text GLabel 4350 4050 2    60   Input ~ 0
+Text GLabel 4250 4050 2    60   Input ~ 0
 HVOUT38
-Text GLabel 4350 5950 2    60   Input ~ 0
+Text GLabel 4250 5950 2    60   Input ~ 0
 HVOUT0
-Text GLabel 4350 4250 2    60   Input ~ 0
+Text GLabel 4250 4250 2    60   Input ~ 0
 HVOUT34
-Text GLabel 4350 5050 2    60   Input ~ 0
+Text GLabel 4250 5050 2    60   Input ~ 0
 HVOUT18
-Text GLabel 4350 4950 2    60   Input ~ 0
+Text GLabel 4250 4950 2    60   Input ~ 0
 HVOUT20
-Text GLabel 4350 4750 2    60   Input ~ 0
+Text GLabel 4250 4750 2    60   Input ~ 0
 HVOUT24
-Text GLabel 4350 4850 2    60   Input ~ 0
+Text GLabel 4250 4850 2    60   Input ~ 0
 HVOUT22
-Text GLabel 4350 4450 2    60   Input ~ 0
+Text GLabel 4250 4450 2    60   Input ~ 0
 HVOUT30
-Text GLabel 4350 4350 2    60   Input ~ 0
+Text GLabel 4250 4350 2    60   Input ~ 0
 HVOUT32
-Text GLabel 4350 4550 2    60   Input ~ 0
+Text GLabel 4250 4550 2    60   Input ~ 0
 HVOUT28
-Text GLabel 4350 4650 2    60   Input ~ 0
+Text GLabel 4250 4650 2    60   Input ~ 0
 HVOUT26
-Text GLabel 4350 5450 2    60   Input ~ 0
+Text GLabel 4250 5450 2    60   Input ~ 0
 HVOUT10
-Text GLabel 4350 5350 2    60   Input ~ 0
+Text GLabel 4250 5350 2    60   Input ~ 0
 HVOUT12
-Text GLabel 4350 5150 2    60   Input ~ 0
+Text GLabel 4250 5150 2    60   Input ~ 0
 HVOUT16
-Text GLabel 4350 5250 2    60   Input ~ 0
+Text GLabel 4250 5250 2    60   Input ~ 0
 HVOUT14
-Text GLabel 4350 5650 2    60   Input ~ 0
+Text GLabel 4250 5650 2    60   Input ~ 0
 HVOUT6
-Text GLabel 4350 5550 2    60   Input ~ 0
+Text GLabel 4250 5550 2    60   Input ~ 0
 HVOUT8
-Text GLabel 4350 5750 2    60   Input ~ 0
+Text GLabel 4250 5750 2    60   Input ~ 0
 HVOUT4
-Text GLabel 4350 5850 2    60   Input ~ 0
+Text GLabel 4250 5850 2    60   Input ~ 0
 HVOUT2
-Text GLabel 3650 4250 0    60   Input ~ 0
+Text GLabel 3750 4250 0    60   Input ~ 0
 HVOUT35
-Text GLabel 3650 4150 0    60   Input ~ 0
+Text GLabel 3750 4150 0    60   Input ~ 0
 HVOUT37
-Text GLabel 3650 4050 0    60   Input ~ 0
+Text GLabel 3750 4050 0    60   Input ~ 0
 HVOUT39
-Text GLabel 3650 4350 0    60   Input ~ 0
+Text GLabel 3750 4350 0    60   Input ~ 0
 HVOUT33
-Text GLabel 3650 5150 0    60   Input ~ 0
+Text GLabel 3750 5150 0    60   Input ~ 0
 HVOUT17
-Text GLabel 3650 5050 0    60   Input ~ 0
+Text GLabel 3750 5050 0    60   Input ~ 0
 HVOUT19
-Text GLabel 3650 4850 0    60   Input ~ 0
+Text GLabel 3750 4850 0    60   Input ~ 0
 HVOUT23
-Text GLabel 3650 4950 0    60   Input ~ 0
+Text GLabel 3750 4950 0    60   Input ~ 0
 HVOUT21
-Text GLabel 3650 4550 0    60   Input ~ 0
+Text GLabel 3750 4550 0    60   Input ~ 0
 HVOUT29
-Text GLabel 3650 4450 0    60   Input ~ 0
+Text GLabel 3750 4450 0    60   Input ~ 0
 HVOUT31
-Text GLabel 3650 4650 0    60   Input ~ 0
+Text GLabel 3750 4650 0    60   Input ~ 0
 HVOUT27
-Text GLabel 3650 4750 0    60   Input ~ 0
+Text GLabel 3750 4750 0    60   Input ~ 0
 HVOUT25
-Text GLabel 3650 5550 0    60   Input ~ 0
+Text GLabel 3750 5550 0    60   Input ~ 0
 HVOUT9
-Text GLabel 3650 5450 0    60   Input ~ 0
+Text GLabel 3750 5450 0    60   Input ~ 0
 HVOUT11
-Text GLabel 3650 5250 0    60   Input ~ 0
+Text GLabel 3750 5250 0    60   Input ~ 0
 HVOUT15
-Text GLabel 3650 5350 0    60   Input ~ 0
+Text GLabel 3750 5350 0    60   Input ~ 0
 HVOUT13
-Text GLabel 3650 5750 0    60   Input ~ 0
+Text GLabel 3750 5750 0    60   Input ~ 0
 HVOUT5
-Text GLabel 3650 5650 0    60   Input ~ 0
+Text GLabel 3750 5650 0    60   Input ~ 0
 HVOUT7
-Text GLabel 3650 5850 0    60   Input ~ 0
+Text GLabel 3750 5850 0    60   Input ~ 0
 HVOUT3
-Text GLabel 3650 5950 0    60   Input ~ 0
+Text GLabel 3750 5950 0    60   Input ~ 0
 HVOUT1
 Text GLabel 5650 1900 0    60   Input ~ 0
 HVOUT75
@@ -401,125 +401,125 @@ Text GLabel 8000 3500 2    60   Input ~ 0
 HVOUT82
 Text GLabel 7500 3600 0    60   Input ~ 0
 HVOUT81
-Text GLabel 5500 4750 0    60   Input ~ 0
+Text GLabel 5650 4750 0    60   Input ~ 0
 HVOUT75
-Text GLabel 5500 4650 0    60   Input ~ 0
+Text GLabel 5650 4650 0    60   Input ~ 0
 HVOUT77
-Text GLabel 5500 4550 0    60   Input ~ 0
+Text GLabel 5650 4550 0    60   Input ~ 0
 HVOUT79
-Text GLabel 5500 4850 0    60   Input ~ 0
+Text GLabel 5650 4850 0    60   Input ~ 0
 HVOUT73
-Text GLabel 5500 5650 0    60   Input ~ 0
+Text GLabel 5650 5650 0    60   Input ~ 0
 HVOUT57
-Text GLabel 5500 5550 0    60   Input ~ 0
+Text GLabel 5650 5550 0    60   Input ~ 0
 HVOUT59
-Text GLabel 5500 5350 0    60   Input ~ 0
+Text GLabel 5650 5350 0    60   Input ~ 0
 HVOUT63
-Text GLabel 5500 5450 0    60   Input ~ 0
+Text GLabel 5650 5450 0    60   Input ~ 0
 HVOUT61
-Text GLabel 5500 5050 0    60   Input ~ 0
+Text GLabel 5650 5050 0    60   Input ~ 0
 HVOUT69
-Text GLabel 5500 4950 0    60   Input ~ 0
+Text GLabel 5650 4950 0    60   Input ~ 0
 HVOUT71
-Text GLabel 5500 5150 0    60   Input ~ 0
+Text GLabel 5650 5150 0    60   Input ~ 0
 HVOUT67
-Text GLabel 5500 5250 0    60   Input ~ 0
+Text GLabel 5650 5250 0    60   Input ~ 0
 HVOUT65
-Text GLabel 5500 6050 0    60   Input ~ 0
+Text GLabel 5650 6050 0    60   Input ~ 0
 HVOUT49
-Text GLabel 5500 5950 0    60   Input ~ 0
+Text GLabel 5650 5950 0    60   Input ~ 0
 HVOUT51
-Text GLabel 5500 5750 0    60   Input ~ 0
+Text GLabel 5650 5750 0    60   Input ~ 0
 HVOUT55
-Text GLabel 5500 5850 0    60   Input ~ 0
+Text GLabel 5650 5850 0    60   Input ~ 0
 HVOUT53
-Text GLabel 5500 6250 0    60   Input ~ 0
+Text GLabel 5650 6250 0    60   Input ~ 0
 HVOUT45
-Text GLabel 5500 6150 0    60   Input ~ 0
+Text GLabel 5650 6150 0    60   Input ~ 0
 HVOUT47
-Text GLabel 5500 6350 0    60   Input ~ 0
+Text GLabel 5650 6350 0    60   Input ~ 0
 HVOUT43
-Text GLabel 5500 6450 0    60   Input ~ 0
+Text GLabel 5650 6450 0    60   Input ~ 0
 HVOUT41
-Text GLabel 8100 4150 2    60   Input ~ 0
+Text GLabel 8000 4150 2    60   Input ~ 0
 HVOUT116
-Text GLabel 8100 4050 2    60   Input ~ 0
+Text GLabel 8000 4050 2    60   Input ~ 0
 HVOUT118
-Text GLabel 8100 5950 2    60   Input ~ 0
+Text GLabel 8000 5950 2    60   Input ~ 0
 HVOUT80
-Text GLabel 8100 4250 2    60   Input ~ 0
+Text GLabel 8000 4250 2    60   Input ~ 0
 HVOUT114
-Text GLabel 8100 5050 2    60   Input ~ 0
+Text GLabel 8000 5050 2    60   Input ~ 0
 HVOUT98
-Text GLabel 8100 4950 2    60   Input ~ 0
+Text GLabel 8000 4950 2    60   Input ~ 0
 HVOUT100
-Text GLabel 8100 4750 2    60   Input ~ 0
+Text GLabel 8000 4750 2    60   Input ~ 0
 HVOUT104
-Text GLabel 8100 4850 2    60   Input ~ 0
+Text GLabel 8000 4850 2    60   Input ~ 0
 HVOUT102
-Text GLabel 8100 4450 2    60   Input ~ 0
+Text GLabel 8000 4450 2    60   Input ~ 0
 HVOUT110
-Text GLabel 8100 4350 2    60   Input ~ 0
+Text GLabel 8000 4350 2    60   Input ~ 0
 HVOUT112
-Text GLabel 8100 4550 2    60   Input ~ 0
+Text GLabel 8000 4550 2    60   Input ~ 0
 HVOUT108
-Text GLabel 8100 4650 2    60   Input ~ 0
+Text GLabel 8000 4650 2    60   Input ~ 0
 HVOUT106
-Text GLabel 8100 5450 2    60   Input ~ 0
+Text GLabel 8000 5450 2    60   Input ~ 0
 HVOUT90
-Text GLabel 8100 5350 2    60   Input ~ 0
+Text GLabel 8000 5350 2    60   Input ~ 0
 HVOUT92
-Text GLabel 8100 5150 2    60   Input ~ 0
+Text GLabel 8000 5150 2    60   Input ~ 0
 HVOUT96
-Text GLabel 8100 5250 2    60   Input ~ 0
+Text GLabel 8000 5250 2    60   Input ~ 0
 HVOUT94
-Text GLabel 8100 5650 2    60   Input ~ 0
+Text GLabel 8000 5650 2    60   Input ~ 0
 HVOUT86
-Text GLabel 8100 5550 2    60   Input ~ 0
+Text GLabel 8000 5550 2    60   Input ~ 0
 HVOUT88
-Text GLabel 8100 5750 2    60   Input ~ 0
+Text GLabel 8000 5750 2    60   Input ~ 0
 HVOUT84
-Text GLabel 8100 5850 2    60   Input ~ 0
+Text GLabel 8000 5850 2    60   Input ~ 0
 HVOUT82
-Text GLabel 7400 4250 0    60   Input ~ 0
+Text GLabel 7500 4250 0    60   Input ~ 0
 HVOUT115
-Text GLabel 7400 4150 0    60   Input ~ 0
+Text GLabel 7500 4150 0    60   Input ~ 0
 HVOUT117
-Text GLabel 7400 4050 0    60   Input ~ 0
+Text GLabel 7500 4050 0    60   Input ~ 0
 HVOUT119
-Text GLabel 7400 4350 0    60   Input ~ 0
+Text GLabel 7500 4350 0    60   Input ~ 0
 HVOUT113
-Text GLabel 7400 5150 0    60   Input ~ 0
+Text GLabel 7500 5150 0    60   Input ~ 0
 HVOUT97
-Text GLabel 7400 5050 0    60   Input ~ 0
+Text GLabel 7500 5050 0    60   Input ~ 0
 HVOUT99
-Text GLabel 7400 4850 0    60   Input ~ 0
+Text GLabel 7500 4850 0    60   Input ~ 0
 HVOUT103
-Text GLabel 7400 4950 0    60   Input ~ 0
+Text GLabel 7500 4950 0    60   Input ~ 0
 HVOUT101
-Text GLabel 7400 4550 0    60   Input ~ 0
+Text GLabel 7500 4550 0    60   Input ~ 0
 HVOUT109
-Text GLabel 7400 4450 0    60   Input ~ 0
+Text GLabel 7500 4450 0    60   Input ~ 0
 HVOUT111
-Text GLabel 7400 4650 0    60   Input ~ 0
+Text GLabel 7500 4650 0    60   Input ~ 0
 HVOUT107
-Text GLabel 7400 4750 0    60   Input ~ 0
+Text GLabel 7500 4750 0    60   Input ~ 0
 HVOUT105
-Text GLabel 7400 5550 0    60   Input ~ 0
+Text GLabel 7500 5550 0    60   Input ~ 0
 HVOUT89
-Text GLabel 7400 5450 0    60   Input ~ 0
+Text GLabel 7500 5450 0    60   Input ~ 0
 HVOUT91
-Text GLabel 7400 5250 0    60   Input ~ 0
+Text GLabel 7500 5250 0    60   Input ~ 0
 HVOUT95
-Text GLabel 7400 5350 0    60   Input ~ 0
+Text GLabel 7500 5350 0    60   Input ~ 0
 HVOUT93
-Text GLabel 7400 5750 0    60   Input ~ 0
+Text GLabel 7500 5750 0    60   Input ~ 0
 HVOUT85
-Text GLabel 7400 5650 0    60   Input ~ 0
+Text GLabel 7500 5650 0    60   Input ~ 0
 HVOUT87
-Text GLabel 7400 5850 0    60   Input ~ 0
+Text GLabel 7500 5850 0    60   Input ~ 0
 HVOUT83
-Text GLabel 7400 5950 0    60   Input ~ 0
+Text GLabel 7500 5950 0    60   Input ~ 0
 HVOUT81
 Text GLabel 4250 1600 2    60   Input ~ 0
 HVGND
@@ -619,82 +619,46 @@ Text GLabel 1800 1250 2    60   Input ~ 0
 +12V
 Text GLabel 1300 1250 0    60   Input ~ 0
 GND
-$Comp
-L TFM-120-02-X-DH P7
-U 1 1 58B86F28
-P 3650 4050
-F 0 "P7" H 3850 4180 45  0000 L BNN
-F 1 "TFM-120-02-L-DH" V 4050 2750 45  0000 L BNN
-F 2 "Sci-Bots:TFM-120-02-X-DH" H 3680 4200 20  0001 C CNN
-F 3 "" H 3650 4050 60  0000 C CNN
-F 4 "TFM-120-02-L-DH" H 3650 4050 60  0001 C CNN "Mfg_Part_No"
-	1    3650 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L TFM-120-02-X-DH P3
-U 1 1 58B876C3
-P 7400 4050
-F 0 "P3" H 7600 4180 45  0000 L BNN
-F 1 "TFM-120-02-L-DH" V 7800 2850 45  0000 L BNN
-F 2 "Sci-Bots:TFM-120-02-X-DH" H 7430 4200 20  0001 C CNN
-F 3 "" H 7400 4050 60  0000 C CNN
-F 4 "TFM-120-02-L-DH" H 7400 4050 60  0001 C CNN "Mfg_Part_No"
-	1    7400 4050
-	1    0    0    -1  
-$EndComp
-Text GLabel 6200 4650 2    60   Input ~ 0
+Text GLabel 6150 4650 2    60   Input ~ 0
 HVOUT76
-Text GLabel 6200 4550 2    60   Input ~ 0
+Text GLabel 6150 4550 2    60   Input ~ 0
 HVOUT78
-Text GLabel 6200 6450 2    60   Input ~ 0
+Text GLabel 6150 6450 2    60   Input ~ 0
 HVOUT40
-Text GLabel 6200 4750 2    60   Input ~ 0
+Text GLabel 6150 4750 2    60   Input ~ 0
 HVOUT74
-Text GLabel 6200 5550 2    60   Input ~ 0
+Text GLabel 6150 5550 2    60   Input ~ 0
 HVOUT58
-Text GLabel 6200 5450 2    60   Input ~ 0
+Text GLabel 6150 5450 2    60   Input ~ 0
 HVOUT60
-Text GLabel 6200 5250 2    60   Input ~ 0
+Text GLabel 6150 5250 2    60   Input ~ 0
 HVOUT64
-Text GLabel 6200 5350 2    60   Input ~ 0
+Text GLabel 6150 5350 2    60   Input ~ 0
 HVOUT62
-Text GLabel 6200 4950 2    60   Input ~ 0
+Text GLabel 6150 4950 2    60   Input ~ 0
 HVOUT70
-Text GLabel 6200 4850 2    60   Input ~ 0
+Text GLabel 6150 4850 2    60   Input ~ 0
 HVOUT72
-Text GLabel 6200 5050 2    60   Input ~ 0
+Text GLabel 6150 5050 2    60   Input ~ 0
 HVOUT68
-Text GLabel 6200 5150 2    60   Input ~ 0
+Text GLabel 6150 5150 2    60   Input ~ 0
 HVOUT66
-Text GLabel 6200 5950 2    60   Input ~ 0
+Text GLabel 6150 5950 2    60   Input ~ 0
 HVOUT50
-Text GLabel 6200 5850 2    60   Input ~ 0
+Text GLabel 6150 5850 2    60   Input ~ 0
 HVOUT52
-Text GLabel 6200 5650 2    60   Input ~ 0
+Text GLabel 6150 5650 2    60   Input ~ 0
 HVOUT56
-Text GLabel 6200 5750 2    60   Input ~ 0
+Text GLabel 6150 5750 2    60   Input ~ 0
 HVOUT54
-Text GLabel 6200 6150 2    60   Input ~ 0
+Text GLabel 6150 6150 2    60   Input ~ 0
 HVOUT46
-Text GLabel 6200 6050 2    60   Input ~ 0
+Text GLabel 6150 6050 2    60   Input ~ 0
 HVOUT48
-Text GLabel 6200 6250 2    60   Input ~ 0
+Text GLabel 6150 6250 2    60   Input ~ 0
 HVOUT44
-Text GLabel 6200 6350 2    60   Input ~ 0
+Text GLabel 6150 6350 2    60   Input ~ 0
 HVOUT42
-$Comp
-L TFM-125-02-X-DH P5
-U 1 1 58B8BE21
-P 5500 4050
-F 0 "P5" H 5700 4180 45  0000 L BNN
-F 1 "TFM-125-02-L-DH" V 5900 2500 45  0000 L BNN
-F 2 "Sci-Bots:TFM-125-02-X-DH" H 5530 4200 20  0001 C CNN
-F 3 "" H 5500 4050 60  0000 C CNN
-F 4 "TFM-125-02-L-DH" H 5500 4050 60  0001 C CNN "Mfg_Part_No"
-	1    5500 4050
-	1    0    0    -1  
-$EndComp
 $Comp
 L CM_CHOKE L2
 U 1 1 58BBF946
@@ -791,31 +755,25 @@ Text GLabel 6150 1600 2    60   Input ~ 0
 HVGND
 Text Notes 650  4300 0    60   ~ 0
 MOUNTING HOLES
-Text GLabel 3650 6250 0    60   Input ~ 0
-GND
-Text GLabel 5500 6750 0    60   Input ~ 0
-GND
-Text GLabel 7400 6250 0    60   Input ~ 0
-GND
-Text GLabel 6200 4050 2    60   Input ~ 0
+Text GLabel 6150 4050 2    60   Input ~ 0
 CH-X1
-Text GLabel 5500 4050 0    60   Input ~ 0
+Text GLabel 5650 4050 0    60   Input ~ 0
 CH-X2
-Text GLabel 5500 4150 0    60   Input ~ 0
+Text GLabel 5650 4150 0    60   Input ~ 0
 CUR_SENSE
-Text GLabel 5500 4250 0    60   Input ~ 0
+Text GLabel 5650 4250 0    60   Input ~ 0
 GND
-Text GLabel 5500 4350 0    60   Input ~ 0
+Text GLabel 5650 4350 0    60   Input ~ 0
 SDA
-Text GLabel 5500 4450 0    60   Input ~ 0
+Text GLabel 5650 4450 0    60   Input ~ 0
 GND
-Text GLabel 6200 4150 2    60   Input ~ 0
+Text GLabel 6150 4150 2    60   Input ~ 0
 HV_OE
-Text GLabel 6200 4250 2    60   Input ~ 0
+Text GLabel 6150 4250 2    60   Input ~ 0
 SCL
-Text GLabel 6200 4350 2    60   Input ~ 0
+Text GLabel 6150 4350 2    60   Input ~ 0
 +3.3V
-Text GLabel 6200 4450 2    60   Input ~ 0
+Text GLabel 6150 4450 2    60   Input ~ 0
 +12V
 $Comp
 L R_Small R1
@@ -967,18 +925,6 @@ Wire Bus Line
 Wire Bus Line
 	6250 6650 8650 6650
 Wire Wire Line
-	5500 6650 5500 6750
-Wire Wire Line
-	5500 6750 6200 6750
-Wire Wire Line
-	6200 6750 6200 6650
-Wire Wire Line
-	7400 6150 7400 6250
-Wire Wire Line
-	8100 6150 8100 6250
-Wire Wire Line
-	8100 6250 7400 6250
-Wire Wire Line
 	1800 3450 2250 3450
 Wire Wire Line
 	2250 3450 2250 3500
@@ -991,12 +937,6 @@ Wire Wire Line
 	1050 4400 1050 4700
 Connection ~ 1050 4500
 Connection ~ 1050 4600
-Wire Wire Line
-	4350 6250 4350 6150
-Wire Wire Line
-	3650 6150 3650 6250
-Wire Wire Line
-	3650 6250 4350 6250
 Wire Wire Line
 	1800 3450 1800 3650
 Wire Wire Line
@@ -1074,7 +1014,6 @@ F 0 "P10" H 1050 3550 50  0000 C CNN
 F 1 "Conn_01x02" H 1050 3250 50  0000 C CNN
 F 2 "Connect:bornier2" H 1050 3450 50  0001 C CNN
 F 3 "" H 1050 3450 50  0001 C CNN
-F 4 "ED2609-ND" H 1050 3450 60  0001 C CNN "Mfg_Part_No"
 	1    1050 3450
 	1    0    0    -1  
 $EndComp
@@ -1179,6 +1118,42 @@ F 2 "Sci-Bots:SFM-125-02-XXX-D-A" H 7700 2400 50  0001 C CNN
 F 3 "" H 7700 2400 50  0001 C CNN
 F 4 "SFM-125-02-L-D-A" H 7700 2400 60  0001 C CNN "Mfg_Part_No"
 	1    7700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_02x20_Odd_Even P7
+U 1 1 5AA2FE34
+P 3950 4950
+F 0 "P7" H 4000 5950 50  0000 C CNN
+F 1 "TFM-120-01-L-D-RA" V 4000 4950 50  0000 C CNN
+F 2 "Sci-Bots:TFM-120-01-XXX-D-RA" H 3950 4950 50  0001 C CNN
+F 3 "" H 3950 4950 50  0001 C CNN
+F 4 "TFM-120-01-L-D-RA" H 3950 4950 60  0001 C CNN "Mfg_Part_No"
+	1    3950 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_02x20_Odd_Even P3
+U 1 1 5AA302A3
+P 7700 4950
+F 0 "P3" H 7750 5950 50  0000 C CNN
+F 1 "TFM-120-01-L-D-RA" V 7750 4950 50  0000 C CNN
+F 2 "Sci-Bots:TFM-120-01-XXX-D-RA" H 7700 4950 50  0001 C CNN
+F 3 "" H 7700 4950 50  0001 C CNN
+F 4 "TFM-120-01-L-D-RA" H 7700 4950 60  0001 C CNN "Mfg_Part_No"
+	1    7700 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_02x25_Odd_Even P5
+U 1 1 5AA30416
+P 5850 5250
+F 0 "P5" H 5900 6550 50  0000 C CNN
+F 1 "TFM-125-01-L-D-RA" V 5900 5250 50  0000 C CNN
+F 2 "Sci-Bots:TFM-125-01-XXX-D-RA" H 5850 5250 50  0001 C CNN
+F 3 "" H 5850 5250 50  0001 C CNN
+F 4 "TFM-125-01-L-D-RA" H 5850 5250 60  0001 C CNN "Mfg_Part_No"
+	1    5850 5250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
