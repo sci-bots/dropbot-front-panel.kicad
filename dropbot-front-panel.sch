@@ -37,8 +37,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "DropBot front panel"
-Date "2018-03-09"
-Rev "3.2"
+Date "2018-05-10"
+Rev "3.3"
 Comp "Sci-Bots Inc."
 Comment1 ""
 Comment2 ""
@@ -807,7 +807,7 @@ F 0 "U1" H 9505 1395 60  0000 C CNN
 F 1 "CAT24C__" H 9500 900 60  0000 C CNN
 F 2 "Housings_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 9490 1145 60  0001 C CNN
 F 3 "" H 9490 1145 60  0000 C CNN
-F 4 "CAT24C16YI-GT3" H 9500 1150 60  0001 C CNN "Mfg_Part_No"
+F 4 "M24C02-DRDW8TP/K" H 9500 1150 60  0001 C CNN "Mfg_Part_No"
 	1    9500 1150
 	1    0    0    -1  
 $EndComp
