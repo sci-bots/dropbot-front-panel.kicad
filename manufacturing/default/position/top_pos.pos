@@ -1,0 +1,23 @@
+### Module positions - created on Tue 09 Nov 2021 02:57:50  ###
+### Printed by KiBot
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref   Val                Package                       PosX       PosY       Rot        Side
+C1      0.1uF              C_0805                        48.6000    -58.6000   90.0000    top 
+C2      0.1uF              C_0805                        66.7000    -76.5000   270.0000   top 
+C3      0.1uF              C_0805                        69.0000    -76.5000   270.0000   top 
+C4      0.1uF              C_0805                        150.8000   -65.8000   90.0000    top 
+D1      10V                D_SOD-323                     67.1000    -48.3000   180.0000   top 
+JP1     JUMPER             R_0805                        145.5000   -64.6000   0.0000     top 
+JP2     JUMPER             R_0805                        132.2000   -45.0000   180.0000   top 
+JP3     A0                 R_0603                        150.1000   -77.0000   90.0000    top 
+JP4     A1                 R_0603                        151.4000   -77.0000   90.0000    top 
+JP5     A2                 R_0603                        152.7000   -77.0000   90.0000    top 
+P1      SFM-105-02-L-D-A   SFM-105-02-XXX-D-A            132.7384   -48.8495   0.0000     top 
+P2      SFM-125-02-L-D-A   SFM-125-02-XXX-D-A            122.7384   -62.4490   0.0000     top 
+P4      SFM-125-02-L-D-A   SFM-125-02-XXX-D-A            122.7384   -76.0490   0.0000     top 
+P6      SFM-125-02-L-D-A   SFM-125-02-XXX-D-A            122.7384   -89.6490   0.0000     top 
+R1      10k                R_0805                        63.8000    -48.3000   180.0000   top 
+R7      10k                R_0805                        148.5000   -69.1000   270.0000   top 
+U1      CAT24C__           TSSOP-8_4.4x3mm_Pitch0.65mm   151.4000   -71.5000   90.0000    top 
+## End
