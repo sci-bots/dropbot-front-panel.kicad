@@ -1,37 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:dropbot-front-panel-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:sci-bots
-LIBS:dropbot-front-panel-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -524,7 +492,7 @@ HVOUT81
 Text GLabel 4250 1600 2    60   Input ~ 0
 HVGND
 $Comp
-L Jumper JP1
+L Device:Jumper JP1
 U 1 1 5857598B
 P 1250 6800
 F 0 "JP1" H 1250 6950 50  0000 C CNN
@@ -540,7 +508,7 @@ GND
 Text GLabel 1550 6800 2    60   Input ~ 0
 HVGND
 $Comp
-L Jumper JP2
+L Device:Jumper JP2
 U 1 1 585759FC
 P 1250 7300
 F 0 "JP2" H 1250 7450 50  0000 C CNN
@@ -575,7 +543,7 @@ Text Notes 700  2700 0    60   ~ 0
 Text Notes 1350 6300 0    60   ~ 0
 Reset lines for the switching\nboards can be used for\nfirmware flashing.
 $Comp
-L D24V22F3 U2
+L dropbot-front-panel-rescue:D24V22F3 U2
 U 1 1 58AE01C0
 P 1500 5450
 F 0 "U2" H 1500 5690 60  0000 C CNN
@@ -600,7 +568,7 @@ Text Notes 700  5100 0    60   ~ 0
 Text Notes 600  3150 0    60   ~ 0
 POWER IN\n+12V input with reverse polarity protection and\nEMI filter.
 $Comp
-L IRF9388TRPBF Q1
+L dropbot-front-panel-rescue:IRF9388TRPBF Q1
 U 1 1 58AF05F3
 P 1500 3650
 F 0 "Q1" H 1300 3950 50  0000 L CNN
@@ -660,7 +628,7 @@ HVOUT44
 Text GLabel 6150 6350 2    60   Input ~ 0
 HVOUT42
 $Comp
-L CM_CHOKE L2
+L dropbot-front-panel-rescue:CM_CHOKE L2
 U 1 1 58BBF946
 P 2350 3550
 F 0 "L2" V 2450 3500 50  0000 L CNN
@@ -672,7 +640,7 @@ F 4 "RN242-6-02-1M8" H 2350 3550 60  0001 C CNN "Mfg_Part_No"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C1
+L Device:C_Small C1
 U 1 1 58BC095B
 P 2100 3600
 F 0 "C1" H 2110 3670 50  0000 L CNN
@@ -684,7 +652,7 @@ F 4 "CL21B104KBCNNNC" H 2100 3600 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C2
+L Device:C_Small C2
 U 1 1 58BC0DA1
 P 2450 3800
 F 0 "C2" H 2460 3870 50  0000 L CNN
@@ -696,7 +664,7 @@ F 4 "CL21B104KBCNNNC" H 2450 3800 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C3
+L Device:C_Small C3
 U 1 1 58BC0DD7
 P 2650 3800
 F 0 "C3" H 2660 3870 50  0000 L CNN
@@ -776,7 +744,7 @@ Text GLabel 6150 4350 2    60   Input ~ 0
 Text GLabel 6150 4450 2    60   Input ~ 0
 +12V
 $Comp
-L R_Small R1
+L Device:R_Small R1
 U 1 1 59B962E7
 P 1900 3900
 F 0 "R1" H 1850 3750 50  0000 L CNN
@@ -788,7 +756,7 @@ F 4 "RC0805FR-0710KL" H 1900 3900 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Zener_Small D1
+L Device:D_Zener_Small D1
 U 1 1 59B97699
 P 1900 3550
 F 0 "D1" V 1750 3550 50  0000 C CNN
@@ -800,7 +768,7 @@ F 4 "MMSZ5240BS-7-F" H 1900 3550 60  0001 C CNN "Mfg_Part_No"
 	0    1    1    0   
 $EndComp
 $Comp
-L CAT24C__ U1
+L dropbot-front-panel-rescue:CAT24C__ U1
 U 1 1 59BAE18B
 P 9500 1150
 F 0 "U1" H 9505 1395 60  0000 C CNN
@@ -816,7 +784,7 @@ Text GLabel 10200 750  0    60   Input ~ 0
 Text GLabel 9200 1300 0    60   Input ~ 0
 GND
 $Comp
-L R_Small R7
+L Device:R_Small R7
 U 1 1 59BAF290
 P 9900 1100
 F 0 "R7" V 9900 1050 50  0000 L CNN
@@ -834,7 +802,7 @@ SDA
 Text Notes 8800 750  0    60   ~ 0
 EEPROM
 $Comp
-L Jumper_NO_Small JP3
+L Device:Jumper_NO_Small JP3
 U 1 1 59C10FC7
 P 9100 1000
 F 0 "JP3" H 8900 1000 50  0000 C CNN
@@ -845,7 +813,7 @@ F 3 "" H 9100 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NO_Small JP4
+L Device:Jumper_NO_Small JP4
 U 1 1 59C11542
 P 9100 1100
 F 0 "JP4" H 8900 1100 50  0000 C CNN
@@ -856,7 +824,7 @@ F 3 "" H 9100 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NO_Small JP5
+L Device:Jumper_NO_Small JP5
 U 1 1 59C115B5
 P 9100 1200
 F 0 "JP5" H 8900 1200 50  0000 C CNN
@@ -867,7 +835,7 @@ F 3 "" H 9100 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C4
+L Device:C_Small C4
 U 1 1 59C1415F
 P 10200 950
 F 0 "C4" H 10210 1020 50  0000 L CNN
@@ -916,7 +884,6 @@ Wire Bus Line
 	550  5800 550  2850
 Wire Wire Line
 	850  3450 850  3250
-Connection ~ 1800 3650
 Connection ~ 1800 3550
 Wire Bus Line
 	3150 7700 6250 7700
@@ -925,7 +892,7 @@ Wire Bus Line
 Wire Bus Line
 	6250 6650 8650 6650
 Wire Wire Line
-	1800 3450 2250 3450
+	1800 3450 1900 3450
 Wire Wire Line
 	2250 3450 2250 3500
 Connection ~ 2100 3450
@@ -934,20 +901,20 @@ Wire Bus Line
 Wire Wire Line
 	2100 3500 2100 3450
 Wire Wire Line
-	1050 4400 1050 4700
+	1050 4400 1050 4500
 Connection ~ 1050 4500
 Connection ~ 1050 4600
 Wire Wire Line
-	1800 3450 1800 3650
+	1800 3450 1800 3550
 Wire Wire Line
-	1200 3250 1200 3750
+	1200 3250 1200 3450
 Connection ~ 1200 3550
 Connection ~ 1200 3650
 Connection ~ 1200 3450
 Wire Wire Line
 	850  3250 1200 3250
 Wire Wire Line
-	700  4000 2650 4000
+	700  4000 850  4000
 Wire Wire Line
 	850  3550 850  4000
 Connection ~ 850  4000
@@ -979,9 +946,9 @@ Wire Wire Line
 Wire Wire Line
 	9800 1000 10000 1000
 Wire Wire Line
-	10000 850  10000 1100
+	10000 850  10000 1000
 Wire Wire Line
-	9000 850  10200 850 
+	9000 850  10000 850 
 Connection ~ 10000 1000
 Wire Bus Line
 	8750 600  10450 600 
@@ -992,7 +959,7 @@ Wire Bus Line
 Wire Bus Line
 	8750 1550 8750 600 
 Wire Wire Line
-	9000 850  9000 1200
+	9000 850  9000 1000
 Connection ~ 9000 1000
 Connection ~ 9000 1100
 Wire Wire Line
@@ -1007,7 +974,7 @@ Wire Wire Line
 Wire Wire Line
 	9200 1000 9000 1000
 $Comp
-L Conn_01x02 P10
+L dropbot-front-panel-rescue:Conn_01x02 P10
 U 1 1 5AA2AFDB
 P 1050 3450
 F 0 "P10" H 1050 3550 50  0000 C CNN
@@ -1018,7 +985,7 @@ F 3 "" H 1050 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x01 P8
+L dropbot-front-panel-rescue:Conn_01x01 P8
 U 1 1 5AA2BB49
 P 850 4400
 F 0 "P8" H 1000 4400 50  0000 C CNN
@@ -1029,7 +996,7 @@ F 3 "" H 850 4400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Conn_01x01 P13
+L dropbot-front-panel-rescue:Conn_01x01 P13
 U 1 1 5AA2BDB3
 P 850 4500
 F 0 "P13" H 1000 4500 50  0000 C CNN
@@ -1040,7 +1007,7 @@ F 3 "" H 850 4500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Conn_01x01 P14
+L dropbot-front-panel-rescue:Conn_01x01 P14
 U 1 1 5AA2BEC2
 P 850 4600
 F 0 "P14" H 1000 4600 50  0000 C CNN
@@ -1051,7 +1018,7 @@ F 3 "" H 850 4600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Conn_01x01 P15
+L dropbot-front-panel-rescue:Conn_01x01 P15
 U 1 1 5AA2BF2D
 P 850 4700
 F 0 "P15" H 1000 4700 50  0000 C CNN
@@ -1062,7 +1029,7 @@ F 3 "" H 850 4700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Conn_01x03 P9
+L dropbot-front-panel-rescue:Conn_01x03 P9
 U 1 1 5AA2CB24
 P 1150 6250
 F 0 "P9" H 1150 6450 50  0000 C CNN
@@ -1073,7 +1040,7 @@ F 3 "" H 1150 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x05_Odd_Even P1
+L dropbot-front-panel-rescue:Conn_02x05_Odd_Even P1
 U 1 1 5AA2D537
 P 1500 1150
 F 0 "P1" H 1550 1450 50  0000 C CNN
@@ -1085,7 +1052,7 @@ F 4 "SFM-105-02-L-D-A" H 1500 1150 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x25_Odd_Even P6
+L dropbot-front-panel-rescue:Conn_02x25_Odd_Even P6
 U 1 1 5AA2DAFD
 P 3950 2400
 F 0 "P6" H 4000 3700 50  0000 C CNN
@@ -1097,7 +1064,7 @@ F 4 "SFM-125-02-L-D-A" H 3950 2400 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x25_Odd_Even P4
+L dropbot-front-panel-rescue:Conn_02x25_Odd_Even P4
 U 1 1 5AA2E2A4
 P 5850 2400
 F 0 "P4" H 5900 3700 50  0000 C CNN
@@ -1109,7 +1076,7 @@ F 4 "SFM-125-02-L-D-A" H 5850 2400 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x25_Odd_Even P2
+L dropbot-front-panel-rescue:Conn_02x25_Odd_Even P2
 U 1 1 5AA2E35C
 P 7700 2400
 F 0 "P2" H 7750 3700 50  0000 C CNN
@@ -1121,7 +1088,7 @@ F 4 "SFM-125-02-L-D-A" H 7700 2400 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x20_Odd_Even P7
+L dropbot-front-panel-rescue:Conn_02x20_Odd_Even P7
 U 1 1 5AA2FE34
 P 3950 4950
 F 0 "P7" H 4000 5950 50  0000 C CNN
@@ -1133,7 +1100,7 @@ F 4 "TFM-120-01-L-D-RA" H 3950 4950 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x20_Odd_Even P3
+L dropbot-front-panel-rescue:Conn_02x20_Odd_Even P3
 U 1 1 5AA302A3
 P 7700 4950
 F 0 "P3" H 7750 5950 50  0000 C CNN
@@ -1145,7 +1112,7 @@ F 4 "TFM-120-01-L-D-RA" H 7700 4950 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x25_Odd_Even P5
+L dropbot-front-panel-rescue:Conn_02x25_Odd_Even P5
 U 1 1 5AA30416
 P 5850 5250
 F 0 "P5" H 5900 6550 50  0000 C CNN
@@ -1156,4 +1123,38 @@ F 4 "TFM-125-01-L-D-RA" H 5850 5250 60  0001 C CNN "Mfg_Part_No"
 	1    5850 5250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1800 3550 1800 3650
+Wire Wire Line
+	2100 3450 2250 3450
+Wire Wire Line
+	1050 4500 1050 4600
+Wire Wire Line
+	1050 4600 1050 4700
+Wire Wire Line
+	1200 3550 1200 3650
+Wire Wire Line
+	1200 3650 1200 3750
+Wire Wire Line
+	1200 3450 1200 3550
+Wire Wire Line
+	850  4000 1900 4000
+Wire Wire Line
+	2450 4000 2650 4000
+Wire Wire Line
+	1900 3450 2100 3450
+Wire Wire Line
+	1900 4000 2100 4000
+Wire Wire Line
+	2100 4000 2250 4000
+Wire Wire Line
+	2250 4000 2450 4000
+Wire Wire Line
+	10000 1000 10000 1100
+Wire Wire Line
+	9000 1000 9000 1100
+Wire Wire Line
+	9000 1100 9000 1200
+Wire Wire Line
+	10000 850  10200 850 
 $EndSCHEMATC
