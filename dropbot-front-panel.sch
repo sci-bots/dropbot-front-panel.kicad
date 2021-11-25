@@ -13,6 +13,383 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L Device:Jumper JP1
+U 1 1 5857598B
+P 1250 6800
+F 0 "JP1" H 1250 6950 50 0000 C CNN
+F 1 "JUMPER" H 1250 6720 50 0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 1250 6800 50 0001 C CNN
+F 3 "" H 1250 6800 50 0000 C CNN
+F 4 "RC0805JR-070RL" H 1250 7050 50 0001 C CNN "MPN"
+F 5 "Yageo" H 1250 7050 50 0001 C CNN "Manufacturer"
+	1    1250 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP2
+U 1 1 585759FC
+P 1250 7300
+F 0 "JP2" H 1250 7450 50 0000 C CNN
+F 1 "JUMPER" H 1250 7220 50 0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 1250 7300 50 0001 C CNN
+F 3 "" H 1250 7300 50 0000 C CNN
+F 4 "DNP" H 1250 7550 50 0001 C CNN "MPN"
+F 5 "DNP" H 1250 7550 50 0001 C CNN "Manufacturer"
+	1    1250 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L dropbot-front-panel-rescue:D24V22F3 U2
+U 1 1 58AE01C0
+P 1500 5450
+F 0 "U2" H 1500 5690 60 0000 C CNN
+F 1 "D24V22F3" H 1500 5205 60 0000 C CNN
+F 2 "Sci-Bots:D24V22F" H 1500 5450 60 0001 C CNN
+F 3 "" H 1500 5450 60 0000 C CNN
+F 4 "D24V22F3" H 1500 5790 50 0001 C CNN "MPN"
+F 5 "Pololu" H 1500 5790 50 0001 C CNN "Manufacturer"
+	1    1500 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L dropbot-front-panel-rescue:IRF9388TRPBF Q1
+U 1 1 58AF05F3
+P 1500 3650
+F 0 "Q1" H 1300 3950 50 0000 L CNN
+F 1 "IRF9388TRPBF" H 1300 3400 50 0000 L CNN
+F 2 "Power_Integrations:SO-8" H 1500 4100 50 0001 C CIN
+F 3 "" V 1500 3650 50 0000 L CNN
+F 4 "IRF9388TRPBF" H 1300 4050 50 0001 C CNN "MPN"
+F 5 "Infineon" H 1300 4050 50 0001 C CNN "Manufacturer"
+	1    1500 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L dropbot-front-panel-rescue:CM_CHOKE L2
+U 1 1 58BBF946
+P 2350 3550
+F 0 "L2" V 2450 3500 50 0000 L CNN
+F 1 "1.8mH" V 2550 3450 50 0000 L CNN
+F 2 "Sci-Bots:RN242-X-02-XXX" H 2400 3550 50 0001 C CNN
+F 3 "" H 2400 3550 50 0000 C CNN
+F 4 "RN242-6-02-1M8" H 2450 3600 50 0001 C CNN "MPN"
+F 5 "Schaffner" H 2450 3600 50 0001 C CNN "Manufacturer"
+	1    2350 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 58BC095B
+P 2100 3600
+F 0 "C1" H 2110 3670 50 0000 L CNN
+F 1 "0.1uF" V 2150 3350 50 0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2100 3600 50 0001 C CNN
+F 3 "" H 2100 3600 50 0000 C CNN
+F 4 "CL21B104KBCNNNC" H 2110 3770 50 0001 C CNN "MPN"
+F 5 "Samsung" H 2110 3770 50 0001 C CNN "Manufacturer"
+	1    2100 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 58BC0DA1
+P 2450 3800
+F 0 "C2" H 2460 3870 50 0000 L CNN
+F 1 "0.1uF" V 2350 3650 50 0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2450 3800 50 0001 C CNN
+F 3 "" H 2450 3800 50 0000 C CNN
+F 4 "CL21B104KBCNNNC" H 2460 3970 50 0001 C CNN "MPN"
+F 5 "Samsung" H 2460 3970 50 0001 C CNN "Manufacturer"
+	1    2450 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 58BC0DD7
+P 2650 3800
+F 0 "C3" H 2660 3870 50 0000 L CNN
+F 1 "0.1uF" H 2750 3800 50 0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2650 3800 50 0001 C CNN
+F 3 "" H 2650 3800 50 0000 C CNN
+F 4 "CL21B104KBCNNNC" H 2660 3970 50 0001 C CNN "MPN"
+F 5 "Samsung" H 2660 3970 50 0001 C CNN "Manufacturer"
+	1    2650 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 59B962E7
+P 1900 3900
+F 0 "R1" H 1850 3750 50 0000 L CNN
+F 1 "10k" V 2000 3850 50 0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 1900 3900 50 0001 C CNN
+F 3 "" H 1900 3900 50 0001 C CNN
+F 4 "RC0805FR-0710KL" H 1850 3850 50 0001 C CNN "MPN"
+F 5 "Yageo" H 1850 3850 50 0001 C CNN "Manufacturer"
+	1    1900 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Zener_Small D1
+U 1 1 59B97699
+P 1900 3550
+F 0 "D1" V 1750 3550 50 0000 C CNN
+F 1 "10V" H 1900 3650 50 0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323" V 1900 3550 50 0001 C CNN
+F 3 "" V 1900 3550 50 0001 C CNN
+F 4 "MMSZ5240BS-7-F" H 1750 3650 50 0001 C CNN "MPN"
+F 5 "Diodes Inc." H 1750 3650 50 0001 C CNN "Manufacturer"
+	1    1900 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L dropbot-front-panel-rescue:CAT24C__ U1
+U 1 1 59BAE18B
+P 9500 1150
+F 0 "U1" H 9505 1395 60 0000 C CNN
+F 1 "CAT24C__" H 9500 900 60 0000 C CNN
+F 2 "Housings_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 9490 1145 60 0001 C CNN
+F 3 "" H 9490 1145 60 0000 C CNN
+F 4 "M24C02-DRDW8TP/K" H 9505 1495 50 0001 C CNN "MPN"
+F 5 "STMicroelectronics" H 9505 1495 50 0001 C CNN "Manufacturer"
+	1    9500 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R7
+U 1 1 59BAF290
+P 9900 1100
+F 0 "R7" V 9900 1050 50 0000 L CNN
+F 1 "10k" V 9900 1250 50 0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 9900 1100 50 0001 C CNN
+F 3 "" H 9900 1100 50 0001 C CNN
+F 4 "RC0805FR-0710KL" H 9900 1150 50 0001 C CNN "MPN"
+F 5 "Yageo" H 9900 1150 50 0001 C CNN "Manufacturer"
+	1    9900 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP3
+U 1 1 59C10FC7
+P 9100 1000
+F 0 "JP3" H 8900 1000 50 0000 C CNN
+F 1 "A0" H 8850 1000 50 0001 C CNN
+F 2 "Resistors_SMD:R_0603" H 9100 1000 50 0001 C CNN
+F 3 "" H 9100 1000 50 0001 C CNN
+F 4 "DNP" H 8900 1100 50 0001 C CNN "MPN"
+F 5 "DNP" H 8900 1100 50 0001 C CNN "Manufacturer"
+	1    9100 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP4
+U 1 1 59C11542
+P 9100 1100
+F 0 "JP4" H 8900 1100 50 0000 C CNN
+F 1 "A1" H 8850 1100 50 0001 C CNN
+F 2 "Resistors_SMD:R_0603" H 9100 1100 50 0001 C CNN
+F 3 "" H 9100 1100 50 0001 C CNN
+F 4 "DNP" H 8900 1200 50 0001 C CNN "MPN"
+F 5 "DNP" H 8900 1200 50 0001 C CNN "Manufacturer"
+	1    9100 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP5
+U 1 1 59C115B5
+P 9100 1200
+F 0 "JP5" H 8900 1200 50 0000 C CNN
+F 1 "A2" H 8850 1200 50 0001 C CNN
+F 2 "Resistors_SMD:R_0603" H 9100 1200 50 0001 C CNN
+F 3 "" H 9100 1200 50 0001 C CNN
+F 4 "DNP" H 8900 1300 50 0001 C CNN "MPN"
+F 5 "DNP" H 8900 1300 50 0001 C CNN "Manufacturer"
+	1    9100 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 59C1415F
+P 10200 950
+F 0 "C4" H 10210 1020 50 0000 L CNN
+F 1 "0.1uF" V 10250 700 50 0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 10200 950 50 0001 C CNN
+F 3 "" H 10200 950 50 0000 C CNN
+F 4 "CL21B104KBCNNNC" H 10210 1120 50 0001 C CNN "MPN"
+F 5 "Samsung" H 10210 1120 50 0001 C CNN "Manufacturer"
+	1    10200 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L dropbot-front-panel-rescue:Conn_01x02 P10
+U 1 1 5AA2AFDB
+P 1050 3450
+F 0 "P10" H 1050 3550 50 0000 C CNN
+F 1 "Conn_01x02" H 1050 3250 50 0000 C CNN
+F 2 "Connect:bornier2" H 1050 3450 50 0001 C CNN
+F 3 "" H 1050 3450 50 0001 C CNN
+F 4 "DNP" H 1050 3650 50 0001 C CNN "MPN"
+F 5 "DNP" H 1050 3650 50 0001 C CNN "Manufacturer"
+	1    1050 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L dropbot-front-panel-rescue:Conn_01x01 P8
+U 1 1 5AA2BB49
+P 850 4400
+F 0 "P8" H 1000 4400 50 0000 C CNN
+F 1 "Conn_01x01" H 1200 4400 50 0001 C CNN
+F 2 "Connect:1pin" H 850 4400 50 0001 C CNN
+F 3 "" H 850 4400 50 0001 C CNN
+F 4 "SFM-125-02-L-D-A" H 1000 4500 50 0001 C CNN "MPN"
+F 5 "Samtec" H 1000 4500 50 0001 C CNN "Manufacturer"
+	1    850  4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L dropbot-front-panel-rescue:Conn_01x01 P13
+U 1 1 5AA2BDB3
+P 850 4500
+F 0 "P13" H 1000 4500 50 0000 C CNN
+F 1 "Conn_01x01" H 850 4400 50 0001 C CNN
+F 2 "Connect:1pin" H 850 4500 50 0001 C CNN
+F 3 "" H 850 4500 50 0001 C CNN
+F 4 "SFM-125-02-L-D-A" H 1000 4600 50 0001 C CNN "MPN"
+F 5 "Samtec" H 1000 4600 50 0001 C CNN "Manufacturer"
+	1    850  4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L dropbot-front-panel-rescue:Conn_01x01 P14
+U 1 1 5AA2BEC2
+P 850 4600
+F 0 "P14" H 1000 4600 50 0000 C CNN
+F 1 "Conn_01x01" H 850 4500 50 0001 C CNN
+F 2 "Connect:1pin" H 850 4600 50 0001 C CNN
+F 3 "" H 850 4600 50 0001 C CNN
+F 4 "SFM-125-02-L-D-A" H 1000 4700 50 0001 C CNN "MPN"
+F 5 "Samtec" H 1000 4700 50 0001 C CNN "Manufacturer"
+	1    850  4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L dropbot-front-panel-rescue:Conn_01x01 P15
+U 1 1 5AA2BF2D
+P 850 4700
+F 0 "P15" H 1000 4700 50 0000 C CNN
+F 1 "Conn_01x01" H 850 4600 50 0001 C CNN
+F 2 "Connect:1pin" H 850 4700 50 0001 C CNN
+F 3 "" H 850 4700 50 0001 C CNN
+F 4 "SFM-125-02-L-D-A" H 1000 4800 50 0001 C CNN "MPN"
+F 5 "Samtec" H 1000 4800 50 0001 C CNN "Manufacturer"
+	1    850  4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L dropbot-front-panel-rescue:Conn_01x03 P9
+U 1 1 5AA2CB24
+P 1150 6250
+F 0 "P9" H 1150 6450 50 0000 C CNN
+F 1 "Conn_01x03" H 1150 6050 50 0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 1150 6250 50 0001 C CNN
+F 3 "" H 1150 6250 50 0001 C CNN
+F 4 "DNP" H 1150 6550 50 0001 C CNN "MPN"
+F 5 "DNP" H 1150 6550 50 0001 C CNN "Manufacturer"
+	1    1150 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L dropbot-front-panel-rescue:Conn_02x05_Odd_Even P1
+U 1 1 5AA2D537
+P 1500 1150
+F 0 "P1" H 1550 1450 50 0000 C CNN
+F 1 "SFM-105-02-L-D-A" H 1550 850 50 0000 C CNN
+F 2 "Sci-Bots:SFM-105-02-XXX-D-A" H 1500 1150 50 0001 C CNN
+F 3 "" H 1500 1150 50 0001 C CNN
+F 4 "SFM-105-02-L-D-A" H 1550 1550 50 0001 C CNN "MPN"
+F 5 "Samtec" H 1550 1550 50 0001 C CNN "Manufacturer"
+	1    1500 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dropbot-front-panel-rescue:Conn_02x25_Odd_Even P6
+U 1 1 5AA2DAFD
+P 3950 2400
+F 0 "P6" H 4000 3700 50 0000 C CNN
+F 1 "SFM-125-02-L-D-A" V 4000 2400 50 0000 C CNN
+F 2 "Sci-Bots:SFM-125-02-XXX-D-A" H 3950 2400 50 0001 C CNN
+F 3 "" H 3950 2400 50 0001 C CNN
+F 4 "TFM-120-01-L-D-RA" H 4000 3800 50 0001 C CNN "MPN"
+F 5 "Samtec" H 4000 3800 50 0001 C CNN "Manufacturer"
+	1    3950 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L dropbot-front-panel-rescue:Conn_02x25_Odd_Even P4
+U 1 1 5AA2E2A4
+P 5850 2400
+F 0 "P4" H 5900 3700 50 0000 C CNN
+F 1 "SFM-125-02-L-D-A" V 5900 2400 50 0000 C CNN
+F 2 "Sci-Bots:SFM-125-02-XXX-D-A" H 5850 2400 50 0001 C CNN
+F 3 "" H 5850 2400 50 0001 C CNN
+F 4 "TFM-120-01-L-D-RA" H 5900 3800 50 0001 C CNN "MPN"
+F 5 "Samtec" H 5900 3800 50 0001 C CNN "Manufacturer"
+	1    5850 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L dropbot-front-panel-rescue:Conn_02x25_Odd_Even P2
+U 1 1 5AA2E35C
+P 7700 2400
+F 0 "P2" H 7750 3700 50 0000 C CNN
+F 1 "SFM-125-02-L-D-A" V 7750 2400 50 0000 C CNN
+F 2 "Sci-Bots:SFM-125-02-XXX-D-A" H 7700 2400 50 0001 C CNN
+F 3 "" H 7700 2400 50 0001 C CNN
+F 4 "TFM-120-01-L-D-RA" H 7750 3800 50 0001 C CNN "MPN"
+F 5 "Samtec" H 7750 3800 50 0001 C CNN "Manufacturer"
+	1    7700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L dropbot-front-panel-rescue:Conn_02x20_Odd_Even P7
+U 1 1 5AA2FE34
+P 3950 4950
+F 0 "P7" H 4000 5950 50 0000 C CNN
+F 1 "TFM-120-01-L-D-RA" V 4000 4950 50 0000 C CNN
+F 2 "Sci-Bots:TFM-120-01-XXX-D-RA" H 3950 4950 50 0001 C CNN
+F 3 "" H 3950 4950 50 0001 C CNN
+F 4 "TFM-125-01-L-D-RA" H 4000 6050 50 0001 C CNN "MPN"
+F 5 "Samtec" H 4000 6050 50 0001 C CNN "Manufacturer"
+	1    3950 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L dropbot-front-panel-rescue:Conn_02x20_Odd_Even P3
+U 1 1 5AA302A3
+P 7700 4950
+F 0 "P3" H 7750 5950 50 0000 C CNN
+F 1 "TFM-120-01-L-D-RA" V 7750 4950 50 0000 C CNN
+F 2 "Sci-Bots:TFM-120-01-XXX-D-RA" H 7700 4950 50 0001 C CNN
+F 3 "" H 7700 4950 50 0001 C CNN
+F 4 "TFM-125-01-L-D-RA" H 7750 6050 50 0001 C CNN "MPN"
+F 5 "Samtec" H 7750 6050 50 0001 C CNN "Manufacturer"
+	1    7700 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L dropbot-front-panel-rescue:Conn_02x25_Odd_Even P5
+U 1 1 5AA30416
+P 5850 5250
+F 0 "P5" H 5900 6550 50 0000 C CNN
+F 1 "TFM-125-01-L-D-RA" V 5900 5250 50 0000 C CNN
+F 2 "Sci-Bots:TFM-125-01-XXX-D-RA" H 5850 5250 50 0001 C CNN
+F 3 "" H 5850 5250 50 0001 C CNN
+F 4 "DNP" H 5900 6650 50 0001 C CNN "MPN"
+F 5 "DNP" H 5900 6650 50 0001 C CNN "Manufacturer"
+	1    5850 5250
+	1    0    0    -1  
+$EndComp
 Text Notes 700  750  0    60   ~ 0
 CONTROL BOARD EDGE CONNECTOR
 Text GLabel 1800 950  2    60   Input ~ 0
@@ -491,33 +868,10 @@ Text GLabel 7500 5950 0    60   Input ~ 0
 HVOUT81
 Text GLabel 4250 1600 2    60   Input ~ 0
 HVGND
-$Comp
-L Device:Jumper JP1
-U 1 1 5857598B
-P 1250 6800
-F 0 "JP1" H 1250 6950 50  0000 C CNN
-F 1 "JUMPER" H 1250 6720 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" H 1250 6800 50  0001 C CNN
-F 3 "" H 1250 6800 50  0000 C CNN
-F 4 "RC0805JR-070RL" H 1250 6800 60  0001 C CNN "Mfg_Part_No"
-	1    1250 6800
-	1    0    0    -1  
-$EndComp
 Text GLabel 950  6800 0    60   Input ~ 0
 GND
 Text GLabel 1550 6800 2    60   Input ~ 0
 HVGND
-$Comp
-L Device:Jumper JP2
-U 1 1 585759FC
-P 1250 7300
-F 0 "JP2" H 1250 7450 50  0000 C CNN
-F 1 "JUMPER" H 1250 7220 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" H 1250 7300 50  0001 C CNN
-F 3 "" H 1250 7300 50  0000 C CNN
-	1    1250 7300
-	1    0    0    -1  
-$EndComp
 Text GLabel 950  7300 0    60   Input ~ 0
 GND
 Text GLabel 1800 1150 2    60   Input ~ 0
@@ -542,23 +896,10 @@ Text Notes 700  2700 0    60   ~ 0
 +12 V power is provided by a DC power brick.\n+3.3V power is obtained using a step-down\n(buck) regulator.\n\nThe control board generates a bipolar square\nwave up to 150 Vrms (frequency = 100 Hz to\n10 kHz) with a boost converter that uses the\n+12 V source as input. It communicates\nwith the computer over USB/serial and with\nthe HV switching boards over i2c.\n\nIt also measures the return current from the\ndevice (CUR_SENSE).
 Text Notes 1350 6300 0    60   ~ 0
 Reset lines for the switching\nboards can be used for\nfirmware flashing.
-$Comp
-L dropbot-front-panel-rescue:D24V22F3 U2
-U 1 1 58AE01C0
-P 1500 5450
-F 0 "U2" H 1500 5690 60  0000 C CNN
-F 1 "D24V22F3" H 1500 5205 60  0000 C CNN
-F 2 "Sci-Bots:D24V22F" H 1500 5450 60  0001 C CNN
-F 3 "" H 1500 5450 60  0000 C CNN
-	1    1500 5450
-	1    0    0    -1  
-$EndComp
 Text GLabel 1000 5500 0    60   Input ~ 0
 +12V
 Text GLabel 1000 5600 0    60   Input ~ 0
 GND
-NoConn ~ 1000 5300
-NoConn ~ 1000 5400
 Text GLabel 2000 5500 2    60   Input ~ 0
 +3.3V
 Text GLabel 1200 3250 2    60   Input ~ 0
@@ -567,18 +908,6 @@ Text Notes 700  5100 0    60   ~ 0
 3.3V POWER REGULATOR
 Text Notes 600  3150 0    60   ~ 0
 POWER IN\n+12V input with reverse polarity protection and\nEMI filter.
-$Comp
-L dropbot-front-panel-rescue:IRF9388TRPBF Q1
-U 1 1 58AF05F3
-P 1500 3650
-F 0 "Q1" H 1300 3950 50  0000 L CNN
-F 1 "IRF9388TRPBF" H 1300 3400 50  0000 L CNN
-F 2 "Power_Integrations:SO-8" H 1500 4100 50  0001 C CIN
-F 3 "" V 1500 3650 50  0000 L CNN
-F 4 "IRF9388TRPBF" H 1500 3650 60  0001 C CNN "Mfg_Part_No"
-	1    1500 3650
-	-1   0    0    -1  
-$EndComp
 Text GLabel 2650 3500 2    60   Input ~ 0
 +12V
 Text GLabel 2000 5400 2    60   Input ~ 0
@@ -627,54 +956,6 @@ Text GLabel 6150 6250 2    60   Input ~ 0
 HVOUT44
 Text GLabel 6150 6350 2    60   Input ~ 0
 HVOUT42
-$Comp
-L dropbot-front-panel-rescue:CM_CHOKE L2
-U 1 1 58BBF946
-P 2350 3550
-F 0 "L2" V 2450 3500 50  0000 L CNN
-F 1 "1.8mH" V 2550 3450 50  0000 L CNN
-F 2 "Sci-Bots:RN242-X-02-XXX" H 2400 3550 50  0001 C CNN
-F 3 "" H 2400 3550 50  0000 C CNN
-F 4 "RN242-6-02-1M8" H 2350 3550 60  0001 C CNN "Mfg_Part_No"
-	1    2350 3550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C1
-U 1 1 58BC095B
-P 2100 3600
-F 0 "C1" H 2110 3670 50  0000 L CNN
-F 1 "0.1uF" V 2150 3350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 2100 3600 50  0001 C CNN
-F 3 "" H 2100 3600 50  0000 C CNN
-F 4 "CL21B104KBCNNNC" H 2100 3600 60  0001 C CNN "Mfg_Part_No"
-	1    2100 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C2
-U 1 1 58BC0DA1
-P 2450 3800
-F 0 "C2" H 2460 3870 50  0000 L CNN
-F 1 "0.1uF" V 2350 3650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 2450 3800 50  0001 C CNN
-F 3 "" H 2450 3800 50  0000 C CNN
-F 4 "CL21B104KBCNNNC" H 2450 3800 60  0001 C CNN "Mfg_Part_No"
-	1    2450 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C3
-U 1 1 58BC0DD7
-P 2650 3800
-F 0 "C3" H 2660 3870 50  0000 L CNN
-F 1 "0.1uF" H 2750 3800 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 2650 3800 50  0001 C CNN
-F 3 "" H 2650 3800 50  0000 C CNN
-F 4 "CL21B104KBCNNNC" H 2650 3800 60  0001 C CNN "Mfg_Part_No"
-	1    2650 3800
-	1    0    0    -1  
-$EndComp
 Text GLabel 700  4000 1    60   Input ~ 0
 CHASIS_GND
 Text GLabel 2700 3600 2    60   Input ~ 0
@@ -743,109 +1024,16 @@ Text GLabel 6150 4350 2    60   Input ~ 0
 +3.3V
 Text GLabel 6150 4450 2    60   Input ~ 0
 +12V
-$Comp
-L Device:R_Small R1
-U 1 1 59B962E7
-P 1900 3900
-F 0 "R1" H 1850 3750 50  0000 L CNN
-F 1 "10k" V 2000 3850 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" H 1900 3900 50  0001 C CNN
-F 3 "" H 1900 3900 50  0001 C CNN
-F 4 "RC0805FR-0710KL" H 1900 3900 60  0001 C CNN "Mfg_Part_No"
-	1    1900 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Zener_Small D1
-U 1 1 59B97699
-P 1900 3550
-F 0 "D1" V 1750 3550 50  0000 C CNN
-F 1 "10V" H 1900 3650 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-323" V 1900 3550 50  0001 C CNN
-F 3 "" V 1900 3550 50  0001 C CNN
-F 4 "MMSZ5240BS-7-F" H 1900 3550 60  0001 C CNN "Mfg_Part_No"
-	1    1900 3550
-	0    1    1    0   
-$EndComp
-$Comp
-L dropbot-front-panel-rescue:CAT24C__ U1
-U 1 1 59BAE18B
-P 9500 1150
-F 0 "U1" H 9505 1395 60  0000 C CNN
-F 1 "CAT24C__" H 9500 900 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 9490 1145 60  0001 C CNN
-F 3 "" H 9490 1145 60  0000 C CNN
-F 4 "M24C02-DRDW8TP/K" H 9500 1150 60  0001 C CNN "Mfg_Part_No"
-	1    9500 1150
-	1    0    0    -1  
-$EndComp
 Text GLabel 10200 750  0    60   Input ~ 0
 +3.3V
 Text GLabel 9200 1300 0    60   Input ~ 0
 GND
-$Comp
-L Device:R_Small R7
-U 1 1 59BAF290
-P 9900 1100
-F 0 "R7" V 9900 1050 50  0000 L CNN
-F 1 "10k" V 9900 1250 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" H 9900 1100 50  0001 C CNN
-F 3 "" H 9900 1100 50  0001 C CNN
-F 4 "RC0805FR-0710KL" H 9900 1100 60  0001 C CNN "Mfg_Part_No"
-	1    9900 1100
-	0    1    1    0   
-$EndComp
 Text GLabel 9800 1200 2    60   Input ~ 0
 SCL
 Text GLabel 9800 1300 2    60   Input ~ 0
 SDA
 Text Notes 8800 750  0    60   ~ 0
 EEPROM
-$Comp
-L Device:Jumper_NO_Small JP3
-U 1 1 59C10FC7
-P 9100 1000
-F 0 "JP3" H 8900 1000 50  0000 C CNN
-F 1 "A0" H 8850 1000 50  0001 C CNN
-F 2 "Resistors_SMD:R_0603" H 9100 1000 50  0001 C CNN
-F 3 "" H 9100 1000 50  0001 C CNN
-	1    9100 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper_NO_Small JP4
-U 1 1 59C11542
-P 9100 1100
-F 0 "JP4" H 8900 1100 50  0000 C CNN
-F 1 "A1" H 8850 1100 50  0001 C CNN
-F 2 "Resistors_SMD:R_0603" H 9100 1100 50  0001 C CNN
-F 3 "" H 9100 1100 50  0001 C CNN
-	1    9100 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper_NO_Small JP5
-U 1 1 59C115B5
-P 9100 1200
-F 0 "JP5" H 8900 1200 50  0000 C CNN
-F 1 "A2" H 8850 1200 50  0001 C CNN
-F 2 "Resistors_SMD:R_0603" H 9100 1200 50  0001 C CNN
-F 3 "" H 9100 1200 50  0001 C CNN
-	1    9100 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C4
-U 1 1 59C1415F
-P 10200 950
-F 0 "C4" H 10210 1020 50  0000 L CNN
-F 1 "0.1uF" V 10250 700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 10200 950 50  0001 C CNN
-F 3 "" H 10200 950 50  0000 C CNN
-F 4 "CL21B104KBCNNNC" H 10200 950 60  0001 C CNN "Mfg_Part_No"
-	1    10200 950 
-	1    0    0    -1  
-$EndComp
 Wire Bus Line
 	550  2750 3050 2750
 Wire Bus Line
@@ -884,7 +1072,6 @@ Wire Bus Line
 	550  5800 550  2850
 Wire Wire Line
 	850  3450 850  3250
-Connection ~ 1800 3550
 Wire Bus Line
 	3150 7700 6250 7700
 Wire Bus Line
@@ -895,38 +1082,26 @@ Wire Wire Line
 	1800 3450 1900 3450
 Wire Wire Line
 	2250 3450 2250 3500
-Connection ~ 2100 3450
 Wire Bus Line
 	3050 5800 550  5800
 Wire Wire Line
 	2100 3500 2100 3450
 Wire Wire Line
 	1050 4400 1050 4500
-Connection ~ 1050 4500
-Connection ~ 1050 4600
 Wire Wire Line
 	1800 3450 1800 3550
 Wire Wire Line
 	1200 3250 1200 3450
-Connection ~ 1200 3550
-Connection ~ 1200 3650
-Connection ~ 1200 3450
 Wire Wire Line
 	850  3250 1200 3250
 Wire Wire Line
 	700  4000 850  4000
 Wire Wire Line
 	850  3550 850  4000
-Connection ~ 850  4000
-Connection ~ 2450 4000
 Wire Wire Line
 	2100 4000 2100 3700
-Connection ~ 1900 3450
-Connection ~ 1900 4000
-Connection ~ 2100 4000
 Wire Wire Line
 	2250 4000 2250 3600
-Connection ~ 2250 4000
 Wire Wire Line
 	1800 3800 1900 3800
 Wire Wire Line
@@ -949,7 +1124,6 @@ Wire Wire Line
 	10000 850  10000 1000
 Wire Wire Line
 	9000 850  10000 850 
-Connection ~ 10000 1000
 Wire Bus Line
 	8750 600  10450 600 
 Wire Bus Line
@@ -960,11 +1134,8 @@ Wire Bus Line
 	8750 1550 8750 600 
 Wire Wire Line
 	9000 850  9000 1000
-Connection ~ 9000 1000
-Connection ~ 9000 1100
 Wire Wire Line
 	10200 850  10200 750 
-Connection ~ 10000 850 
 Wire Wire Line
 	10200 1050 10200 1500
 Wire Wire Line
@@ -973,156 +1144,6 @@ Wire Wire Line
 	9200 1500 9200 1300
 Wire Wire Line
 	9200 1000 9000 1000
-$Comp
-L dropbot-front-panel-rescue:Conn_01x02 P10
-U 1 1 5AA2AFDB
-P 1050 3450
-F 0 "P10" H 1050 3550 50  0000 C CNN
-F 1 "Conn_01x02" H 1050 3250 50  0000 C CNN
-F 2 "Connect:bornier2" H 1050 3450 50  0001 C CNN
-F 3 "" H 1050 3450 50  0001 C CNN
-	1    1050 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L dropbot-front-panel-rescue:Conn_01x01 P8
-U 1 1 5AA2BB49
-P 850 4400
-F 0 "P8" H 1000 4400 50  0000 C CNN
-F 1 "Conn_01x01" H 1200 4400 50  0001 C CNN
-F 2 "Connect:1pin" H 850 4400 50  0001 C CNN
-F 3 "" H 850 4400 50  0001 C CNN
-	1    850  4400
-	-1   0    0    1   
-$EndComp
-$Comp
-L dropbot-front-panel-rescue:Conn_01x01 P13
-U 1 1 5AA2BDB3
-P 850 4500
-F 0 "P13" H 1000 4500 50  0000 C CNN
-F 1 "Conn_01x01" H 850 4400 50  0001 C CNN
-F 2 "Connect:1pin" H 850 4500 50  0001 C CNN
-F 3 "" H 850 4500 50  0001 C CNN
-	1    850  4500
-	-1   0    0    1   
-$EndComp
-$Comp
-L dropbot-front-panel-rescue:Conn_01x01 P14
-U 1 1 5AA2BEC2
-P 850 4600
-F 0 "P14" H 1000 4600 50  0000 C CNN
-F 1 "Conn_01x01" H 850 4500 50  0001 C CNN
-F 2 "Connect:1pin" H 850 4600 50  0001 C CNN
-F 3 "" H 850 4600 50  0001 C CNN
-	1    850  4600
-	-1   0    0    1   
-$EndComp
-$Comp
-L dropbot-front-panel-rescue:Conn_01x01 P15
-U 1 1 5AA2BF2D
-P 850 4700
-F 0 "P15" H 1000 4700 50  0000 C CNN
-F 1 "Conn_01x01" H 850 4600 50  0001 C CNN
-F 2 "Connect:1pin" H 850 4700 50  0001 C CNN
-F 3 "" H 850 4700 50  0001 C CNN
-	1    850  4700
-	-1   0    0    1   
-$EndComp
-$Comp
-L dropbot-front-panel-rescue:Conn_01x03 P9
-U 1 1 5AA2CB24
-P 1150 6250
-F 0 "P9" H 1150 6450 50  0000 C CNN
-F 1 "Conn_01x03" H 1150 6050 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 1150 6250 50  0001 C CNN
-F 3 "" H 1150 6250 50  0001 C CNN
-	1    1150 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L dropbot-front-panel-rescue:Conn_02x05_Odd_Even P1
-U 1 1 5AA2D537
-P 1500 1150
-F 0 "P1" H 1550 1450 50  0000 C CNN
-F 1 "SFM-105-02-L-D-A" H 1550 850 50  0000 C CNN
-F 2 "Sci-Bots:SFM-105-02-XXX-D-A" H 1500 1150 50  0001 C CNN
-F 3 "" H 1500 1150 50  0001 C CNN
-F 4 "SFM-105-02-L-D-A" H 1500 1150 60  0001 C CNN "Mfg_Part_No"
-	1    1500 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L dropbot-front-panel-rescue:Conn_02x25_Odd_Even P6
-U 1 1 5AA2DAFD
-P 3950 2400
-F 0 "P6" H 4000 3700 50  0000 C CNN
-F 1 "SFM-125-02-L-D-A" V 4000 2400 50  0000 C CNN
-F 2 "Sci-Bots:SFM-125-02-XXX-D-A" H 3950 2400 50  0001 C CNN
-F 3 "" H 3950 2400 50  0001 C CNN
-F 4 "SFM-125-02-L-D-A" H 3950 2400 60  0001 C CNN "Mfg_Part_No"
-	1    3950 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L dropbot-front-panel-rescue:Conn_02x25_Odd_Even P4
-U 1 1 5AA2E2A4
-P 5850 2400
-F 0 "P4" H 5900 3700 50  0000 C CNN
-F 1 "SFM-125-02-L-D-A" V 5900 2400 50  0000 C CNN
-F 2 "Sci-Bots:SFM-125-02-XXX-D-A" H 5850 2400 50  0001 C CNN
-F 3 "" H 5850 2400 50  0001 C CNN
-F 4 "SFM-125-02-L-D-A" H 5850 2400 60  0001 C CNN "Mfg_Part_No"
-	1    5850 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L dropbot-front-panel-rescue:Conn_02x25_Odd_Even P2
-U 1 1 5AA2E35C
-P 7700 2400
-F 0 "P2" H 7750 3700 50  0000 C CNN
-F 1 "SFM-125-02-L-D-A" V 7750 2400 50  0000 C CNN
-F 2 "Sci-Bots:SFM-125-02-XXX-D-A" H 7700 2400 50  0001 C CNN
-F 3 "" H 7700 2400 50  0001 C CNN
-F 4 "SFM-125-02-L-D-A" H 7700 2400 60  0001 C CNN "Mfg_Part_No"
-	1    7700 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L dropbot-front-panel-rescue:Conn_02x20_Odd_Even P7
-U 1 1 5AA2FE34
-P 3950 4950
-F 0 "P7" H 4000 5950 50  0000 C CNN
-F 1 "TFM-120-01-L-D-RA" V 4000 4950 50  0000 C CNN
-F 2 "Sci-Bots:TFM-120-01-XXX-D-RA" H 3950 4950 50  0001 C CNN
-F 3 "" H 3950 4950 50  0001 C CNN
-F 4 "TFM-120-01-L-D-RA" H 3950 4950 60  0001 C CNN "Mfg_Part_No"
-	1    3950 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L dropbot-front-panel-rescue:Conn_02x20_Odd_Even P3
-U 1 1 5AA302A3
-P 7700 4950
-F 0 "P3" H 7750 5950 50  0000 C CNN
-F 1 "TFM-120-01-L-D-RA" V 7750 4950 50  0000 C CNN
-F 2 "Sci-Bots:TFM-120-01-XXX-D-RA" H 7700 4950 50  0001 C CNN
-F 3 "" H 7700 4950 50  0001 C CNN
-F 4 "TFM-120-01-L-D-RA" H 7700 4950 60  0001 C CNN "Mfg_Part_No"
-	1    7700 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L dropbot-front-panel-rescue:Conn_02x25_Odd_Even P5
-U 1 1 5AA30416
-P 5850 5250
-F 0 "P5" H 5900 6550 50  0000 C CNN
-F 1 "TFM-125-01-L-D-RA" V 5900 5250 50  0000 C CNN
-F 2 "Sci-Bots:TFM-125-01-XXX-D-RA" H 5850 5250 50  0001 C CNN
-F 3 "" H 5850 5250 50  0001 C CNN
-F 4 "TFM-125-01-L-D-RA" H 5850 5250 60  0001 C CNN "Mfg_Part_No"
-	1    5850 5250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1800 3550 1800 3650
 Wire Wire Line
@@ -1157,4 +1178,23 @@ Wire Wire Line
 	9000 1100 9000 1200
 Wire Wire Line
 	10000 850  10200 850 
+Connection ~ 1800 3550
+Connection ~ 2100 3450
+Connection ~ 1050 4500
+Connection ~ 1050 4600
+Connection ~ 1200 3550
+Connection ~ 1200 3650
+Connection ~ 1200 3450
+Connection ~ 850  4000
+Connection ~ 2450 4000
+Connection ~ 1900 3450
+Connection ~ 1900 4000
+Connection ~ 2100 4000
+Connection ~ 2250 4000
+Connection ~ 10000 1000
+Connection ~ 9000 1000
+Connection ~ 9000 1100
+Connection ~ 10000 850 
+NoConn ~ 1000 5300
+NoConn ~ 1000 5400
 $EndSCHEMATC
