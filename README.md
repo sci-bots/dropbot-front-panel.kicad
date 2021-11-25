@@ -1,3 +1,5 @@
+[![tests](https://github.com/sci-bots/dropbot-front-panel.kicad/actions/workflows/build.yml/badge.svg)](https://github.com/sci-bots/dropbot-front-panel.kicad/actions/workflows/build.yml)
+[![kitspace](https://img.shields.io/website?down_color=red&down_message=no&label=kitspace&up_color=sucess&up_message=ok&url=https%3A%2F%2Fkitspace.org%2Fboards%2Fgithub.com%2Fsci-bots%2Fdropbot-front-panel.kicad)](https://kitspace.org/boards/github.com/sci-bots/dropbot-front-panel.kicad)
 # DropBot v3 front panel
 
 The front panel board provides the power (+3.3V, +12V) and communication (i2c) bus for the other boards in the [DropBot v3 system][dropbot] and routes the high-voltage outputs from the switching boards to the pogo-pin board.
