@@ -40,7 +40,7 @@ F 5 "DNP" H 1250 7550 50 0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dropbot-front-panel-rescue:D24V22F3 U2
+L sci-bots:D24V22F3 U2
 U 1 1 58AE01C0
 P 1500 5450
 F 0 "U2" H 1500 5690 60 0000 C CNN
@@ -53,7 +53,7 @@ F 5 "Pololu" H 1500 5790 50 0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dropbot-front-panel-rescue:IRF9388TRPBF Q1
+L sci-bots:IRF9388TRPBF Q1
 U 1 1 58AF05F3
 P 1500 3650
 F 0 "Q1" H 1300 3950 50 0000 L CNN
@@ -66,7 +66,7 @@ F 5 "Infineon" H 1300 4050 50 0001 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dropbot-front-panel-rescue:CM_CHOKE L2
+L sci-bots:CM_CHOKE L2
 U 1 1 58BBF946
 P 2350 3550
 F 0 "L2" V 2450 3500 50 0000 L CNN
@@ -144,7 +144,7 @@ F 5 "Diodes Inc." H 1750 3650 50 0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L dropbot-front-panel-rescue:CAT24C__ U1
+L sci-bots:CAT24C__ U1
 U 1 1 59BAE18B
 P 9500 1150
 F 0 "U1" H 9505 1395 60 0000 C CNN
@@ -222,7 +222,7 @@ F 5 "Samsung" H 10210 1120 50 0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dropbot-front-panel-rescue:Conn_01x02 P10
+L Connector_Generic:Conn_01x02 P10
 U 1 1 5AA2AFDB
 P 1050 3450
 F 0 "P10" H 1050 3550 50 0000 C CNN
@@ -235,7 +235,7 @@ F 5 "DNP" H 1050 3650 50 0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dropbot-front-panel-rescue:Conn_01x01 P8
+L Connector_Generic:Conn_01x01 P8
 U 1 1 5AA2BB49
 P 850 4400
 F 0 "P8" H 1000 4400 50 0000 C CNN
@@ -248,7 +248,7 @@ F 5 "Samtec" H 1000 4500 50 0001 C CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L dropbot-front-panel-rescue:Conn_01x01 P13
+L Connector_Generic:Conn_01x01 P13
 U 1 1 5AA2BDB3
 P 850 4500
 F 0 "P13" H 1000 4500 50 0000 C CNN
@@ -261,7 +261,7 @@ F 5 "Samtec" H 1000 4600 50 0001 C CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L dropbot-front-panel-rescue:Conn_01x01 P14
+L Connector_Generic:Conn_01x01 P14
 U 1 1 5AA2BEC2
 P 850 4600
 F 0 "P14" H 1000 4600 50 0000 C CNN
@@ -274,7 +274,7 @@ F 5 "Samtec" H 1000 4700 50 0001 C CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L dropbot-front-panel-rescue:Conn_01x01 P15
+L Connector_Generic:Conn_01x01 P15
 U 1 1 5AA2BF2D
 P 850 4700
 F 0 "P15" H 1000 4700 50 0000 C CNN
@@ -287,7 +287,7 @@ F 5 "Samtec" H 1000 4800 50 0001 C CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L dropbot-front-panel-rescue:Conn_01x03 P9
+L Connector_Generic:Conn_01x03 P9
 U 1 1 5AA2CB24
 P 1150 6250
 F 0 "P9" H 1150 6450 50 0000 C CNN
@@ -300,7 +300,7 @@ F 5 "DNP" H 1150 6550 50 0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dropbot-front-panel-rescue:Conn_02x05_Odd_Even P1
+L Connector_Generic:Conn_02x05_Odd_Even P1
 U 1 1 5AA2D537
 P 1500 1150
 F 0 "P1" H 1550 1450 50 0000 C CNN
@@ -313,7 +313,7 @@ F 5 "Samtec" H 1550 1550 50 0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dropbot-front-panel-rescue:Conn_02x25_Odd_Even P6
+L Connector_Generic:Conn_02x25_Odd_Even P6
 U 1 1 5AA2DAFD
 P 3950 2400
 F 0 "P6" H 4000 3700 50 0000 C CNN
@@ -326,7 +326,7 @@ F 5 "Samtec" H 4000 3800 50 0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dropbot-front-panel-rescue:Conn_02x25_Odd_Even P4
+L Connector_Generic:Conn_02x25_Odd_Even P4
 U 1 1 5AA2E2A4
 P 5850 2400
 F 0 "P4" H 5900 3700 50 0000 C CNN
@@ -339,7 +339,7 @@ F 5 "Samtec" H 5900 3800 50 0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dropbot-front-panel-rescue:Conn_02x25_Odd_Even P2
+L Connector_Generic:Conn_02x25_Odd_Even P2
 U 1 1 5AA2E35C
 P 7700 2400
 F 0 "P2" H 7750 3700 50 0000 C CNN
@@ -352,7 +352,7 @@ F 5 "Samtec" H 7750 3800 50 0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dropbot-front-panel-rescue:Conn_02x20_Odd_Even P7
+L Connector_Generic:Conn_02x20_Odd_Even P7
 U 1 1 5AA2FE34
 P 3950 4950
 F 0 "P7" H 4000 5950 50 0000 C CNN
@@ -365,7 +365,7 @@ F 5 "Samtec" H 4000 6050 50 0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dropbot-front-panel-rescue:Conn_02x20_Odd_Even P3
+L Connector_Generic:Conn_02x20_Odd_Even P3
 U 1 1 5AA302A3
 P 7700 4950
 F 0 "P3" H 7750 5950 50 0000 C CNN
@@ -378,7 +378,7 @@ F 5 "Samtec" H 7750 6050 50 0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dropbot-front-panel-rescue:Conn_02x25_Odd_Even P5
+L Connector_Generic:Conn_02x25_Odd_Even P5
 U 1 1 5AA30416
 P 5850 5250
 F 0 "P5" H 5900 6550 50 0000 C CNN
@@ -389,6 +389,39 @@ F 4 "DNP" H 5900 6650 50 0001 C CNN "MPN"
 F 5 "DNP" H 5900 6650 50 0001 C CNN "Manufacturer"
 	1    5850 5250
 	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 61A02DD3
+P 2350 4350
+F 0 "#FLG0101" H 2350 4425 50 0001 C CNN
+F 1 "PWR_FLAG" V 2350 4478 50 0000 L CNN
+F 2 "" H 2350 4350 50 0001 C CNN
+F 3 "~" H 2350 4350 50 0001 C CNN
+	1    2350 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 61A03ACE
+P 2350 4450
+F 0 "#FLG0102" H 2350 4525 50 0001 C CNN
+F 1 "PWR_FLAG" V 2350 4578 50 0000 L CNN
+F 2 "" H 2350 4450 50 0001 C CNN
+F 3 "~" H 2350 4450 50 0001 C CNN
+	1    2350 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 61A04D56
+P 2350 4550
+F 0 "#FLG0103" H 2350 4625 50 0001 C CNN
+F 1 "PWR_FLAG" V 2350 4678 50 0000 L CNN
+F 2 "" H 2350 4550 50 0001 C CNN
+F 3 "~" H 2350 4550 50 0001 C CNN
+	1    2350 4550
+	0    1    1    0   
 $EndComp
 Text Notes 700  750  0    60   ~ 0
 CONTROL BOARD EDGE CONNECTOR
@@ -902,8 +935,6 @@ Text GLabel 1000 5600 0    60   Input ~ 0
 GND
 Text GLabel 2000 5500 2    60   Input ~ 0
 +3.3V
-Text GLabel 1200 3250 2    60   Input ~ 0
-+12V_SUPPLY
 Text Notes 700  5100 0    60   ~ 0
 3.3V POWER REGULATOR
 Text Notes 600  3150 0    60   ~ 0
@@ -1004,10 +1035,6 @@ Text GLabel 6150 1600 2    60   Input ~ 0
 HVGND
 Text Notes 650  4300 0    60   ~ 0
 MOUNTING HOLES
-Text GLabel 6150 4050 2    60   Input ~ 0
-CH-X1
-Text GLabel 5650 4050 0    60   Input ~ 0
-CH-X2
 Text GLabel 5650 4150 0    60   Input ~ 0
 CUR_SENSE
 Text GLabel 5650 4250 0    60   Input ~ 0
@@ -1034,6 +1061,18 @@ Text GLabel 9800 1300 2    60   Input ~ 0
 SDA
 Text Notes 8800 750  0    60   ~ 0
 EEPROM
+Text Label 1200 3250 0    60   ~ 0
++12V_SUPPLY
+Text GLabel 2350 4350 0    60   Input ~ 0
++12V
+Text GLabel 2350 4450 0    60   Input ~ 0
++3.3V
+Text GLabel 2350 4550 0    60   Input ~ 0
+GND
+Text Label 6150 4050 0    60   ~ 0
+CH-X1
+Text Label 5650 4050 2    60   ~ 0
+CH-X2
 Wire Bus Line
 	550  2750 3050 2750
 Wire Bus Line
@@ -1087,12 +1126,6 @@ Wire Bus Line
 Wire Wire Line
 	2100 3500 2100 3450
 Wire Wire Line
-	1050 4400 1050 4500
-Wire Wire Line
-	1800 3450 1800 3550
-Wire Wire Line
-	1200 3250 1200 3450
-Wire Wire Line
 	850  3250 1200 3250
 Wire Wire Line
 	700  4000 850  4000
@@ -1145,19 +1178,7 @@ Wire Wire Line
 Wire Wire Line
 	9200 1000 9000 1000
 Wire Wire Line
-	1800 3550 1800 3650
-Wire Wire Line
 	2100 3450 2250 3450
-Wire Wire Line
-	1050 4500 1050 4600
-Wire Wire Line
-	1050 4600 1050 4700
-Wire Wire Line
-	1200 3550 1200 3650
-Wire Wire Line
-	1200 3650 1200 3750
-Wire Wire Line
-	1200 3450 1200 3550
 Wire Wire Line
 	850  4000 1900 4000
 Wire Wire Line
@@ -1178,13 +1199,25 @@ Wire Wire Line
 	9000 1100 9000 1200
 Wire Wire Line
 	10000 850  10200 850 
-Connection ~ 1800 3550
+Wire Wire Line
+	1800 3450 1800 3550
+Wire Wire Line
+	1050 4400 1050 4500
+Wire Wire Line
+	1200 3250 1200 3450
+Wire Wire Line
+	1050 4500 1050 4600
+Wire Wire Line
+	1050 4600 1050 4700
+Wire Wire Line
+	1200 3450 1200 3550
+Wire Wire Line
+	1200 3550 1200 3650
+Wire Wire Line
+	1200 3650 1200 3750
+Wire Wire Line
+	1800 3550 1800 3650
 Connection ~ 2100 3450
-Connection ~ 1050 4500
-Connection ~ 1050 4600
-Connection ~ 1200 3550
-Connection ~ 1200 3650
-Connection ~ 1200 3450
 Connection ~ 850  4000
 Connection ~ 2450 4000
 Connection ~ 1900 3450
@@ -1195,6 +1228,14 @@ Connection ~ 10000 1000
 Connection ~ 9000 1000
 Connection ~ 9000 1100
 Connection ~ 10000 850 
+Connection ~ 1050 4500
+Connection ~ 1050 4600
+Connection ~ 1200 3450
+Connection ~ 1200 3550
+Connection ~ 1200 3650
+Connection ~ 1800 3550
 NoConn ~ 1000 5300
 NoConn ~ 1000 5400
+NoConn ~ 5650 4050
+NoConn ~ 6150 4050
 $EndSCHEMATC

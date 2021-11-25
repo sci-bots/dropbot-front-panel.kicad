@@ -1,165 +1,15 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Device_C_Small
+# Connector_Generic_Conn_01x01
 #
-DEF Device_C_Small C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "Device_C_Small" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 13 -60 -20 60 -20 N
-P 2 0 1 12 -60 20 60 20 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_D_Zener_Small
-#
-DEF Device_D_Zener_Small D 0 10 N N 1 F N
-F0 "D" 0 90 50 H V C CNN
-F1 "Device_D_Zener_Small" 0 -90 50 H V C CNN
-F2 "" 0 0 50 V I C CNN
-F3 "" 0 0 50 V I C CNN
-$FPLIST
- TO-???*
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 30 0 -30 0 N
-P 3 0 1 0 -10 40 -30 40 -30 -40 N
-P 4 0 1 0 30 40 -30 0 30 -40 30 40 N
-X K 1 -100 0 70 R 50 50 1 1 P
-X A 2 100 0 70 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_Jumper
-#
-DEF Device_Jumper JP 0 30 Y N 1 F N
-F0 "JP" 0 150 50 H V C CNN
-F1 "Device_Jumper" 0 -80 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- SolderJumper*
-$ENDFPLIST
-DRAW
-A 0 -26 125 1426 373 0 1 0 N -98 50 99 50
-C -100 0 35 0 1 0 N
-C 100 0 35 0 1 0 N
-X 1 1 -300 0 165 R 50 50 0 1 P
-X 2 2 300 0 165 L 50 50 0 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_Jumper_NO_Small
-#
-DEF Device_Jumper_NO_Small JP 0 30 N N 1 F N
-F0 "JP" 0 80 50 H V C CNN
-F1 "Device_Jumper_NO_Small" 10 -60 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- SolderJumper*Open*
-$ENDFPLIST
-DRAW
-C -40 0 20 0 1 0 N
-C 40 0 20 0 1 0 N
-X 1 1 -100 0 40 R 50 50 0 1 P
-X 2 2 100 0 40 L 50 50 0 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_R_Small
-#
-DEF Device_R_Small R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "Device_R_Small" 30 -40 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -30 70 30 -70 0 1 8 N
-X ~ 1 0 100 30 D 50 50 1 1 P
-X ~ 2 0 -100 30 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# dropbot-front-panel-rescue_CAT24C__
-#
-DEF dropbot-front-panel-rescue_CAT24C__ U 0 40 Y Y 1 F N
-F0 "U" 5 245 60 H V C CNN
-F1 "dropbot-front-panel-rescue_CAT24C__" 0 -250 60 H V C CNN
-F2 "" -10 -5 60 H V C CNN
-F3 "" -10 -5 60 H V C CNN
-DRAW
-S -220 195 220 -200 0 1 0 N
-X A0 1 -300 150 79 R 40 40 0 0 W
-X A1 2 -300 50 79 R 40 40 0 0 W
-X A2 3 -300 -50 79 R 40 40 0 0 W
-X VSS 4 -300 -150 79 R 40 40 0 0 W
-X SDA 5 300 -150 79 L 40 40 0 0 W
-X SCL 6 300 -50 79 L 40 40 0 0 W
-X WP 7 300 50 79 L 40 40 0 0 W
-X VCC 8 300 150 79 L 40 40 0 0 W
-ENDDRAW
-ENDDEF
-#
-# dropbot-front-panel-rescue_CM_CHOKE
-#
-DEF dropbot-front-panel-rescue_CM_CHOKE L 0 10 N N 1 F N
-F0 "L" 90 5 50 H V L CNN
-F1 "dropbot-front-panel-rescue_CM_CHOKE" -110 -205 50 V V L CNN
-F2 "" 50 0 50 H V C CNN
-F3 "" 50 0 50 H V C CNN
-$FPLIST
- CP*
- SM*
-$ENDFPLIST
-DRAW
-A -50 -60 20 -899 899 0 1 0 N -50 -80 -50 -40
-A -50 -20 20 -899 899 0 1 0 N -50 -40 -50 0
-A -50 20 20 -899 899 0 1 0 N -50 0 -50 40
-A -50 60 20 -899 899 0 1 0 N -50 40 -50 80
-A 50 -60 20 901 -901 0 1 0 N 50 -40 50 -80
-A 50 -20 20 901 -901 0 1 0 N 50 0 50 -40
-A 50 20 20 901 -901 0 1 0 N 50 40 50 0
-A 50 60 20 901 -901 0 1 0 N 50 80 50 40
-C -25 95 5 0 1 0 F
-C 25 95 5 0 1 0 F
-P 2 0 1 0 -15 80 -15 -80 N
-P 2 0 1 0 15 80 15 -80 N
-X ~ 1 50 100 20 D 40 40 1 1 P
-X ~ 2 50 -100 20 U 40 40 1 1 P
-X ~ 3 -50 -100 20 U 40 40 1 1 P
-X ~ 4 -50 100 20 D 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# dropbot-front-panel-rescue_Conn_01x01
-#
-DEF dropbot-front-panel-rescue_Conn_01x01 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x01 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "dropbot-front-panel-rescue_Conn_01x01" 0 -100 50 H V C CNN
+F1 "Connector_Generic_Conn_01x01" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
+ Connector*:*_1x??_*
 $ENDFPLIST
 DRAW
 S -50 5 0 -5 1 1 6 N
@@ -168,20 +18,15 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dropbot-front-panel-rescue_Conn_01x02
+# Connector_Generic_Conn_01x02
 #
-DEF dropbot-front-panel-rescue_Conn_01x02 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "dropbot-front-panel-rescue_Conn_01x02" 0 -200 50 H V C CNN
+F1 "Connector_Generic_Conn_01x02" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
+ Connector*:*_1x??_*
 $ENDFPLIST
 DRAW
 S -50 -95 0 -105 1 1 6 N
@@ -192,20 +37,15 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dropbot-front-panel-rescue_Conn_01x03
+# Connector_Generic_Conn_01x03
 #
-DEF dropbot-front-panel-rescue_Conn_01x03 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x03 J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "dropbot-front-panel-rescue_Conn_01x03" 0 -200 50 H V C CNN
+F1 "Connector_Generic_Conn_01x03" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
+ Connector*:*_1x??_*
 $ENDFPLIST
 DRAW
 S -50 -95 0 -105 1 1 6 N
@@ -218,20 +58,15 @@ X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dropbot-front-panel-rescue_Conn_02x05_Odd_Even
+# Connector_Generic_Conn_02x05_Odd_Even
 #
-DEF dropbot-front-panel-rescue_Conn_02x05_Odd_Even J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_02x05_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 300 50 H V C CNN
-F1 "dropbot-front-panel-rescue_Conn_02x05_Odd_Even" 50 -300 50 H V C CNN
+F1 "Connector_Generic_Conn_02x05_Odd_Even" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*2x??x*mm*
- Connector*:*2x???Pitch*
- Pin_Header_Straight_2X*
- Pin_Header_Angled_2X*
- Socket_Strip_Straight_2X*
- Socket_Strip_Angled_2X*
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -195 0 -205 1 1 6 N
@@ -258,20 +93,15 @@ X Pin_9 9 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dropbot-front-panel-rescue_Conn_02x20_Odd_Even
+# Connector_Generic_Conn_02x20_Odd_Even
 #
-DEF dropbot-front-panel-rescue_Conn_02x20_Odd_Even J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_02x20_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 1000 50 H V C CNN
-F1 "dropbot-front-panel-rescue_Conn_02x20_Odd_Even" 50 -1100 50 H V C CNN
+F1 "Connector_Generic_Conn_02x20_Odd_Even" 50 -1100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*2x??x*mm*
- Connector*:*2x???Pitch*
- Pin_Header_Straight_2X*
- Pin_Header_Angled_2X*
- Socket_Strip_Straight_2X*
- Socket_Strip_Angled_2X*
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -995 0 -1005 1 1 6 N
@@ -358,20 +188,15 @@ X Pin_9 9 -200 500 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dropbot-front-panel-rescue_Conn_02x25_Odd_Even
+# Connector_Generic_Conn_02x25_Odd_Even
 #
-DEF dropbot-front-panel-rescue_Conn_02x25_Odd_Even J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_02x25_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 1300 50 H V C CNN
-F1 "dropbot-front-panel-rescue_Conn_02x25_Odd_Even" 50 -1300 50 H V C CNN
+F1 "Connector_Generic_Conn_02x25_Odd_Even" 50 -1300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*2x??x*mm*
- Connector*:*2x???Pitch*
- Pin_Header_Straight_2X*
- Pin_Header_Angled_2X*
- Socket_Strip_Straight_2X*
- Socket_Strip_Angled_2X*
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1195 0 -1205 1 1 6 N
@@ -478,11 +303,169 @@ X Pin_9 9 -200 800 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dropbot-front-panel-rescue_D24V22F3
+# Device_C_Small
 #
-DEF dropbot-front-panel-rescue_D24V22F3 U 0 40 Y Y 1 F N
+DEF Device_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_D_Zener_Small
+#
+DEF Device_D_Zener_Small D 0 10 N N 1 F N
+F0 "D" 0 90 50 H V C CNN
+F1 "Device_D_Zener_Small" 0 -90 50 H V C CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 30 0 -30 0 N
+P 3 0 1 0 -10 40 -30 40 -30 -40 N
+P 4 0 1 0 30 40 -30 0 30 -40 30 40 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Jumper
+#
+DEF Device_Jumper JP 0 30 Y N 1 F N
+F0 "JP" 0 150 50 H V C CNN
+F1 "Device_Jumper" 0 -80 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderJumper*
+$ENDFPLIST
+DRAW
+A 0 -26 125 1426 373 0 1 0 N -98 50 99 50
+C -100 0 35 0 1 0 N
+C 100 0 35 0 1 0 N
+X 1 1 -300 0 165 R 50 50 0 1 P
+X 2 2 300 0 165 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Jumper_NO_Small
+#
+DEF Device_Jumper_NO_Small JP 0 30 N N 1 F N
+F0 "JP" 0 80 50 H V C CNN
+F1 "Device_Jumper_NO_Small" 10 -60 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderJumper*Open*
+$ENDFPLIST
+DRAW
+C -40 0 20 0 1 0 N
+C 40 0 20 0 1 0 N
+X 1 1 -100 0 40 R 50 50 0 1 P
+X 2 2 100 0 40 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_Small
+#
+DEF Device_R_Small R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Device_R_Small" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# sci-bots_CAT24C__
+#
+DEF sci-bots_CAT24C__ U 0 40 Y Y 1 F N
+F0 "U" 5 245 60 H V C CNN
+F1 "sci-bots_CAT24C__" 0 -250 60 H V C CNN
+F2 "" -10 -5 60 H V C CNN
+F3 "" -10 -5 60 H V C CNN
+DRAW
+S -220 195 220 -200 0 1 0 N
+X A0 1 -300 150 79 R 40 40 0 0 I
+X A1 2 -300 50 79 R 40 40 0 0 I
+X A2 3 -300 -50 79 R 40 40 0 0 I
+X VSS 4 -300 -150 79 R 40 40 0 0 W
+X SDA 5 300 -150 79 L 40 40 0 0 B
+X SCL 6 300 -50 79 L 40 40 0 0 B
+X WP 7 300 50 79 L 40 40 0 0 I
+X VCC 8 300 150 79 L 40 40 0 0 W
+ENDDRAW
+ENDDEF
+#
+# sci-bots_CM_CHOKE
+#
+DEF sci-bots_CM_CHOKE L 0 10 N N 1 F N
+F0 "L" 90 5 50 H V L CNN
+F1 "sci-bots_CM_CHOKE" -110 -205 50 V V L CNN
+F2 "" 50 0 50 H V C CNN
+F3 "" 50 0 50 H V C CNN
+$FPLIST
+ CP*
+ SM*
+$ENDFPLIST
+DRAW
+A -50 -60 20 -899 899 0 1 0 N -50 -80 -50 -40
+A -50 -20 20 -899 899 0 1 0 N -50 -40 -50 0
+A -50 20 20 -899 899 0 1 0 N -50 0 -50 40
+A -50 60 20 -899 899 0 1 0 N -50 40 -50 80
+A 50 -60 20 901 -901 0 1 0 N 50 -40 50 -80
+A 50 -20 20 901 -901 0 1 0 N 50 0 50 -40
+A 50 20 20 901 -901 0 1 0 N 50 40 50 0
+A 50 60 20 901 -901 0 1 0 N 50 80 50 40
+C -25 95 5 0 1 0 F
+C 25 95 5 0 1 0 F
+P 2 0 1 0 -15 80 -15 -80 N
+P 2 0 1 0 15 80 15 -80 N
+X ~ 1 50 100 20 D 40 40 1 1 P
+X ~ 2 50 -100 20 U 40 40 1 1 P
+X ~ 3 -50 -100 20 U 40 40 1 1 P
+X ~ 4 -50 100 20 D 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# sci-bots_D24V22F3
+#
+DEF sci-bots_D24V22F3 U 0 40 Y Y 1 F N
 F0 "U" 0 240 60 H V C CNN
-F1 "dropbot-front-panel-rescue_D24V22F3" 0 -245 60 H V C CNN
+F1 "sci-bots_D24V22F3" 0 -245 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -496,11 +479,11 @@ X GND 6 500 50 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# dropbot-front-panel-rescue_IRF9388TRPBF
+# sci-bots_IRF9388TRPBF
 #
-DEF dropbot-front-panel-rescue_IRF9388TRPBF Q 0 0 Y N 1 F N
+DEF sci-bots_IRF9388TRPBF Q 0 0 Y N 1 F N
 F0 "Q" -200 300 50 H V L CNN
-F1 "dropbot-front-panel-rescue_IRF9388TRPBF" -200 -250 50 H V L CNN
+F1 "sci-bots_IRF9388TRPBF" -200 -250 50 H V L CNN
 F2 "SO-8" 0 200 50 H V C CIN
 F3 "" 0 0 50 V V L CNN
 DRAW
