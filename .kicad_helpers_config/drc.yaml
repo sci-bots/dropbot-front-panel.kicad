@@ -5,3 +5,11 @@ preflight:
   run_drc: true
   check_zone_fills: true
   ignore_unconnected: false
+  
+  filters:
+    - filter: 'Ignore Courtyards overlap JP3 and JP4 on F.Cu'
+      error: '45'
+      regex:  'Footprint JP3 on F.Cu'
+    - filter: 'Ignore Courtyards overlap JP4 and JP5 on F.Cu'
+      error: '45'
+      regex:  'Footprint JP5 on F.Cu'
